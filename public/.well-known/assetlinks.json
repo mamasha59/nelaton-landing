@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "use-nelaton-easily",
+        "package_name": "com.ulibkin.nelaton",
+        "sha256_cert_fingerprints": [
+          "64:B2:5F:4D:65:B6:DF:57:18:E2:65:9E:84:73:61:49:22:72:DC:60:73:40:38:65:F2:79:4C:97:88:22:86:A7"
+        ]
+      }
+    }
+  ]
+  

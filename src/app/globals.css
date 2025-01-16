@@ -2,20 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  background: '#fff';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.centred-view {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1220px;
+}
+.centred-view-terms {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1040px;
+}
+.arrow-left{
+  width: 0; 
+  height: 0; 
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent; 
+  border-right: 699px solid #fff; 
+  z-index:1;
+}
+
+.clip-circle {
+  clip-path: inset(160px 0 0 0); /* Обрезаем только верхнюю часть */
+}
+
+@keyframes change-bg {
+  0% {
+    background-image: url('../../src/images/catheterCaps/black.jpg');
+  }
+  16% {
+    background-image: url('../../src/images/catheterCaps/blue.jpg');
+  }
+  32% {
+    background-image: url('../../src/images/catheterCaps/green.jpg');
+  }
+  64% {
+    background-image: url('../../src/images/catheterCaps/orange.jpg');
+  }
+  100% {
+    background-image: url('../../src/images/catheterCaps/red.jpg');
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.animation-change-bg {
+  animation: change-bg 5s infinite;
 }

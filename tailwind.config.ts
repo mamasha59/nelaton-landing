@@ -9,8 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        linkBlur: '#6B7279',
+        black: '#292D32',
+        blue: '#00B3D6',
+        greenBg: '#EDFBF2',
+        blueBg: '#EBF7FF',
+        yellowBg: '#FFF7E1',
+        yellow: '#FFCF49',
+      },
+      backgroundImage:{
+        'header-background': "url('/images/backgroundHeader.webp')",
+        'privacy-background': "url('/images/privacyBackground.webp')",
+        'termOfUse-background': "url('/images/termsBackground.webp')",
       },
     },
   },
