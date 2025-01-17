@@ -18,7 +18,7 @@ export default function CatheterizingWithNelaton() {
                 <Image
                     alt="journal screen android screen shot"
                     src={JournalScreenShotIos}
-                    className="absolute lg:hidden right-0 h-[50vw] w-[50vw] bottom-0 z-10"
+                    className="absolute lg:hidden right-0 w-[50vw] -bottom-2 z-10"
                 />
             </div>
             <div className="flex flex-1 w-full text-black justify-start">
@@ -41,9 +41,9 @@ export default function CatheterizingWithNelaton() {
                     </div>
                 </div>
                 <Image
-                    alt="journal screen android screen shot"
+                    alt="journal screen ios screen shot"
                     src={JournalScreenShotIos}
-                    height={500}
+                    height={330}
                     className="absolute right-0 hidden lg:flex bottom-0 z-10 w-auto"
                 />
             </div>

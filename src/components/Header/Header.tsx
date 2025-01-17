@@ -36,7 +36,7 @@ export default function Header({isInView, refFeaturesBlock, faqBlockRef}:HeaderP
     };
 
   return (
-    <header className="bg-header-background bg-cover bg-no-repeat bg-top bg-fixed lg:h-[694px] h-[500px]">
+    <header className="bg-header-background bg-cover bg-no-repeat lg:bg-top bg-[80%] bg-fixed lg:h-[694px] h-[500px]">
       <HeaderNav
         handleMenu={handleMenu}
         handleScrollToFaq={handleScrollToFaq}

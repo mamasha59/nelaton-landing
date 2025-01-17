@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import StoreButtons from "../StoreButtons/StoreButtons";
 import iPhoneScreenShot1 from '@/images/screenshots/iPhoneScreenShot1.webp';
-import iPhoneScreenShot2 from '@/images/screenshots/iPhoneScreenShot2.webp';
 import CheckedIcon from "@/IconsComponent/CheckedIcon";
 
 interface BladderHealthProps {
@@ -47,22 +46,11 @@ export default function BladderHealth({featuresBlock}:BladderHealthProps) {
                         <StoreButtons/>
                     </div>
                 </div>
-                <div className="flex flex-row">
-                    <div className="flex">
-                        <Image
-                            alt="iPhone Screen Shot home screen of app"
-                            src={iPhoneScreenShot1}
-                            className="w-auto h-auto"
-                        />
-                    </div>
-                    <div className="flex">
-                        <Image
-                            alt="iPhone Screen Shot stocks screen"
-                            src={iPhoneScreenShot2}
-                            className="w-auto h-auto"
-                        />
-                    </div>
-                </div>
+                <Image
+                    alt="iPhone Screen Shot home screen of app"
+                    src={iPhoneScreenShot1}
+                    width={500}
+                />
             </div>
         </div>
     </section>

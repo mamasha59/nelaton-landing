@@ -12,12 +12,13 @@ export default function GetStarted() {
                 </h5>
                 <StoreButtons col/>
             </div>
-            <Image
-                alt=""
-                src={iPhoneScreenShots}
-                className="lg:-mb-52 mb-6 z-10 lg:order-2 order-1 flex flex-1"
-            />
-            <div className="bg-cyan-50 absolute w-1/2 h-1/w-1/2 -top-40 left-1/3 rounded-full z-[1] clip-circle"/>
+            <div className="lg:-mb-52 mb-6 z-10 lg:order-2 order-1 flex flex-1 justify-center ml-5">
+                <Image
+                    alt=""
+                    src={iPhoneScreenShots}
+                />
+            </div>
+            <div className="bg-cyan-50 absolute w-1/2 h-1/w-1/2 -top-40 left-1/3 rounded-full clip-circle border border-red-900"/>
         </div>
     </div>
 )}
