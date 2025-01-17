@@ -6,7 +6,7 @@ export default function Page() {
     
   return (
     <div>
-        <div className="bg-termOfUse-background bg-cover bg-no-repeat bg-right bg-fixed h-screen">
+        <div className="bg-termOfUse-background bg-cover bg-no-repeat bg-center bg-fixed h-screen">
             <HeaderNav/>
         </div>
         <div className="centred-view-terms">
@@ -55,7 +55,7 @@ export default function Page() {
                 <h2 className="text-blue text-xl my-5">Governing Law</h2>
                 <p>These Terms are governed by the laws of Estonia. Any disputes arising from these Terms will be resolved in the courts of Estonia.</p>
 
-                <p>If you have questions regarding these Terms, please contact us at <a className="font-bold text-orange-600" href="mailto:support@nelaton.app">support@nelaton.app</a>.</p>
+                <p>If you have questions regarding these Terms, please contact us at support@nelaton.app.</p>
 
                 <p className="my-6"><strong>Your Self-Catheterization Assistant: Track, Manage, and Log with Ease</strong></p>
             </div>

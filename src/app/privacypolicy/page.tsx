@@ -1,9 +1,12 @@
 import HeaderNav from "@/components/HeaderNav/HeaderNav";
+import Image from "next/image";
+import DeletingDataGif from '@/images/deletingData.gif';
 
 export default async function Page() {
+
   return (
     <div>
-        <div className="bg-privacy-background bg-cover bg-no-repeat bg-right bg-fixed h-screen">
+        <div className="bg-privacy-background bg-cover bg-no-repeat bg-center bg-fixed h-screen">
             <HeaderNav/>
         </div>
         <div className="centred-view-terms">
@@ -13,7 +16,7 @@ export default async function Page() {
                 <p>The application is developed by <strong>Ulibkin OÜ</strong>, which is responsible for complying with this Privacy Policy.
                 We respect your privacy and are committed to ensuring transparency in data processing.
                 This Policy explains what data we process, how it is protected, and for what purposes it is used.</p>
-                <p>If you have any questions, please contact us at: <a className="font-bold text-orange-600" href="mailto:support@nelaton.app">support@nelaton.app</a>.</p>
+                <p>If you have any questions, please contact us at: support@nelaton.app.</p>
                 <p>By installing and using the application, you confirm that you have read and agree to this Privacy Policy.
                 If you do not agree, please delete the application and discontinue its use.</p>
 
@@ -77,11 +80,28 @@ export default async function Page() {
                 <h2 className="text-blue text-xl my-5">9. Your Rights</h2>
                 <p>Since your data is stored only on your device and not transferred to the developer, you have full control over it. Your rights include:</p>
                 <ul className="flex flex-col gap-5 m-4">
-                    <li><strong className="font-bold text-orange-600">- Deleting Data:</strong> You can delete all entered data through the app’s settings.</li>
+                    <li><strong className="font-bold text-orange-600">
+                        - Deleting Data:</strong> You can delete all entered data through the app’s settings.
+                        <div className="flex flex-row w-full lg:justify-between justify-center flex-wrap items-center px-5 my-2">
+                            <div className="m-2 p-2 flex flex-1 flex-col border border-red-600 rounded-lg">
+                                <p>* Once deleted, this data cannot be recovered.</p>
+                                <p>* Deleting your data will reset the application to its original state, as if it were newly installed.</p>
+                                <p>* If you wish to retain any information, please export the necessary data (e.g., as PDF reports) before deleting it.</p>
+                            </div>
+                            <Image
+                                alt="deleting account data animation, you need to open profile screen,policy, reset profile"
+                                src={DeletingDataGif}
+                                width={200}
+                                height={200}
+                                unoptimized
+                                className="rounded-xl"
+                            />
+                        </div>
+                    </li>
                     <li><strong className="font-bold text-orange-600">- Opting Out of Analytics:</strong> You can disable the use of analytics services through your device settings.</li>
                     <li><strong className="font-bold text-orange-600">- Data Control:</strong> Since your data remains on your device, only you have access to it.</li>
                 </ul>
-                <p>If you have questions about your rights or would like more information, contact us at: <a className="font-bold text-orange-600" href="mailto:support@nelaton.app">support@nelaton.app</a>.</p>
+                <p>If you have questions about your rights or would like more information, contact us at: support@nelaton.app.</p>
 
                 <h2 className="text-blue text-xl my-5">10. Links to Third-Party Resources</h2>
                 <p>The application may contain links to websites or services of third parties. We do not control their content or data processing practices. Please review their privacy policies before using them.</p>
@@ -90,7 +110,7 @@ export default async function Page() {
                 <p>We may update this Privacy Policy. The current version will always be available via the link on the app’s page in the <strong className="font-bold text-orange-600">App Store</strong> or <strong className="font-bold text-orange-600">Google Play</strong>. If changes significantly affect your rights, we will notify you through app stores or other means.</p>
 
                 <h2 className="text-blue text-xl my-5">12. Contact Us</h2>
-                <p>If you have any questions or requests, contact us at: <a className="font-bold text-orange-600" href="mailto:support@nelaton.app">support@nelaton.app</a>.</p>
+                <p>If you have any questions or requests, contact us at: support@nelaton.app.</p>
             </div>
         </div>
     </div>
