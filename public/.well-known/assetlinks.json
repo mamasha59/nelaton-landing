@@ -1,13 +1,27 @@
 [
-    {
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "use-nelaton-easily",
-        "package_name": "com.ulibkin.nelaton",
-        "sha256_cert_fingerprints": [
-          "64:B2:5F:4D:65:B6:DF:57:18:E2:65:9E:84:73:61:49:22:72:DC:60:73:40:38:65:F2:79:4C:97:88:22:86:A7"
-        ]
-      }
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "use-nelaton-easily",
+      "package_name": "com.ulibkin.nelaton",
+      "sha256_cert_fingerprints": [
+        "64:B2:5F:4D:65:B6:DF:57:18:E2:65:9E:84:73:61:49:22:72:DC:60:73:40:38:65:F2:79:4C:97:88:22:86:A7"
+      ]
     }
-  ]
-  
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ulibkin.nelaton",
+      "sha256_cert_fingerprints": [
+        "E6:44:BF:7A:F2:D3:41:96:FD:0D:22:21:50:54:57:38:C8:36:AD:E8:8F:AA:CA:90:23:1E:B3:16:32:E6:C5:4F"
+      ]
+    }
+  }
+]

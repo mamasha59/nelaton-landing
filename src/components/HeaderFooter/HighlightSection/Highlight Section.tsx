@@ -3,7 +3,7 @@ import Limb from "@/images/icons/limb.svg";
 
 export default function HighlightSection() {
   return (
-    <div className="bg-[#F9F9F9] px-9 py-6 flex flex-1 justify-center flex-row gap-16 rounded-lg">
+    <div className="bg-[#F9F9F9] flex flex-1 justify-center flex-row lg:px-9 px-2 py-6 gap-16 rounded-lg">
         <div className="relative flex items-center justify-center">
             <Image
                 alt="Catheter Cap"

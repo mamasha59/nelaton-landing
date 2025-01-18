@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="flex flex-row justify-between items-end w-full flex-wrap gap-10 bg-white py-5">
             <div className="flex flex-col">
                 <p className="text-black font-medium lg:text-4xl text-[32px] leading-10 tracking-tighter lg:mb-7 mb-5">Join our <br/> community:</p>
-                <div className="bg-[#DCF0FD] rounded-full px-8 py-5 lg:gap-4 gap-[24.9px] flex flex-row items-center justify-center">
+                <div className="bg-[#DCF0FD] rounded-full px-8 py-5 lg:gap-4 gap-2 flex flex-row flex-wrap items-center justify-center">
                     <button className="w-11 h-11 rounded-full border border-red-950">
                         <Image
                             alt="reddit icon"
