@@ -16,10 +16,14 @@ export default function CatheterTracking() {
                         className="hidden lg:flex flex-1"
                     />
                     <div className="w-full flex flex-col lg:w-[65%] lg:items-center relative">
-                        <h5 className="mb-8 text-black">
-                            <p className="text-blue font-semibold text-[32px] leading-[40px] lg:leading-[61px] lg:text-5xl">Catheter inventory tracking</p>
-                            <p className="font-semibold text-[32px] leading-[40px] lg:leading-[61px] lg:text-5xl">helps you always know the exact quantity remaining and plan for timely restocking</p>
-                        </h5>
+                        <h2 className="mb-8 text-black">
+                            <p className="text-blue font-semibold text-[32px] leading-[40px] lg:leading-[61px] lg:text-5xl">
+                                Catheter inventory tracking
+                            </p>
+                            <p className="font-semibold text-[32px] leading-[40px] lg:leading-[61px] lg:text-5xl">
+                                helps you always know the exact quantity remaining and plan for timely restocking
+                            </p>
+                        </h2>
                         <Image
                             alt="happy woman"
                             src={HappyWoman}

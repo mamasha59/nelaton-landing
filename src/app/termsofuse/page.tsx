@@ -1,5 +1,6 @@
 "use client"
 import HeaderNav from "@/components/HeaderNav/HeaderNav"
+import { SUPPORT_EMAIL } from "@/utils/const"
 import Link from "next/link"
 
 export default function Page() {
@@ -54,7 +55,7 @@ export default function Page() {
                     <h2 className="text-blue text-xl my-5">Governing Law</h2>
                     <p>These Terms are governed by the laws of Estonia. Any disputes arising from these Terms will be resolved in the courts of Estonia.</p>
 
-                    <p>If you have questions regarding these Terms, please contact us at support@nelaton.app.</p>
+                    <p>If you have questions regarding these Terms, please contact us at {SUPPORT_EMAIL}.</p>
 
                     <p className="my-6"><strong>Your Self-Catheterization Assistant: Track, Manage, and Log with Ease</strong></p>
                 </div>

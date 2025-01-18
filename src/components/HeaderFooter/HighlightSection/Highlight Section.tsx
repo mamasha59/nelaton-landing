@@ -4,7 +4,7 @@ import Limb from "@/images/icons/limb.svg";
 export default function HighlightSection() {
   return (
     <div className="bg-[#F9F9F9] flex flex-1 justify-center flex-row lg:px-9 px-2 py-6 gap-16 rounded-lg">
-        <div className="relative flex items-center justify-center">
+        <div className="relative flex items-center justify-center max-w-48">
             <Image
                 alt="Catheter Cap"
                 src={Limb}
@@ -15,7 +15,7 @@ export default function HighlightSection() {
                 Built on <br/> Real Patient Needs
             </h3>
         </div>
-        <div className="relative flex items-center justify-center">
+        <div className="relative flex items-center justify-center w-48">
             <Image
                 alt="Catheter Cap"
                 src={Limb}

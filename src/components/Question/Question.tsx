@@ -69,7 +69,7 @@ export default function Question({faqBlockRef}:QuestionProps) {
                         <p className="mr-8">0{index + 1}</p>
                         <div className='flex flex-1 w-full flex-col'>
                             <button onClick={() => handleQuestion(item.id)} className='flex flex-1 items-center flex-row justify-between lg:mb-4 mb-3'>
-                                <p className="font-medium lg:text-2xl text-xl tracking-tighter text-start">{item.question}</p>
+                                <h2 className="font-medium lg:text-2xl text-xl tracking-tighter text-start">{item.question}</h2>
                                 <div className='flex items-center justify-center lg:w-6 lg:h-6 w-[14px] h-[14px] relative'>
                                     <p className='w-full h-[2px] bg-white rounded-full'/>
                                     {selected !== item.id && <p className='w-[2px] h-full bg-white rounded-full absolute'/>}

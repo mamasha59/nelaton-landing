@@ -5,6 +5,8 @@ import DropDown from "@/images/icons/chevronDown.svg";
 import StoreButtons from "@/components/StoreButtons/StoreButtons";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
+import { SUPPORT_EMAIL } from "@/utils/const";
 
 interface DesktopNavProps {
     handleMenu: () => void;
@@ -17,6 +19,15 @@ interface DesktopNavProps {
 export default function DesktopNav({handleMenu, isInView, openMenu, handleScrollToFaq, handleScrollToFeatures}: DesktopNavProps) {    
     const path = usePathname();
     const whetherShowMenu = path !== '/privacypolicy' && path !== '/termsofuse';
+
+    const [changeText, setChangeText] = useState<string>('Contacts');
+
+    const onClickContacts = () => {
+        setChangeText(SUPPORT_EMAIL);
+        if(changeText === SUPPORT_EMAIL){
+            setChangeText('Contacts')
+        }
+    }
     
   return (
     <div className="flex flex-1 px-6 py-4 mt-2 bg-[#ffffffcf] backdrop-blur-lg rounded-xl justify-between items-center shadow-md lg:shadow-none relative z-30">
@@ -38,16 +49,16 @@ export default function DesktopNav({handleMenu, isInView, openMenu, handleScroll
                     onClick={handleScrollToFeatures}
                     className="text-base text-linkBlur px-3 py-1 font-normal rounded-[32px] hover:text-black hover:bg-[#D1EBFD]"
                     >
-                    Features
+                        Features
                     </button>
                     <button
                     onClick={handleScrollToFaq}
                     className="text-base text-linkBlur px-3 py-1 font-normal rounded-[32px] hover:text-black hover:bg-[#D1EBFD]"
                     >
-                    FAQ
+                        FAQ
                     </button>
-                    <button className="text-base text-linkBlur px-3 py-1 font-normal rounded-[32px] hover:text-black hover:bg-[#D1EBFD]">
-                    Contact
+                    <button onClick={onClickContacts} className="text-base text-linkBlur px-3 py-1 font-normal rounded-[32px] hover:text-black hover:bg-[#D1EBFD]">
+                        {changeText}
                     </button>
                 </div>
                 ) : (

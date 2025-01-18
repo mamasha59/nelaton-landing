@@ -27,9 +27,11 @@ export default function BladderHealth({featuresBlock}:BladderHealthProps) {
                 Your <span className="text-blue">Bladder Health</span>
             </h2>
             <div className="bg-greenBg rounded-2xl lg:py-12 lg:px-10 py-8 px-[21px] flex flex-row flex-wrap-reverse justify-center lg:gap-[52px] gap-6">
-                <div className="flex flex-col flex-1">
+                <div className="flex flex-col flex-1 w-[80%]">
                     <div className="rounded-lg bg-white py-10 px-8 mb-[30px]">
-                        <h4 className="text-black font-medium lg:text-4xl text-[28px] leading-9 mb-4 tracking-tighter">Self-catheterization made easy & timely:</h4>
+                        <h2 className="text-black font-medium lg:text-4xl text-[28px] leading-9 mb-4 tracking-tighter">
+                            Self-catheterization made easy & timely:
+                        </h2>
                         <ul className="text-black font-normal text-base flex flex-col gap-3">
                             {benefitsArray.map((item, index) => 
                                 <li key={index} className="flex flex-row items-center gap-3">
@@ -49,7 +51,9 @@ export default function BladderHealth({featuresBlock}:BladderHealthProps) {
                 <Image
                     alt="iPhone Screen Shot home screen of app"
                     src={iPhoneScreenShot1}
-                    width={500}
+                    // width={500}
+                    height={590}
+                    className=""
                 />
             </div>
         </div>

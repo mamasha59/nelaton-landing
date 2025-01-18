@@ -9,28 +9,28 @@ export default function HeaderFooter() {
         <div className="mt-[240px] lg:mt-[340] flex flex-row justify-between items-end flex-wrap lg:gap-[95px] gap-8">
             <div className="bg-white rounded-2xl flex flex-col py-8 shadow-xl relative">
                 <h1 className="tracking-[-3%] text-black mb-6">
-                    <div className="flex items-center pl-8">
-                        <div className="lg:w-[240px] w-[145px] animation-change-bg lg:bg-[length:240px_85px] bg-[length:148px_60px] bg-no-repeat bg-bottom py-2 ml-[2px]">
+                    <span className="flex items-center pl-8">
+                        <span className="lg:w-[240px] w-[145px] animation-change-bg lg:bg-[length:240px_85px] bg-[length:148px_60px] bg-no-repeat bg-bottom py-2 ml-[2px]">
                             <p className="text-white lg:text-[64px] lg:leading-[72px] text-[40px] leading-[48px] font-semibold tracking-tighter px-3">
                                 Your
                             </p>
-                        </div>
-                        <div className="flex flex-1">
+                        </span>
+                        <span className="flex flex-1">
                             <Image
                                 alt=""
                                 width={400}
                                 src={CatheterTube}
                             />
-                        </div>
-                    </div>
-                    <div className="p-8">
+                        </span>
+                    </span>
+                    <span className="block p-8">
                         <p className="lg:text-[56px] lg:leading-[68px] text-[44px] leading-[52px] font-semibold">
                             <span className="text-[#49AFF5] tracking-tighter">Smart Assistant</span>
                         </p>
                         <p className="lg:text-[56px] lg:leading-[68px] text-[44px] leading-[52px] font-semibold tracking-tighter"> 
-                            for Self - Catheterization!
+                            for Self-Catheterization!
                         </p>
-                    </div>
+                    </span>
                 </h1>
                 <div className="px-8">
                     <StoreButtons/>

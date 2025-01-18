@@ -13,9 +13,9 @@ export default function HydrationLevel() {
   return (
   <section className="centred-view flex-col">
     <div className="lg:mb-[132px] mb-12">
-        <h5 className="text-black font-semibold lg:text-5xl text-[32px] leading-[40px] w-full text-center lg:mb-9 mb-6">
-            Maintain optimal <span className="text-blue italic">hydration levels!</span>
-        </h5>
+        <h2 className="text-black font-semibold lg:text-5xl text-[32px] leading-[40px] w-full text-center lg:mb-9 mb-6">
+            Track and Maintain Optimal Hydration <br/> with <span className="text-blue italic">Nelaton app</span>
+        </h2>
         <div className="flex flex-row flex-wrap w-full justify-center gap-7 items-center">
             <div className="flex lg:order-1 order-2">
                 <Image

@@ -1,14 +1,14 @@
 import HeaderNav from "@/components/HeaderNav/HeaderNav";
 import Image from "next/image";
 import DeletingDataGif from '@/images/deletingData.gif';
+import { SUPPORT_EMAIL } from "@/utils/const";
 
 export default async function Page() {
 
   return (
     <div>
         <div className="bg-privacy-background bg-cover bg-no-repeat bg-[50%] bg-fixed relative">
-            <HeaderNav/>
-        
+            <HeaderNav/> 
             <div className="centred-view-terms">
                 <div className="flex flex-col bg-[#000000bc] backdrop-blur-lg text-white text-base lg:px-28 p-5 rounded-2xl mt-5 -mb-4 z-[3000]">
                     <h1 className="text-blue text-3xl font-bold my-5">Privacy Policy</h1>
@@ -16,7 +16,7 @@ export default async function Page() {
                     <p>The application is developed by <strong>Ulibkin OÜ</strong>, which is responsible for complying with this Privacy Policy.
                     We respect your privacy and are committed to ensuring transparency in data processing.
                     This Policy explains what data we process, how it is protected, and for what purposes it is used.</p>
-                    <p>If you have any questions, please contact us at: support@nelaton.app.</p>
+                    <p>If you have any questions, please contact us at: {SUPPORT_EMAIL}.</p>
                     <p>By installing and using the application, you confirm that you have read and agree to this Privacy Policy.
                     If you do not agree, please delete the application and discontinue its use.</p>
 
@@ -101,7 +101,7 @@ export default async function Page() {
                         <li><strong className="font-bold text-orange-600">- Opting Out of Analytics:</strong> You can disable the use of analytics services through your device settings.</li>
                         <li><strong className="font-bold text-orange-600">- Data Control:</strong> Since your data remains on your device, only you have access to it.</li>
                     </ul>
-                    <p>If you have questions about your rights or would like more information, contact us at: support@nelaton.app.</p>
+                    <p>If you have questions about your rights or would like more information, contact us at: {SUPPORT_EMAIL}.</p>
 
                     <h2 className="text-blue text-xl my-5">10. Links to Third-Party Resources</h2>
                     <p>The application may contain links to websites or services of third parties. We do not control their content or data processing practices. Please review their privacy policies before using them.</p>
@@ -110,7 +110,7 @@ export default async function Page() {
                     <p>We may update this Privacy Policy. The current version will always be available via the link on the app’s page in the <strong className="font-bold text-orange-600">App Store</strong> or <strong className="font-bold text-orange-600">Google Play</strong>. If changes significantly affect your rights, we will notify you through app stores or other means.</p>
 
                     <h2 className="text-blue text-xl my-5">12. Contact Us</h2>
-                    <p>If you have any questions or requests, contact us at: support@nelaton.app.</p>
+                    <p>If you have any questions or requests, contact us at: {SUPPORT_EMAIL}.</p>
                 </div>
                 <div className="absolute -bottom-4 left-0 right-0 h-9 w-full backdrop-blur-sm z-[2800]"></div>
             </div>
