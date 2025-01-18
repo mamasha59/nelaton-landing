@@ -5,12 +5,12 @@ import DeletingDataGif from '@/images/deletingData.gif';
 export default async function Page() {
 
   return (
-        <div className="bg-privacy-background bg-cover bg-no-repeat bg-center bg-fixed overflow-hidden h-screen">
+    <div>
+        <div className="bg-privacy-background bg-cover bg-no-repeat bg-[50%] bg-fixed relative">
             <HeaderNav/>
-
         
-            <div className="centred-view  overflow-scroll bg-[#000000bc] backdrop-blur-lg">
-                <div className="flex flex-col  text-white text-base lg:px-28 p-5 rounded-2xl mb-5">
+            <div className="centred-view-terms">
+                <div className="flex flex-col bg-[#000000bc] backdrop-blur-lg text-white text-base lg:px-28 p-5 rounded-2xl mt-5 -mb-4 z-[3000]">
                     <h1 className="text-blue text-3xl font-bold my-5">Privacy Policy</h1>
                     <h2 className="text-blue text-xl my-5">1. Introduction</h2>
                     <p>The application is developed by <strong>Ulibkin OÜ</strong>, which is responsible for complying with this Privacy Policy.
@@ -112,7 +112,9 @@ export default async function Page() {
                     <h2 className="text-blue text-xl my-5">12. Contact Us</h2>
                     <p>If you have any questions or requests, contact us at: support@nelaton.app.</p>
                 </div>
+                <div className="absolute -bottom-4 left-0 right-0 h-9 w-full backdrop-blur-sm z-[2800]"></div>
             </div>
         </div>
+    </div>
   );
 }

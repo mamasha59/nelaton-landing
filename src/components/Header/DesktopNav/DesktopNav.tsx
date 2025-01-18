@@ -67,6 +67,7 @@ export default function DesktopNav({handleMenu, isInView, openMenu, handleScroll
                 height={20}
             />
         </button>
+       {whetherShowMenu && 
        <button onClick={handleMenu} className="flex lg:hidden items-center justify-center relative w-6 h-6">
             <div className={`w-6 h-[2px] bg-black absolute transition-transform duration-300 ease-in-out ${
                 openMenu ? 'rotate-45' : '-translate-y-[6px]'
@@ -80,6 +81,6 @@ export default function DesktopNav({handleMenu, isInView, openMenu, handleScroll
                 openMenu ? '-rotate-45' : 'translate-y-[6px]'
                 }`}
             />
-        </button>
+        </button>}
     </div>
 )}
