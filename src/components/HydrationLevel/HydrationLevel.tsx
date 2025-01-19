@@ -23,7 +23,6 @@ export default function HydrationLevel() {
                     className="rounded-3xl w-auto"
                     alt="happy people on wheel chair"
                     src={HappyPeople}
-                    priority
                 />
             </div>
             <div className="flex flex-col justify-between items-center flex-1 order-1 lg:order-2">

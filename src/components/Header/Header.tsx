@@ -1,8 +1,9 @@
 "use client"
+import Image from "next/image";
 import { RefObject, useEffect, useState } from "react";
+
 import HeaderFooter from "../HeaderFooter/HeaderFooter";
 import HeaderNav from "../HeaderNav/HeaderNav";
-import Image from "next/image";
 import HeaderBackground from '../../../public/images/backgroundHeader.webp';
 
 interface HeaderProps {
@@ -38,12 +39,11 @@ export default function Header({isInView, refFeaturesBlock, faqBlockRef}:HeaderP
     };
 
   return (
-    // <header className="bg-header-background bg-cover bg-no-repeat lg:bg-top bg-[80%] bg-fixed lg:h-[694px] h-[500px]">
     <header>
       <Image
-        alt=""
+        alt="background image of header block - father and son enjoying swimming"
         src={HeaderBackground}
-        className="absolute top-0 left-0 w-full object-cover z-10 h-[694px]"
+        className="absolute top-0 left-0 w-full object-cover lg:object-top object-right z-10 h-[694px]"
         priority
       />
       <div className="relative z-30">

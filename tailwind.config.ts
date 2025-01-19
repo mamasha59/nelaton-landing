@@ -11,7 +11,7 @@ export default {
       colors: {
         linkBlur: '#6B7279',
         black: '#292D32',
-        blue: '#00B3D6',
+        blue: '#0073A6',
         greenBg: '#EDFBF2',
         blueBg: '#EBF7FF',
         yellowBg: '#FFF7E1',

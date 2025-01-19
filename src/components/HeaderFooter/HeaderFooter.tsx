@@ -6,7 +6,7 @@ import CatheterTube from '@/images/catheterCaps/catheterTube.jpg';
 export default function HeaderFooter() {
   return( 
     <div className="centred-view">
-        <div className="mt-[240px] lg:mt-[360] flex flex-row justify-between items-end flex-wrap lg:gap-[95px] gap-8">
+        <div className="mt-[172px] lg:mt-[360] flex flex-row justify-between items-end flex-wrap lg:gap-[95px] gap-8">
             <div className="bg-white rounded-2xl flex flex-col py-8 shadow-xl relative">
                 <h1 className="tracking-[-3%] text-black mb-6">
                     <span className="flex items-center pl-8">
@@ -25,7 +25,7 @@ export default function HeaderFooter() {
                     </span>
                     <span className="block p-8">
                         <p className="lg:text-[56px] lg:leading-[68px] text-[44px] leading-[52px] font-semibold">
-                            <span className="text-[#49AFF5] tracking-tighter">Smart Assistant</span>
+                            <span className="text-blue tracking-tighter">Smart Assistant</span>
                         </p>
                         <p className="lg:text-[56px] lg:leading-[68px] text-[44px] leading-[52px] font-semibold tracking-tighter"> 
                             for Self-Catheterization!

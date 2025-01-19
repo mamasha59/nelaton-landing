@@ -12,7 +12,6 @@ export default function CatheterizingWithNelaton() {
                 <Image
                     alt="journal screen shot"
                     src={JournalScreenShot}
-                    priority
                     className="rounded-2xl"
                 />
                 <Image
@@ -22,7 +21,7 @@ export default function CatheterizingWithNelaton() {
                 />
             </div>
             <div className="flex flex-1 w-full text-black justify-start">
-                <div className="flex flex-col justify-between relative z-30">
+                <div className="flex flex-col justify-between relative">
                     <div>
                         <h2 className="lg:text-5xl text-3xl lg:leading-[61px] font-medium tracking-tighter mb-4 max-w-[511px]">
                             Catheterizing with the <span className="text-blue font-bold">Nelaton app</span> is convenient!

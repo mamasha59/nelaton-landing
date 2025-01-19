@@ -87,7 +87,6 @@ export default function FeedBack() {
                             className="rounded-full w-auto"
                             width={60}
                             src={FeedBack3}
-                            priority
                         />
                         <div className="flex flex-col items-start ml-3">
                             <p className="text-2xl">Viktor</p>
