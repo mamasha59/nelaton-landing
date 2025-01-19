@@ -17,37 +17,37 @@ export default function Page() {
   const [isInView, setIsInView] = useState<boolean>(false);
 
   const targetRef = useRef<HTMLDivElement>(null);
-  const footerRef = useRef<HTMLDivElement>(null);
-  const featuresBlock = useRef<HTMLDivElement>(null);
-  const faqBlock = useRef<HTMLDivElement>(null);
+  const featuresBlock = useRef<HTMLDivElement>(null); //scroll to block
+  const faqBlock = useRef<HTMLDivElement>(null); //scroll to block
   
-  useEffect(() => {
+  useEffect(() => {    
     const handleScroll = () => {
-      if (!targetRef.current || !footerRef.current) return;
- 
-      const targetPosition = targetRef.current.getBoundingClientRect().top;
-      const footerPosition = footerRef.current.getBoundingClientRect().top;
-      
+      if (!targetRef.current || !faqBlock.current) return;
+  
+      // Абсолютные координаты элементов
+      const targetPosition = targetRef.current.getBoundingClientRect().top + window.scrollY;
+      const faqBlockPosition = faqBlock.current.getBoundingClientRect().top + window.scrollY;
+  
       const scrollPosition = window.scrollY;
       const headerHeight = 84; // Высота хедера
-
-      if (scrollPosition >= targetPosition - headerHeight && scrollPosition + headerHeight + 240 <= footerPosition) {
-        setIsInView(true);
+  
+      // Проверка условий для липкого заголовка
+      if (scrollPosition >= targetPosition - headerHeight && scrollPosition + headerHeight <= faqBlockPosition) {
+        setIsInView(true); // Хедер становится липким
       } else {
-        setIsInView(false);
+        setIsInView(false); // Хедер возвращается наверх
       }
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleScroll);
-
+  
     return () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleScroll);
     };
-  }, [targetRef]);
-
-  console.log(isInView);
+  }, [targetRef, faqBlock]); // Обе зависимости добавлены
+  
 
   return (
     <>

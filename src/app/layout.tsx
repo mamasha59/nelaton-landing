@@ -9,7 +9,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Use Nelaton Easily",
+  title: "Use Nelaton Easily – Smart App for Self-Catheterization (ISC)",
   description: "Nelaton App: Your Smart Assistant for Self-Catheterization. Track catheterization intervals, manage supplies, and log with ease. Get started today!",
 };
 
