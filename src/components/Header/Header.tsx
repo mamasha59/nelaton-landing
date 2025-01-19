@@ -2,6 +2,8 @@
 import { RefObject, useEffect, useState } from "react";
 import HeaderFooter from "../HeaderFooter/HeaderFooter";
 import HeaderNav from "../HeaderNav/HeaderNav";
+import Image from "next/image";
+import HeaderBackground from '../../../public/images/backgroundHeader.webp';
 
 interface HeaderProps {
   isInView: boolean;
@@ -36,13 +38,22 @@ export default function Header({isInView, refFeaturesBlock, faqBlockRef}:HeaderP
     };
 
   return (
-    <header className="bg-header-background bg-cover bg-no-repeat lg:bg-top bg-[80%] bg-fixed lg:h-[694px] h-[500px]">
-      <HeaderNav
-        handleMenu={handleMenu}
-        handleScrollToFaq={handleScrollToFaq}
-        handleScrollToFeatures={handleScrollToFeatures}
-        isInView={isInView}
-        openMenu={openMenu}/>
-      <HeaderFooter/>
+    // <header className="bg-header-background bg-cover bg-no-repeat lg:bg-top bg-[80%] bg-fixed lg:h-[694px] h-[500px]">
+    <header>
+      <Image
+        alt=""
+        src={HeaderBackground}
+        className="absolute top-0 left-0 w-full object-cover z-10 h-[694px]"
+        priority
+      />
+      <div className="relative z-30">
+        <HeaderNav
+          handleMenu={handleMenu}
+          handleScrollToFaq={handleScrollToFaq}
+          handleScrollToFeatures={handleScrollToFeatures}
+          isInView={isInView}
+          openMenu={openMenu}/>
+        <HeaderFooter/>
+      </div>
     </header>
 )};

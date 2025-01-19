@@ -11,9 +11,9 @@ export default function HighlightSection() {
                 width={182}
                 height={100}
             />
-            <h3 className="lg:max-w-[99px]  max-w-[80px] text-center absolute text-black lg:text-lg tracking-tighter lg:leading-[22px] text-sm font-medium">
+            <p className="lg:max-w-[99px]  max-w-[80px] text-center absolute text-black lg:text-lg tracking-tighter lg:leading-[22px] text-sm font-medium">
                 Built on <br/> Real Patient Needs
-            </h3>
+            </p>
         </div>
         <div className="relative flex items-center justify-center w-48">
             <Image
@@ -22,9 +22,9 @@ export default function HighlightSection() {
                 width={182}
                 height={100}
             />
-            <h3 className="lg:max-w-[100px] max-w-[80px] text-center absolute text-black lg:text-lg tracking-tighter lg:leading-[22px] text-sm font-medium">
+            <p className="lg:max-w-[100px] max-w-[80px] text-center absolute text-black lg:text-lg tracking-tighter lg:leading-[22px] text-sm font-medium">
                 <span className="text-[#49AFF5]">2025</span> European Product
-            </h3>
+            </p>
         </div>
     </div>
 )}

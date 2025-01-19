@@ -11,9 +11,9 @@ export default function FeedBack() {
     <section className="centred-view bg-white">
         <div className="lg:py-[120px] py-12 flex flex-1 items-center justify-center flex-col">
             <div className="lg:mb-9 mb-6">
-                <h5 className="text-black font-medium text-center lg:text-5xl text-[32px] lg:leading-[60px] leading-10 tracking-tighter">
+                <h3 className="text-black font-medium text-center lg:text-5xl text-[32px] lg:leading-[60px] leading-10 tracking-tighter">
                     What Our Users Say
-                </h5>
+                </h3>
             </div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center lg:gap-[26px] gap-5">
                 <div className="flex flex-col justify-between border border-[#E2E2E2] rounded-xl p-7 text-black">

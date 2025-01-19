@@ -79,7 +79,7 @@ export default function DesktopNav({handleMenu, isInView, openMenu, handleScroll
             />
         </button>
        {whetherShowMenu && 
-       <button onClick={handleMenu} className="flex lg:hidden items-center justify-center relative w-6 h-6">
+       <button title="burger menu(features-faq-contacts)" aria-label="burger menu(features-faq-contacts)" onClick={handleMenu} className="flex lg:hidden items-center justify-center relative w-6 h-6">
             <div className={`w-6 h-[2px] bg-black absolute transition-transform duration-300 ease-in-out ${
                 openMenu ? 'rotate-45' : '-translate-y-[6px]'
                 }`}

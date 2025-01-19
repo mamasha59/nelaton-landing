@@ -21,7 +21,7 @@ export default function BladderHealth({featuresBlock}:BladderHealthProps) {
     ];
 
   return (
-    <section ref={featuresBlock} className="mt-[439px] lg:mt-[230px] my-12">
+    <section ref={featuresBlock} className="pt-[39px] lg:pt-[132px] py-12">
         <div className="centred-view flex-col">
             <h2 className="font-semibold lg:text-5xl text-[32px] leading-[40px] text-black text-center mx-auto lg:mb-8 mb-6 tracking-tighter">
                 Your <span className="text-blue">Bladder Health</span>
