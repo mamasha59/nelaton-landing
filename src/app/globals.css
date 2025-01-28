@@ -24,12 +24,22 @@ body {
   height: 0; 
   border-top: 400px solid transparent;
   border-bottom: 400px solid transparent; 
-  border-right: 699px solid #fff; 
+  border-right: 699px solid #fff;
   z-index:1;
 }
 
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent; 
+  border-right: 699px solid #ffff002e; 
+  /* background: linear-gradient(to bottom, #FFFF00, #FF6600); /* Пример желтого градиента */
+  /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */ 
+}
+
 .clip-circle {
-  clip-path: inset(160px 0 0 0); /* Обрезаем только верхнюю часть */
+  clip-path: inset(274px 0 0 0); /* Обрезаем только верхнюю часть */
 }
 
 @keyframes change-bg {

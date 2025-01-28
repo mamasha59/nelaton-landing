@@ -43,7 +43,7 @@ export default function CatheterizingWithNelaton() {
                     alt="journal screen ios screen shot"
                     src={JournalScreenShotIos}
                     height={330}
-                    className="absolute right-0 hidden lg:flex bottom-0 z-10 w-auto"
+                    className="absolute right-0 hidden lg:flex top-10 z-10 w-auto"
                 />
             </div>
         </div>

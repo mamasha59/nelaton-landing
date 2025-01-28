@@ -39,7 +39,7 @@ export default function Header({isInView, refFeaturesBlock, faqBlockRef}:HeaderP
     };
 
   return (
-    <header>
+    <header className="relative">
       <Image
         alt="background image of header block - father and son enjoying swimming"
         src={HeaderBackground}

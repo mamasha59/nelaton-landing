@@ -6,6 +6,7 @@ import OrganStructure from '@/images/picturePeople/OrganStructure.webp';
 import WomanWalking from '@/images/picturePeople/WomanWalking.webp';
 
 export default function BenefitBlocks() {
+
   return (
     <div className="grid sm:grid-cols-2 grid-cols-1 gap-6">
 

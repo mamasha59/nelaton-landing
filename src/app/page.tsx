@@ -25,9 +25,9 @@ export default function Page() {
       if (!targetRef.current || !faqBlock.current) return;
   
       // Абсолютные координаты элементов
-      const targetPosition = targetRef.current.getBoundingClientRect().top + window.scrollY;
-      const faqBlockPosition = faqBlock.current.getBoundingClientRect().top + window.scrollY;
-  
+        const targetPosition = targetRef.current.getBoundingClientRect().top + window.scrollY;
+        const faqBlockPosition = faqBlock.current.getBoundingClientRect().top + window.scrollY;
+    
       const scrollPosition = window.scrollY;
       const headerHeight = 84; // Высота хедера
   
