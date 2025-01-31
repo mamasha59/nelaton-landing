@@ -48,7 +48,6 @@ export default function Page() {
     };
   }, [targetRef, faqBlock]); // Обе зависимости добавлены
   
-
   return (
     <>
     <Header isInView={isInView} refFeaturesBlock={featuresBlock} faqBlockRef={faqBlock}/>
