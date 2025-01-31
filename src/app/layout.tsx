@@ -4,6 +4,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import Head from "next/head";
+import Script from "next/script";
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '600', '700'],
@@ -19,8 +20,8 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   
   return (
     <html lang="en">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-B6Z9MJ4EBF"/>
       <Head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B6Z9MJ4EBF"></script>
         <script dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
