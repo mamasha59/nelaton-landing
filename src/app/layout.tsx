@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
-  
   return (
     <html lang="en">
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-B6Z9MJ4EBF"/>
+      <Script id="cookieyes" strategy="afterInteractive" src="https://cdn-cookieyes.com/client_data/72ee03861749bd377718059e/script.js"/>
       <Head>
         <script dangerouslySetInnerHTML={{
           __html: `

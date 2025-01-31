@@ -32,6 +32,7 @@ export default function CatheterTracking() {
                         <div className="absolute left-0 -bottom-10 lg:hidden flex">
                             <Image
                                 alt="iPhone ScreenShot4"
+                                className="h-auto"
                                 src={iPhoneScreenShot4}
                                 width={200}
                             />
