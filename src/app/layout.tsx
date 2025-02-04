@@ -32,6 +32,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         }} />
       </Head>
       <body className={`${dmSans.className} antialiased`}>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T49SQQ9L" height="0" width="0" className="hidden invisible"></iframe></noscript>
         {children}
         <Footer/>
       </body>
