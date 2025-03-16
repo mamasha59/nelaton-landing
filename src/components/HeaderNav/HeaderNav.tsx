@@ -15,7 +15,7 @@ export default function HeaderNav({ handleMenu, handleScrollToFaq, handleScrollT
         {/* Заглушка */}
         {isInView && <div className="h-[84px]"></div>} {/* Высота соответствует навигации */}
         {/* Навигация */}
-        <nav className={`centred-view justify-between py-4 h-[84px] ${isInView && "fixed left-0 right-0 top-0 lg:bottom-0 z-[1000]"}`}>
+        <nav className={`centred-view justify-between py-4 h-[84px] ${isInView ? "fixed left-0 right-0 top-0 lg:bottom-0 z-[1000]" : ''}`}>
           <DesktopNav
             handleScrollToFaq={handleScrollToFaq!}
             handleScrollToFeatures={handleScrollToFeatures!}

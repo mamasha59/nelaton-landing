@@ -1,5 +1,4 @@
 "use client"
-import { log } from "console";
 import { RefObject, useRef, useState } from "react";
 
 interface QuestionProps{
