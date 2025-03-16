@@ -1,4 +1,5 @@
 "use client"
+import { log } from "console";
 import { RefObject, useRef, useState } from "react";
 
 interface QuestionProps{
@@ -11,6 +12,7 @@ export default function Question({faqBlockRef}:QuestionProps) {
     const questionRefs = useRef<Record<number, HTMLDivElement | null>>({});
 
     const handleQuestion = (id:number) => {
+        // if(selected) return setSelected(null);
         setSelected(id);
         const element = questionRefs.current[id];
 
