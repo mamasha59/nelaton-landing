@@ -1,5 +1,5 @@
 "use client"
-import { RefObject, useState } from "react";
+import { RefObject, useRef, useState } from "react";
 
 interface QuestionProps{
     faqBlockRef: RefObject<HTMLDivElement | null>;
@@ -7,10 +7,22 @@ interface QuestionProps{
 
 export default function Question({faqBlockRef}:QuestionProps) {
        
-    const [selected, setSelected] = useState<number>();
+    const [selected, setSelected] = useState<number | null>();
+    const questionRefs = useRef<Record<number, HTMLDivElement | null>>({});
 
     const handleQuestion = (id:number) => {
         setSelected(id);
+        const element = questionRefs.current[id];
+
+        if (element) {
+          const offset = 500; // Отступ от верха (на случай фиксированного хедера)
+          const elementPosition = element.getBoundingClientRect().top + window.scrollY - offset;
+      
+          window.scrollTo({
+            top: elementPosition,
+            behavior: "smooth",
+          });
+        }
     }
 
     const questions = [
@@ -65,7 +77,7 @@ export default function Question({faqBlockRef}:QuestionProps) {
             </h2>
             <div className='flex flex-1 w-full flex-col gap-8 lg:p-16 p-3'>
                 {questions.map((item, index) =>
-                    <div className="flex lg:flex-row flex-col border-b border-[#DBFF0033] lg:pb-8 pb-6 flex-wrap" key={item.id}>
+                    <div ref={(el) => {if (el) questionRefs.current[item.id] = el}} className="flex lg:flex-row flex-col border-b border-[#DBFF0033] lg:pb-8 pb-6 flex-wrap" key={item.id}>
                         <p className="mr-8">0{index + 1}</p>
                         <div className='flex flex-1 w-full flex-col'>
                             <button onClick={() => handleQuestion(item.id)} className='flex flex-1 items-center flex-row justify-between lg:mb-4 mb-3'>
@@ -76,10 +88,12 @@ export default function Question({faqBlockRef}:QuestionProps) {
                                 </div>
 
                             </button>
-                            {selected === item.id && 
-                            <div className='flex flex-row items-center lg:gap-8 gap-4 flex-wrap'>
-                                <p className='max-w-[554px]'>{item.answer}</p>
-                            </div>}
+                            <div className={`transition-all duration-700 ease-in-out ${
+                                    selected === item.id ? "h-auto opacity-100 translate-y-0" : "h-0 overflow-hidden opacity-0 -translate-y-10"
+                                }`}
+                                >
+                                <p className="max-w-[554px]">{item.answer}</p>
+                            </div>
                         </div>
                     </div>
                 )}
