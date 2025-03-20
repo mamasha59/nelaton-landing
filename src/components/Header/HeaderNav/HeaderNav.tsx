@@ -14,13 +14,11 @@ interface HeaderNavProps {
 
 export default function HeaderNav({ handleScrollToFaq, handleScrollToFeatures, isInView, openMenu, setOpenMenu }: HeaderNavProps) {
   const [openSelectLanguage, setOpenSelectLanguage] = useState<boolean>(false);
+  const [scrollbarWidth, setScrollbarWidth] = useState<number>(0);
 
-  const handleModalSelectLanguage = () => setOpenSelectLanguage(!openSelectLanguage);
-
-  const handleMenu = () => {
-    setOpenMenu!(!openMenu);
-  }
-  const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+  useEffect(() => {
+    setScrollbarWidth(window.innerWidth - document.documentElement.clientWidth);
+  }, []);
   
   useEffect(() => {
     if (openMenu || openSelectLanguage) {
@@ -33,6 +31,13 @@ export default function HeaderNav({ handleScrollToFaq, handleScrollToFeatures, i
       document.documentElement.style.overflow = "";
     }
   }, [openMenu, openSelectLanguage, scrollbarWidth]);
+
+  
+  const handleModalSelectLanguage = () => setOpenSelectLanguage(!openSelectLanguage);
+
+  const handleMenu = () => {
+    setOpenMenu && setOpenMenu(!openMenu);
+  }
 
   return (
     <>
