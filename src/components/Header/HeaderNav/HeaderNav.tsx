@@ -17,7 +17,9 @@ export default function HeaderNav({ handleScrollToFaq, handleScrollToFeatures, i
   const [scrollbarWidth, setScrollbarWidth] = useState<number>(0);
 
   useEffect(() => {
-    setScrollbarWidth(window.innerWidth - document.documentElement.clientWidth);
+    if (typeof window !== "undefined") {
+      setScrollbarWidth(window.innerWidth - document.documentElement.clientWidth);
+    }
   }, []);
   
   useEffect(() => {

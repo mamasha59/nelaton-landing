@@ -139,12 +139,9 @@ const languages = [
     },
 ]
 
-const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-
 export {
   SUPPORT_EMAIL,
   APP_STORE_LINK,
   GOOGLE_STORE_LINK,
   languages,
-  scrollbarWidth
 }
