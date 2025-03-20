@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import AppleStoreButton from "@/images/appStoreButtonIcon.svg";
-import GooglePlayStoreButton from "@/images/googlePlayStoreButton.svg";
+import AppleStoreButton from "@/images/StoreButtons/appStoreButtonIcon.svg";
+import GooglePlayStoreButton from "@/images/StoreButtons/googlePlayStoreButton.svg";
 import { APP_STORE_LINK, GOOGLE_STORE_LINK } from "@/utils/const";
 
 export default function StoreButtons({col = false}:{col?: boolean}) {

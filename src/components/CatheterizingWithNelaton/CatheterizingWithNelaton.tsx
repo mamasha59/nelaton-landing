@@ -33,9 +33,9 @@ export default function CatheterizingWithNelaton() {
                     <Image
                         alt="decoration arrow"
                         src={DecorArrow}
-                        className="hidden lg:flex"
+                        className="hidden lg:flex animate-bounce"
                     />
-                    <div className="px-9 py-4 bg-yellow rounded-lg max-w-[560px] mt-6">
+                    <div className="px-9 py-4 bg-yellow rounded-lg max-w-[560px] mt-6 animate-glow">
                         <p className="lg:text-2xl text-base font-medium tracking-tighter">You can also download or share a PDF version.</p>
                     </div>
                 </div>

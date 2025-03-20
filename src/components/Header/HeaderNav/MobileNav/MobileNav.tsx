@@ -7,9 +7,10 @@ import { SUPPORT_EMAIL } from "@/utils/const";
 interface MobileNavProps {
     handleScrollToFaq: () => void;
     handleScrollToFeatures: () => void;
+    handleModalSelectLanguage: () => void,
 }
 
-export default function MobileNav({handleScrollToFaq, handleScrollToFeatures}:MobileNavProps) {
+export default function MobileNav({handleScrollToFaq, handleScrollToFeatures, handleModalSelectLanguage}:MobileNavProps) {
     const [changeText, setChangeText] = useState<string>('Contacts');
 
     const onClickContacts = () => {
@@ -25,7 +26,7 @@ export default function MobileNav({handleScrollToFaq, handleScrollToFeatures}:Mo
             <button onClick={handleScrollToFeatures} className="text-base text-black px-3 py-1 font-normal rounded-[32px] border-b">Features</button>
             <button onClick={handleScrollToFaq} className="text-base text-black px-3 py-1 font-normal rounded-[32px] border-b">FAQ</button>
             <button onClick={onClickContacts} className="text-base text-black px-3 py-1 font-normal rounded-[32px] border-b">{changeText}</button>
-            <button className="px-4 py-2 rounded-[32px] items-center flex gap-2 bg-black w-fit">
+            <button onClick={(handleModalSelectLanguage)} className="px-4 py-2 rounded-[32px] items-center flex gap-2 bg-black w-fit">
                 <p className="text-base text-white uppercase mr-[2px] font-semibold">eng</p>
                 <Image
                     alt="open dropdown language"

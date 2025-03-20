@@ -54,7 +54,7 @@ export default function Footer() {
             <div className="flex flex-col items-start text-xl leading-8 relative">
                 <Link href={'/privacypolicy'} className="text-black font-semibold mb-2">Privacy Policy</Link>
                 <Link href={'/termsofuse'} className="text-black font-semibold">Terms of Use</Link>
-                <p className="text-black font-light mt-6">© 2025 Ulibkin OÜ - All rights reserved</p>
+                <p className="text-black font-light mt-6">© {new Date().getUTCFullYear()} Ulibkin OÜ - All rights reserved</p>
                 <ButtonScrollToTop/>
             </div>
         </div>

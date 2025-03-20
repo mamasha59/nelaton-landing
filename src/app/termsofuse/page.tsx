@@ -1,5 +1,5 @@
 "use client"
-import HeaderNav from "@/components/HeaderNav/HeaderNav"
+import HeaderNav from "@/components/Header/HeaderNav/HeaderNav"
 import { SUPPORT_EMAIL } from "@/utils/const"
 import Link from "next/link"
 

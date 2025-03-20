@@ -5,6 +5,7 @@
 body {
   background: '#fff';
   font-family: Arial, Helvetica, sans-serif;
+  scrollbar-width: 6px;
 }
 
 .centred-view {
@@ -42,24 +43,17 @@ body {
   clip-path: inset(274px 0 0 0); /* Обрезаем только верхнюю часть */
 }
 
-@keyframes change-bg {
-  0% {
-    background-image: url('../../src/images/catheterCaps/black.jpg');
-  }
-  16% {
-    background-image: url('../../src/images/catheterCaps/blue.jpg');
-  }
-  32% {
-    background-image: url('../../src/images/catheterCaps/green.jpg');
-  }
-  64% {
-    background-image: url('../../src/images/catheterCaps/orange.jpg');
-  }
-  100% {
-    background-image: url('../../src/images/catheterCaps/red.jpg');
-  }
+/* Для всей страницы */
+::-webkit-scrollbar {
+  width: 6px; /* Ширина вертикального скролла */
+  height: 6px; /* Высота горизонтального скролла */
 }
 
-.animation-change-bg {
-  animation: change-bg 5s infinite;
+::-webkit-scrollbar-thumb {
+  background: #888; /* Цвет ползунка */
+  border-radius: 4px; /* Закругление */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Цвет фона скроллбара */
 }

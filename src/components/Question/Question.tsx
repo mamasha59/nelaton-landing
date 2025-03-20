@@ -78,7 +78,7 @@ export default function Question({faqBlockRef}:QuestionProps) {
             </h2>
             <div className='flex flex-1 w-full flex-col gap-8 lg:p-16 p-3'>
                 {questions.map((item, index) =>
-                    <div ref={(el) => {if (el) questionRefs.current[item.id] = el}} className="flex lg:flex-row flex-col border-b border-[#DBFF0033] lg:pb-8 pb-6 flex-wrap" key={item.id}>
+                    <div ref={(el) => {if (el) questionRefs.current[item.id] = el}} className="flex lg:flex-row flex-col border-b border-[#DBFF0033] pb-6 flex-wrap" key={item.id}>
                         <p className="mr-8">0{index + 1}</p>
                         <div className='flex flex-1 w-full flex-col'>
                             <button onClick={() => handleQuestion(item.id)} className='flex flex-1 items-center flex-row justify-between lg:mb-4 mb-3'>

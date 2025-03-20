@@ -1,5 +1,5 @@
 import Image from "next/image";
-import iPhoneScreenShot4 from '@/images/screenshots/iPhoneScreenShot4.png';
+import iPhoneScreenShot4 from '@/images/screenshots/iPhoneScreenShot4.webp';
 import HappyWoman from '@/images/picturePeople/happyWomanPicture.webp';
 import BenefitsCatheterInventory from "../BenefitsCatheterInventory/BenefitsCatheterInventory";
 

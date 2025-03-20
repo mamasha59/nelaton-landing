@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        glow: "glow .5s infinite alternate",
+      },
+      keyframes: {
+        glow: {
+          "0%": { boxShadow: "0 0 5px rgba(255, 255, 0, 0.5)" },
+          "100%": { boxShadow: "0 0 15px rgba(255, 255, 0, 1)" },
+        },
+      },
       colors: {
         linkBlur: '#6B7279',
         black: '#292D32',
