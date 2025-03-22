@@ -32,6 +32,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
        {/* Google Analytics */}
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-B6Z9MJ4EBF" strategy="afterInteractive"/>
       <Script id="cookieyes" strategy="afterInteractive" src="https://cdn-cookieyes.com/client_data/72ee03861749bd377718059e/script.js"/>
+      <Script src="/nelaton-structured.json" type="application/ld+json" strategy="beforeInteractive"/>
       <Head>
         <script id="google-analytics" dangerouslySetInnerHTML={{
           __html: `
