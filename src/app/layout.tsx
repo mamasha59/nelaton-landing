@@ -5,6 +5,8 @@ import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import Head from "next/head";
 import Script from "next/script";
+import path from "path";
+import fs from "fs/promises";
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '600', '700'],
@@ -16,7 +18,9 @@ export const metadata: Metadata = {
   description: "Nelaton App: Your Smart Assistant for Self-Catheterization. Track catheterization intervals, manage supplies, and log with ease. Get started today!",
 };
 
-export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
+export default async function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
+  const filePath = path.join(process.cwd(), "public", "nelaton-structured.json");
+  const jsonData = await fs.readFile(filePath, "utf-8");
 
   return (
     <html lang="en">
@@ -44,7 +48,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         }} />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify('/nelaton-structured.json') }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData) }}
         />
       </Head>
       <body className={`${dmSans.className} antialiased`}>
