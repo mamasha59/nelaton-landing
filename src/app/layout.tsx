@@ -5,8 +5,6 @@ import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import Head from "next/head";
 import Script from "next/script";
-import path from "path";
-import fs from "fs";
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '600', '700'],
