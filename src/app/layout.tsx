@@ -5,6 +5,8 @@ import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import Head from "next/head";
 import Script from "next/script";
+import path from "path";
+import fs from "fs";
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '600', '700'],
@@ -17,6 +19,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
+
   return (
     <html lang="en">
       {/* Google Tag Manager */}
@@ -32,7 +35,6 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
        {/* Google Analytics */}
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-B6Z9MJ4EBF" strategy="afterInteractive"/>
       <Script id="cookieyes" strategy="afterInteractive" src="https://cdn-cookieyes.com/client_data/72ee03861749bd377718059e/script.js"/>
-      <Script src="/nelaton-structured.json" type="application/ld+json" strategy="beforeInteractive"/>
       <Head>
         <script id="google-analytics" dangerouslySetInnerHTML={{
           __html: `
@@ -42,6 +44,10 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
             gtag('config', 'G-B6Z9MJ4EBF');
           `,
         }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify('/nelaton-structured.json') }}
+        />
       </Head>
       <body className={`${dmSans.className} antialiased`}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T49SQQ9L" height="0" width="0" className="hidden invisible"></iframe></noscript>
