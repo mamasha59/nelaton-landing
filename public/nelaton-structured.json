@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "@type": "MedicalApplication",
+  "@type": "SoftwareApplication",
   "name": "Nelaton: Self-Catheterization",
   "description": "Nelaton — Your Smart Assistant for Self-Catheterization! Track timing, catheter stock, fluid balance monitoring and over 10 key parameters to support your bladder health.",
   "operatingSystem": [
@@ -127,7 +127,7 @@
     "alternateName": "ISC",
     "description": "A method of regularly emptying the bladder using a catheter. It is used for neurogenic bladder, multiple sclerosis, and other urinary disorders.",
     "procedureType": "TherapeuticProcedure",
-    "usedToTreat": [
+    "indication": [
       {
         "@type": "MedicalCondition",
         "name": "Neurogenic bladder"
