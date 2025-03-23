@@ -121,35 +121,28 @@
       }
     ]
   },
-  "therapy": {
-    "@type": "MedicalTherapy",
-    "name": "Intermittent Self-Catheterisation (ISC)",
-    "alternateName": "ISC",
-    "description": "A method of regularly emptying the bladder using a catheter. It is used for neurogenic bladder, multiple sclerosis, and other urinary disorders.",
-    "procedureType": "TherapeuticProcedure",
-    "indication": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Neurogenic bladder"
-      },
-      {
-        "@type": "MedicalCondition",
-        "name": "Multiple sclerosis"
-      },
-      {
-        "@type": "MedicalCondition",
-        "name": "Spinal cord injury"
-      },
-      {
-        "@type": "MedicalCondition",
-        "name": "Chronic urinary retention"
-      }
-    ]
-  },
   "publisher": {
     "@type": "Organization",
     "name": "Ulibkin OÜ"
   },
   "screenshot": "https://nelaton.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FiPhoneScreenShot1.81e3d246.webp&w=1080&q=75",
-  "datePublished": "2025"
+  "datePublished": "2025",
+  "about": [
+    {
+      "@type": "MedicalCondition",
+      "name": "Neurogenic bladder"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Multiple sclerosis"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Spinal cord injury"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Chronic urinary retention"
+    }
+  ]
 }
