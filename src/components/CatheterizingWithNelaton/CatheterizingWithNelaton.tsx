@@ -5,7 +5,7 @@ import JournalScreenShotIos from '@/images/screenshots/journalScreenShotIos.webp
 
 export default function CatheterizingWithNelaton() {
   return (
-  <section className="bg-greenBg lg:py-[124px] py-12">
+  <section className="bg-greenBg lg:py-[100px] py-12">
     <div className="centred-view">
         <div className="flex flex-1 flex-row lg:justify-between justify-center flex-wrap gap-12 relative">
             <div className="relative">
@@ -17,7 +17,9 @@ export default function CatheterizingWithNelaton() {
                 <Image
                     alt="journal screen android screen shot"
                     src={JournalScreenShotIos}
-                    className="absolute lg:hidden right-0 w-[50vw] -bottom-2 z-10"
+                    width={200}
+                    height={200}
+                    className="absolute lg:hidden right-0 w-[40vw] -bottom-2 z-10"
                 />
             </div>
             <div className="flex flex-1 w-full text-black justify-start">
@@ -42,7 +44,7 @@ export default function CatheterizingWithNelaton() {
                 <Image
                     alt="journal screen ios screen shot"
                     src={JournalScreenShotIos}
-                    height={330}
+                    height={430}
                     className="absolute right-0 hidden lg:flex top-10 z-10 w-auto"
                 />
             </div>

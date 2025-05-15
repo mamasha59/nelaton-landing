@@ -51,10 +51,6 @@ export default async function RootLayout({children}: Readonly<{children: React.R
             gtag('config', 'G-B6Z9MJ4EBF');
           `,
         }} />
-        {/* <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData) }}
-        /> */}
       </Head>
       <body className={`${dmSans.className} antialiased`}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T49SQQ9L" height="0" width="0" className="hidden invisible"></iframe></noscript>

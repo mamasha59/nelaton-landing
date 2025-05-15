@@ -9,18 +9,23 @@ export default function CatheterTracking() {
         <div className="arrow-left absolute right-0 top-0"></div>
         <div className="centred-view relative z-10">
             <div className="-mb-20 flex flex-1 flex-col pt-12">
-                <div className="flex flex-row">
-                    <Image
-                        alt="iPhone ScreenShot4"
-                        src={iPhoneScreenShot4}
-                        className="hidden lg:flex flex-1"
-                    />
+                <h2 className="text-blue font-semibold text-[32px] leading-[40px] lg:leading-[61px] lg:text-5xl">
+                    Catheter inventory tracking - 
+                </h2>
+                <div className="flex flex-row justify-between w-full">
+                    <div className="rotate-6">
+                        <Image
+                            alt="iPhone ScreenShot4"
+                            src={iPhoneScreenShot4}
+                            width={200}
+                            height={300}
+                            className="hidden lg:flex flex-1 h-auto w-full"
+                        />
+                    </div>
                     <div className="w-full flex flex-col lg:w-[65%] lg:items-center relative">
                         <h2 className="mb-8 text-black">
-                            <p className="text-blue font-semibold text-[32px] leading-[40px] lg:leading-[61px] lg:text-5xl">
-                                Catheter inventory tracking
-                            </p>
-                            <p className="font-semibold text-[32px] leading-[40px] lg:leading-[61px] lg:text-5xl">
+                     
+                            <p className="font-semibold text-[32px] leading-[40px] lg:text-3xl">
                                 helps you always know the exact quantity remaining and plan for timely restocking
                             </p>
                         </h2>
@@ -29,12 +34,12 @@ export default function CatheterTracking() {
                             src={HappyWoman}
                             className="rounded-2xl"
                         />
-                        <div className="absolute left-0 -bottom-10 lg:hidden flex">
+                        <div className="absolute right-0 -bottom-10 lg:hidden flex sm:w-auto lg:w-1/2">
                             <Image
                                 alt="iPhone ScreenShot4"
                                 className="h-auto"
                                 src={iPhoneScreenShot4}
-                                width={200}
+                                height={300}
                             />
                         </div>
                     </div>

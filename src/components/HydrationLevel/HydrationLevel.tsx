@@ -15,7 +15,7 @@ export default function HydrationLevel() {
         <div className="triangle absolute right-0 top-0"></div>
 
         <div className="centred-view flex-col relative z-10">
-            <div className="lg:mb-[132px] mb-12">
+            <div className="lg:my-[66px] my-6">
                 <h2 className="text-black font-semibold lg:text-5xl text-[32px] leading-[40px] w-full text-center lg:mb-9 mb-6">
                     Track and Maintain Optimal Hydration <br/> with <span className="text-blue italic">Nelaton app</span>
                 </h2>
