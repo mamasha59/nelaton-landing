@@ -11,12 +11,13 @@ export default function HowDoesItWork({ ref }: HowDoesItWorkProps) {
         How the Nelaton App Works
       </h2>
       <div className="centred-view">
-        <div className="relative border mx-auto">
-          <iframe width="315" height="560"
-            src="https://www.youtube.com/embed/4Bgibcigu-g?si=uGjI570vMbxrwpH8"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowFullScreen
-            ></iframe>
+        <div className="relative w-full pb-[56.25%] h-0">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full rounded-3xl"
+            src="https://www.youtube.com/embed/Cy3NtJoUW4E?si=euzR8ciRtJ8e_Nbk"
+            title="Nelaton App – Your Smart Assistant for Self-Catheterization!"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </div>
     </section>
