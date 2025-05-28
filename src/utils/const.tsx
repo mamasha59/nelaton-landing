@@ -1,7 +1,7 @@
 const SUPPORT_EMAIL = 'support@nelaton.app';
 
-const APP_STORE_LINK = 'https://apps.apple.com/us/app/nelaton-self-catheterization/id6741067645';
-const GOOGLE_STORE_LINK = 'https://play.google.com/store/apps/details?id=com.ulibkin.nelaton';
+const APP_STORE_LINK = 'https://use-nelaton-easily.onelink.me/4oJ4/0iq5q1kl';
+const GOOGLE_STORE_LINK = 'https://use-nelaton-easily.onelink.me/4oJ4/0iq5q1kl';
 
 const languages = [
     {
