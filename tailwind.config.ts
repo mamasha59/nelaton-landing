@@ -25,6 +25,7 @@ export default {
         blueBg: '#EBF7FF',
         yellowBg: '#FFF7E1',
         yellow: '#FFCF49',
+        mainBlue: '#4E8EEF',
       },
       backgroundImage:{
         'header-background': "url('/images/backgroundHeader.webp')",

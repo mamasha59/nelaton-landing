@@ -12,6 +12,7 @@
   "dependencies": {
     "@next/third-parties": "^15.3.2",
     "next": "15.1.4",
+    "next-intl": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-intersection-observer": "^9.15.0"

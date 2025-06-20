@@ -1,0 +1,306 @@
+{
+  "HomePage": {
+    "nav": {
+        "features": "Caracteristici",
+        "FAQ": "FAQ",
+        "contacts": "Contacte",
+        "select_preferred_language": "Selectați limba preferată",
+        "not_available_yet": "Nu este încă disponibil"
+    },
+    "header": {
+        "your": "Al tău",
+        "bold_smart_assistant": "Asistent inteligent",
+        "slogan": "pentru autocateterizare!",
+        "built_on_real_patient_needs": "Construit pe nevoile reale ale pacienților",
+        "european_product": {
+            "bold_2025": "2025",
+            "european_product": "Produs european"
+        }
+    },
+    "store_buttons": {
+        "get_started_now": "Începeți acum"
+    },
+    "bladder_health": {
+        "title_bold": "Sănătatea vezicii urinare",
+        "description": "Autocateterizarea ușoară și la timp",
+        "list": {
+            "1": "Cronometru inteligent pentru respectarea cu precizie a recomandărilor medicului dumneavoastră",
+            "2": "Urmărirea cateterelor: știți întotdeauna câte mai aveți și când trebuie să le reînnoiți stocul.",
+            "3": "Suport pentru monitorizarea echilibrului hidric.",
+            "4": "Jurnal convenabil pentru autocateterizare (jurnal de urinare).",
+            "5": "Memento-uri personalizate.",
+            "6": "Compatibil cu toate cateterele urinare pentru auto-cateterizare."
+        }
+    },
+    "bold_nelaton_app": "Aplicația Nelaton",
+    "how_the_nelaton_app_works": "Cum funcționează aplicația Nelaton",
+    "hydration": {
+        "title": "Urmăriți și mențineți hidratarea optimă cu",
+        "list": {
+            "1": "Înregistrați cu ușurință consumul de lichide și cantitatea de urină eliminată.",
+            "2": "Monitorizați echilibrul hidratării în orice moment.",
+            "3": "Gestionați momentul și volumul consumului de lichide pentru a atinge niveluri optime de hidratare."
+        }
+    },
+    "inventory_tracking": {
+        "title": {
+            "bold_catheter_inventory_tracking": "Urmărirea stocului de catetere -",
+            "description": "  te ajută să știi întotdeauna cantitatea exactă rămasă și să planifici reaprovizionarea la timp"
+        },
+        "list": {
+            "1": {
+                "inventory_management": "Gestionarea stocului",
+                "automatic_deduction_of_catheters_after_each_use": "Deducerea automată a cateterelor după fiecare utilizare."
+            },
+            "2": {
+                "plan_ahead": "Planificați din timp",
+                "calculate_how_many_catheters": "Calculați câte catetere veți avea nevoie pentru o călătorie sau o vacanță."
+            },
+            "3": {
+                "reminders": "Memento-uri",
+                "notifications": "Evitați să rămâneți fără catetere în momente nepotrivite."
+            }
+        }
+    },
+    "bladder_catheterization":{
+        "title": {
+            "systematic_approach": "O abordare sistematică a",
+            "bold_self_description": "cateterizării vezicii urinare"
+        },
+        "list": {
+            "1": "Cu aplicația Nelaton, puteți urmări peste 10 parametri cheie pentru sănătatea vezicii urinare",
+            "2": {
+                "first_sentence": "Răspunsul prompt la simptomele infecției reduce semnificativ",
+                "bold_text": "riscul",
+                "third_sentence": "de complicații ale tractului urinar"
+            },
+            "3": {
+                "first_sentence": "Controlul",
+                "bold_text": "autocateterizării",
+                "third_sentence": "nu a fost niciodată mai ușor."
+            },
+            "4": {
+                "first_sentence": "Respectarea intervalelor de cateterizare reduce riscul de infecții ale tractului urinar",
+                "bold_text": "cu 84,8%"
+            }
+        }
+    },
+    "catheterizing_with_the_nelaton_app_is_convenient": {
+        "catheterizing_with_the": "Cateterizarea cu",
+        "is_convenient": "este convenabilă!"
+    },
+    "all_your_statistics_are_gathered_in_one_place": "Toate statisticile dumneavoastră sunt adunate într-un singur loc.",
+    "you_can_also_download_or_share_a_pdf_version": "Puteți de asemenea descărca sau partaja o versiune PDF.",
+    "what_our_users_say": {
+        "title": "Ce spun utilizatorii noștri",
+        "list": {
+            "1": {
+                "name": "Antônio Silva",
+                "feedback": "Aplicația s-a configurat rapid pentru a se adapta nevoilor mele – practic, mi-a pus câteva întrebări și s-a ocupat de restul. Sincer, este foarte convenabilă și îmi face viața mult mai ușoară."
+            },
+            "2" : {
+                "name": "Camille",
+                "feedback": "Când mi s-a spus că va trebui să fac cateterism în mod regulat, am fost îngrozită. Dar sunt foarte bucuroasă că am găsit această aplicație – m-a ajutat să mă calmez și să simt că am totul sub control."
+            },
+            "3": {
+                "name": "Viktor",
+                "feedback": "La spital, mi s-a spus să țin un jurnal al urinării și mi s-a dat chiar și o grămadă de formulare pe hârtie. Este mult mai ușor și mai convenabil să fac asta în aplicație."
+            }
+        }
+    },
+    "questions": {
+        "title": "Întrebări frecvente despre autocateterizarea intermitentă (ISC) și aplicația noastră",
+        "list": {
+            "1": {
+                "title": "Cum funcționează cronometrul de pe ecranul principal?",
+                "answer": "Cronometrul numără în jos până la următoarea cateterizare. Trebuie să efectuați cateterizarea înainte ca cronometrul să se oprească, pentru a respecta programul stabilit de medicul dumneavoastră. Dacă ratați cateterizarea programată, cronometrul va afișa timpul scurs de la ultima cateterizare. După fiecare cateterizare, accesați aplicația și apăsați butonul „Gata” pentru a porni numărătoarea inversă până la următoarea cateterizare."
+            },
+            "2": {
+                "title": "Cât de des trebuie să efectuez cateterizarea?",
+                "answer": "Frecvența cateterizării este stabilită de medicul dumneavoastră, în funcție de starea dumneavoastră. De asemenea, este important să rețineți că frecvența poate varia. Vă ajutăm să vă monitorizați cu ușurință obiceiurile de urinare, ceea ce îi permite medicului dumneavoastră să ajusteze intervalul dintre cateterizări, după cum este necesar. Se recomandă efectuarea cateterizării de sine stătătoare în mod regulat pe parcursul zilei, în funcție de volumul de lichide consumate și de recomandările medicului dumneavoastră. Este posibil să fie necesară cateterizarea la fiecare 4-6 ore pentru a vă asigura că volumul de urină din vezică nu depășește 400 ml. Dacă nu efectuați cateterizarea suficient de des și vezica dumneavoastră se umple excesiv, riscul de infecții ale tractului urinar și de scurgeri crește. Întinderea prelungită a vezicii urinare poate provoca leziuni grave la rinichi."
+            },
+            "3": {
+                "title": "Câtă apă trebuie să beau?",
+                "answer": "Adulții ar trebui să bea cel puțin 1,5 litri de apă pe zi. Aceasta este doar o recomandare și ar trebui să consultați medicul pentru a afla cantitatea de apă potrivită pentru dumneavoastră. Nu uitați, apa este cea mai bună băutură. Se recomandă evitarea băuturilor cu cofeină, deoarece cofeina irită vezica urinară. Consumul de apă în cantitate suficientă ajută la curățarea sistemului urinar. Aplicația Nelaton vă ajută să vă monitorizați nivelul de hidratare. Puteți înregistra consumul de apă pe ecranul principal folosind butonul „+Drank”, iar ecranul „Water Balance” vă permite să monitorizați consumul de lichide și cantitatea de urină eliminată."
+            },
+            "4": {
+                "title": "Cum pot preveni infecțiile tractului urinar?",
+                "answer": "Mențineți igiena, goliți vezica urinară în mod regulat și complet și beți suficiente lichide. Vă recomandăm să completați chestionarul nostru de satisfacție privind cateterizarea cel puțin o dată pe lună și să îl împărtășiți medicului dumneavoastră."
+            },
+            "5": {
+                "title": "Trebuie să mă cateterizez noaptea?",
+                "answer": "De obicei, este suficient să vă cateterizați înainte de culcare și imediat după trezire, apoi să continuați la intervale regulate pe parcursul zilei. Cu toate acestea, medicul dumneavoastră vă va sfătui cu privire la ceea ce este cel mai bine pentru dumneavoastră. Aplicația vă ajută să respectați orice program și interval de cateterizare. Puteți seta o cateterizare nocturnă, respecta intervalul în timpul nopții sau chiar dezactiva cateterizarea nocturnă activând modul de somn. Totul depinde de sfatul medicului dumneavoastră, iar aplicația noastră este gata să vă ajute să respectați orice program."
+            },
+            "6": {
+                "title": "Cum pot urmări utilizarea cateterului?",
+                "answer": "Aplicația urmărește automat utilizarea cateterului. Trebuie să specificați câte catetere aveți și dacă utilizați consumabile suplimentare în timpul cateterizării (cum ar fi șervețele aseptice, pungi pentru urină, mănuși etc.). Acest lucru vă va ajuta să țineți evidența numărului de catetere și consumabile necesare și să le reînnoiți la timp. De fiecare dată când apăsați butonul „Gata”, aplicația va deduce cantitatea corespunzătoare de consumabile. Când achiziționați catetere și alte consumabile, nu uitați să actualizați cantitatea în aplicație."
+            },
+            "7": {
+                "title": "Ce trebuie să fac când călătoresc în străinătate?",
+                "answer": "Luați cu dvs. suficiente catetere și aveți la dvs. un certificat medical care să confirme necesitatea acestora. Acest certificat vă va ajuta să treceți de controalele de securitate din aeroporturi sau de la alte evenimente cu măsuri de securitate sporite. În fila „Utilizarea cateterului”, puteți calcula câte catetere trebuie să luați cu dvs. pe baza consumului mediu."
+            },
+            "8": {
+                "title": "Ce trebuie să fac dacă o funcție lipsește din aplicație?",
+                "answer": "Scrieți-ne folosind formularul de pe această pagină. Descrieți situația cu care v-ați confruntat și ce funcționalitate considerați că lipsește din aplicația Nelaton. Vom lua în considerare sugestiile dvs. în actualizările viitoare."
+            }
+        }
+    },
+    "join_our_community": "Alătură-te comunității noastre",
+    "privacy_policy": "Politica de confidențialitate",
+    "terms_of_use": "Termeni de utilizare",
+    "ulibkin_all_rights_reserved": "Ulibkin OÜ - Toate drepturile rezervate"
+  },
+    "PrivacyPage": {
+        "privacy_policy": "Privacy Policy",
+        "introduction": "Introduction",
+        "description": "The application is developed by {companyName}, which is responsible for complying with this Privacy Policy. We respect your privacy and are committed to ensuring transparency in data processing. This Policy explains what data we process, how it is protected, and for what purposes it is used. If you have any questions, please contact us at: {email}. By installing and using the application, you confirm that you have read and agree to this Privacy Policy. If you do not agree, please delete the application and discontinue its use.",
+        "data_we_process": "Data We Process",
+        "data_stored_on_your_device": "Data Stored on Your Device",
+        "2_1_description": "Personal and medical data that you enter to use the application’s features, such as generating reminders and creating reports.",
+        "data_transmitted": "Data Transmitted",
+        "2_2_description": "We transmit minimal technical data to services that help analyze application usage, manage subscriptions, and improve functionality. This data includes:",
+        "2_2_list": {
+            "1": {
+                "bold_text": "Device Identifier",
+                "description": "Used for analytics related to app usage and advertising campaigns."
+            },
+            "2": {
+                "bold_text": "IP Address",
+                "description": "Used to determine the user’s region for statistical purposes."
+            },
+            "3": {
+                "bold_text": "App Interaction Data",
+                "description": "Includes actions taken within the app to help us improve the user experience (e.g., frequently used features)."
+            },
+            "4": {
+                "bold_text": "Device Technical Data",
+                "description": "Includes operating system version, device model, and other parameters necessary for app performance analysis."
+            },
+            "5": {
+                "bold_text": "App Version",
+                "description": "Helps track the compatibility of the app with devices."
+            },
+            "6": {
+                "bold_text": "System Language",
+                "description": "Used to analyze user preferences and localize the interface."
+            },
+            "description": "This data is used solely for the purposes stated above and does not include personal information such as name, email, or medical data entered into the application."
+        },
+        "where_your_data_is_stored": "Where Your Data Is Stored",
+        "3_description": "All data you enter is stored only on your device. We do not store it on servers or share it with third parties, except for technical data used for support and analytics.",
+        "purpose_of_data_processing": "Purpose of Data Processing",
+        "4_description": "We process data for the following purposes",
+        "4_list": {
+            "1": "Generating reminders.",
+            "2": "Creating reports.",
+            "3": "Managing subscriptions.",
+            "4": "Analyzing interactions with the application and improving its functionality."
+        },
+        "your_consent": "Your Consent",
+        "5_description": {
+            "1": "Installing and using the application automatically indicates your agreement with this Privacy Policy.",
+            "2": "If you do not agree with this Privacy Policy, please delete the application and discontinue its use."
+        },
+        "access_for_all_ages": "Access for All Ages",
+        "6_description": "The application is available for users of all ages. If the user is a minor, parents or guardians are responsible for overseeing their use of the application. We do not collect data on the user’s age.",
+        "limitation_of_liability": "Limitation of Liability",
+        "7_description": "is a tool designed to assist users in adhering to their healthcare provider's recommendations. The application",
+        "7_list": {
+            "1": {
+                "bold_text": "Does not replace professional medical advice.",
+                "description": "Users should rely solely on the recommendations of their healthcare provider."
+            },
+            "2": {
+                "bold_text": "Is not liable for the application’s use.",
+                "description": "By installing and using the application, users accept all risks associated with its use."
+            },
+            "you_acknowledge_that": "You acknowledge that",
+            "the_application_is_not_a_medical_device": "The application is not a medical device.",
+            "you_cannot_file_legal_claims": "You cannot file legal claims against Ulibkin OÜ or third parties involved in the operation of the application in any jurisdiction."
+        },
+        "data_security": "Data Security",
+        "8_description": "We protect your data using modern technologies",
+        "8_list": {
+            "1": {
+                "bold_text": "Data encryption",
+                "description": "during transmission to services that support the application’s functionality."
+            },
+            "2": "All data you enter is available only to you and is stored on your device."
+        },
+        "8_note": "Your payment data is processed by App Store and Google Play, and we do not have access to it.",
+        "your_rights": "Your Rights",
+        "9_description": "Since your data is stored only on your device and not transferred to the developer, you have full control over it. Your rights include",
+        "bold_deleting_data": "Deleting Data",
+        "deleting_data_description": "You can delete all entered data through the app’s settings.",
+        "9_list": {
+            "1": "Once deleted, this data cannot be recovered.",
+            "2": "Deleting your data will reset the application to its original state, as if it were newly installed.",
+            "3": "If you wish to retain any information, please export the necessary data (e.g., as PDF reports) before deleting it."
+        },
+        "bold_opting_out_of_analytics": " Opting Out of Analytics",
+        "opting_out_of_analytics_description": "You can disable the use of analytics services through your device settings.",
+        "bold_data_control": "Data Control",
+        "data_control_description": "Since your data remains on your device, only you have access to it.",
+        "9_note": "If you have questions about your rights or would like more information, contact us at: support@nelaton.app.",
+        "links_to_third_party_resources": "Links to Third-Party Resources",
+        "10_description": "The application may contain links to websites or services of third parties. We do not control their content or data processing practices. Please review their privacy policies before using them.",
+        "changes_to_this_policy": "Changes to This Policy",
+        "11_description": "We may update this Privacy Policy. The current version will always be available via the link on the app’s page in the App Store or Google Play. If changes significantly affect your rights, we will notify you through app stores or other means.",
+        "contact_us": "Contact Us",
+        "12_description": "If you have any questions or requests, contact us at: support@nelaton.app."
+    },
+    "PolicyPage": {
+        "terms_title": "Terms of Service",
+        "terms_last_updated": "Last updated: 29.12.2024",
+
+        "terms_intro": {
+            "first_sentence": "Please read these Terms of Service (\"Terms\") carefully before using the Nelaton Application (\"Application\") operated by Ulibkin OÜ (\"us,\" \"we,\" \"our\"). These Terms contain important information regarding the limitations of our liability and the rules for using the Application. By accessing or using the Application, you agree to be bound by these Terms and our",
+            "link": "Privacy Policy",
+            "second_sentence": "If you do not agree with any part of these Terms, you are not permitted to access or use the Application."
+        },  
+
+        "acceptance_title": "Acceptance of Terms",
+        "acceptance_text": "By installing, accessing, or using the Application, you confirm that you are at least 13 years of age and agree to comply with these Terms and all applicable laws and regulations. Children under the age of 18 may use the Application only with the consent and under the supervision of their parents or legal guardians. Parents or legal guardians are responsible for ensuring that the Application is used in accordance with these Terms.",
+
+        "usage_title": "Application Usage",
+        "usage_text": "The Application does not require the creation of user accounts. Users install the Application, purchase subscriptions if applicable, and store all personal data locally on their devices. Users are responsible for ensuring the security of their devices and any data stored within the Application. If you suspect unauthorized access to your device or data, you are encouraged to take appropriate measures to secure your information.",
+
+        "data_usage_title": "Data Usage",
+        "data_usage_text": "By using the Application, you consent to the processing of your data in accordance with our Privacy Policy. The Application does not share personal data with third parties except for necessary analytics and subscription management partners, including AppsFlyer, RevenueCat, Amplitude, and Google Analytics. All user data is stored locally on the user's device unless required for functionality.",
+
+        "prohibited_title": "Prohibited Uses",
+        "prohibited_list": [
+            "Interfere with the operation of the Application.",
+            "Use the Application for unlawful purposes.",
+            "Modify, copy, or reverse-engineer the Application.",
+            "Attempt unauthorized access to any part of the Application or related systems.",
+            "Use the Application to harm others or compromise data security.",
+            "Violate any applicable local laws while using the Application."
+        ],
+
+        "no_warranty_title": "No Warranty",
+        "no_warranty_text": "The Application is provided \"as is\" without any warranties, express or implied. We do not guarantee that the Application will be error-free or uninterrupted.",
+
+        "medical_title": "Medical Disclaimer",
+        "medical_text": "The Application is a tool to assist users in following medical recommendations. It does not provide medical advice or replace professional healthcare consultation. Users must rely on their physician's guidance. By using the Application, you acknowledge and agree that Ulibkin OÜ is not responsible for any medical outcomes, complications, or issues arising from the use of the Application. All medical decisions should be made in consultation with a licensed healthcare professional. You are solely responsible for your use of the Application and any consequences arising from such use.",
+
+        "liability_title": "Limitation of Liability",
+        "liability_text": "To the fullest extent permitted by law, Ulibkin OÜ shall not be liable for any damages arising from your use of or inability to use the Application. You agree to indemnify and hold harmless Ulibkin OÜ from any claims or liabilities resulting from your use of the Application.",
+
+        "data_deletion_title": "User Data Deletion",
+        "data_deletion_text": "Users may delete their data at any time using the settings within the Application. Deleting data may result in loss of access to certain features. Users accept full responsibility for any consequences of data deletion.",
+
+        "ip_title": "Intellectual Property",
+        "ip_text": "All content within the Application is owned by Ulibkin OÜ or its licensors. You may not reproduce, distribute, or create derivative works based on the Application without express permission.",
+
+        "changes_title": "Changes to Terms",
+        "changes_text": "We reserve the right to update or modify these Terms at any time at our sole discretion. Any updates will be posted on this page with the \"Last updated\" date. It is your responsibility to review these Terms periodically for changes. Continued use of the Application after any modifications signifies your acceptance of the revised Terms. Users will also be notified of significant changes to these Terms upon their next access to the Application.",
+
+        "law_title": "Governing Law",
+        "law_text": "These Terms are governed by the laws of Estonia. Any disputes arising from these Terms will be resolved in the courts of Estonia.",
+
+        "contact": "If you have questions regarding these Terms, please contact us at {email}.",
+
+        "slogan": "Your Self-Catheterization Assistant: Track, Manage, and Log with Ease"
+    }
+}

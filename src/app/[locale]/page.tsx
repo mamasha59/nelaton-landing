@@ -11,6 +11,7 @@ import CatheterizingWithNelaton from "@/components/CatheterizingWithNelaton/Cath
 import FeedBack from "@/components/FeedBack/FeedBack";
 import Question from "@/components/Question/Question";
 import GetStarted from "@/components/GetStarted/GetStarted";
+import Footer from "@/components/Footer/Footer";
 
 export default function Page() {
 
@@ -62,6 +63,7 @@ export default function Page() {
       <Question faqBlockRef={faqBlock}/>
       <GetStarted/>
     </main>
+    <Footer/>
     </>
   );
 }

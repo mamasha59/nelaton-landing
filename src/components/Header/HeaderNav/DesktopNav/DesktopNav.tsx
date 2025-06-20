@@ -7,6 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { SUPPORT_EMAIL } from "@/utils/const";
+import { useLocale, useTranslations } from "next-intl";
 
 interface DesktopNavProps {
     handleMenu: () => void;
@@ -19,14 +20,18 @@ interface DesktopNavProps {
 
 export default function DesktopNav({handleMenu, isInView, openMenu, handleScrollToFaq, handleScrollToFeatures, handleModalSelectLanguage}: DesktopNavProps) {    
     const path = usePathname();
+    const locale = useLocale(); // retrieve the current locale
+    
+    const t = useTranslations('HomePage');
+
     const whetherShowMenu = path !== '/privacypolicy' && path !== '/termsofuse';
 
-    const [changeText, setChangeText] = useState<string>('Contacts');
+    const [changeText, setChangeText] = useState<string>(t("nav.contacts"));
 
     const onClickContacts = () => {
         setChangeText(SUPPORT_EMAIL);
         if(changeText === SUPPORT_EMAIL){
-            setChangeText('Contacts')
+            setChangeText(t("nav.contacts"))
         }
     }
     
@@ -50,13 +55,13 @@ export default function DesktopNav({handleMenu, isInView, openMenu, handleScroll
                     onClick={handleScrollToFeatures}
                     className="text-base text-linkBlur px-3 py-1 font-normal rounded-[32px] hover:text-black hover:bg-[#D1EBFD]"
                     >
-                        Features
+                        {t("nav.features")}
                     </button>
                     <button
                     onClick={handleScrollToFaq}
                     className="text-base text-linkBlur px-3 py-1 font-normal rounded-[32px] hover:text-black hover:bg-[#D1EBFD]"
                     >
-                        FAQ
+                        {t("nav.FAQ")}
                     </button>
                     <button onClick={onClickContacts} className="text-base text-linkBlur px-3 py-1 font-normal rounded-[32px] hover:text-black hover:bg-[#D1EBFD]">
                         {changeText}
@@ -71,7 +76,7 @@ export default function DesktopNav({handleMenu, isInView, openMenu, handleScroll
         )}
         <button onClick={handleModalSelectLanguage} className="px-4 py-2 rounded-[32px] lg:flex hidden gap-2 lg:gap-0 lg:bg-black bg-white items-center">
         {/* BIG SCREENS */}
-            <p className="text-base text-white uppercase mr-[2px] font-semibold">eng</p>
+            <p className="text-base text-white uppercase mr-[2px] font-semibold">{locale}</p>
             <Image
                 alt="open dropdown language"
                 src={DropDown}

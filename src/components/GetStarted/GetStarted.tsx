@@ -1,14 +1,17 @@
 import Image from "next/image";
 import StoreButtons from "../StoreButtons/StoreButtons";
 import iPhoneScreenShots from '@/images/screenshots/iPhoneScreenShots.webp'
+import { useTranslations } from "next-intl";
 
 export default function GetStarted() {
+    const t = useTranslations('HomePage');
+    
   return (
     <div className="centred-view">
         <div className="lg:p-[72px] w-full relative p-5 rounded-2xl flex flex-row bg-white shadow-md items-center z-30 flex-wrap lg:-my-32 -my-10 lg:mb-40 mb-5">
             <div className="flex flex-col lg:order-1 order-2 mt-3">
                 <h3 className="text-black font-medium lg:text-5xl lg:leading-[52px] text-[32px] leading-10 mb-6 tracking-tighter max-w-[252px]">
-                    Get started now
+                    {t("store_buttons.get_started_now")}
                 </h3>
                 <StoreButtons col/>
             </div>

@@ -4,8 +4,10 @@ import MotherAndSon from '@/images/picturePeople/motherAndSon.webp';
 import BoyInWheelChair from '@/images/picturePeople/menInWheelChair.webp';
 import OrganStructure from '@/images/picturePeople/OrganStructure.webp';
 import WomanWalking from '@/images/picturePeople/WomanWalking.webp';
+import { useTranslations } from "next-intl";
 
 export default function BenefitBlocks() {
+  const t = useTranslations('HomePage');
 
   return (
     <div className="grid sm:grid-cols-2 grid-cols-1 gap-6">
@@ -13,7 +15,7 @@ export default function BenefitBlocks() {
       <div className="bg-blueBg p-6 rounded-xl">
         <div className="bg-[#0090F3] p-6 rounded-xl mb-4 flex items-center">
           <p className="text-white lg:text-[32px] lg:leading-[44px] text-2xl font-normal tracking-tighter">
-            With the Nelaton app, you can track more than 10 key parameters for your bladder health
+            {t("bladder_catheterization.list.1")}
           </p>
         </div>
         <Image
@@ -31,7 +33,7 @@ export default function BenefitBlocks() {
         />
         <div className="bg-yellow p-6 rounded-xl mt-4 flex items-center">
           <p className="text-black lg:text-[32px] lg:leading-[44px] text-2xl font-normal tracking-tighter">
-            Prompt response to infection symptoms significantly<span className="font-bold"> reduces the risk</span> of urinary tract complications.
+            {t("bladder_catheterization.list.2.first_sentence")}<span className="font-bold"> {t("bladder_catheterization.list.2.bold_text")}</span> {t("bladder_catheterization.list.2.third_sentence")}.
           </p>
         </div>
       </div>
@@ -44,7 +46,7 @@ export default function BenefitBlocks() {
         />
         <div className="bg-yellow p-6 rounded-xl mt-4 flex items-center">
           <p className="text-black lg:text-[32px] lg:leading-[44px] text-2xl font-normal tracking-tighter">
-            Adherence to catheterization intervals reduces the risk of urinary tract infections <span className="font-bold">by 84.8%</span>
+            {t("bladder_catheterization.list.4.first_sentence")} <span className="font-bold">{t("bladder_catheterization.list.4.bold_text")}</span>
           </p>
         </div>
       </div>
@@ -52,7 +54,7 @@ export default function BenefitBlocks() {
       <div className="bg-blueBg p-6 rounded-xl inline-grid">
         <div className="bg-[#0090F3] p-6 rounded-xl mb-4 flex items-center">
           <p className="text-white lg:text-[32px] lg:leading-[44px] text-2xl font-normal tracking-tighter">
-            Taking control of <span className="font-bold"><br/> self-catheterization</span> has never been easier.
+            {t("bladder_catheterization.list.3.first_sentence")} <span className="font-bold"><br/> {t("bladder_catheterization.list.3.bold_text")}</span> {t("bladder_catheterization.list.3.third_sentence")}
           </p>
         </div>
         <Image

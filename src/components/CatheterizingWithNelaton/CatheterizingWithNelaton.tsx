@@ -2,8 +2,11 @@ import Image from "next/image";
 import JournalScreenShot from '@/images/screenshots/screenShotPdfJournal.webp';
 import DecorArrow from '@/images/icons/decorArrow.svg';
 import JournalScreenShotIos from '@/images/screenshots/journalScreenShotIos.webp';
+import { useTranslations } from "next-intl";
 
 export default function CatheterizingWithNelaton() {
+    const t = useTranslations('HomePage');
+    
   return (
   <section className="bg-greenBg lg:py-[100px] py-12">
     <div className="centred-view">
@@ -26,10 +29,10 @@ export default function CatheterizingWithNelaton() {
                 <div className="flex flex-col justify-between relative">
                     <div>
                         <h2 className="lg:text-5xl text-3xl lg:leading-[61px] font-medium tracking-tighter mb-4 max-w-[511px]">
-                            Catheterizing with the <span className="text-blue font-bold">Nelaton app</span> is convenient!
+                            {t("catheterizing_with_the_nelaton_app_is_convenient.catheterizing_with_the")} <span className="text-blue font-bold">{t("bold_nelaton_app")}</span> {t("catheterizing_with_the_nelaton_app_is_convenient.is_convenient")}
                         </h2>
                         <p className="lg:text-2xl text-xl font-normal max-w-[400px]">
-                            All your statistics are gathered in one place.
+                           {t("all_your_statistics_are_gathered_in_one_place")}
                         </p>
                     </div>
                     <Image
@@ -38,7 +41,9 @@ export default function CatheterizingWithNelaton() {
                         className="hidden lg:flex animate-bounce"
                     />
                     <div className="px-9 py-4 bg-yellow rounded-lg max-w-[560px] mt-6 animate-glow">
-                        <p className="lg:text-2xl text-base font-medium tracking-tighter">You can also download or share a PDF version.</p>
+                        <p className="lg:text-2xl text-base font-medium tracking-tighter">
+                            {t("you_can_also_download_or_share_a_pdf_version")}
+                        </p>
                     </div>
                 </div>
                 <Image

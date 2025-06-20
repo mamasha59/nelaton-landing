@@ -1,0 +1,292 @@
+{
+  "HomePage": {
+    "nav": {
+      "features": "Funktionen",
+      "FAQ": "FAQ",
+      "contacts": "Kontakte",
+      "select_preferred_language": "Bevorzugte Sprache auswählen",
+      "not_available_yet": "Noch nicht verfügbar"
+    },
+    "header": {
+      "your": "Ihr",
+      "bold_smart_assistant": "Intelligenter Assistent",
+      "slogan": "für die Selbstkatheterisierung!",
+      "built_on_real_patient_needs": "Basierend auf den tatsächlichen Bedürfnissen der Patienten",
+      "european_product": {
+        "bold_2025": "2025",
+        "european_product": "Europäisches Produkt"
+      }
+    },
+    "store_buttons": {
+      "get_started_now": "Jetzt starten"
+    },
+    "bladder_health": {
+      "title_bold": "Blasengesundheit",
+      "description": "Selbstkatheterisierung einfach & rechtzeitig",
+      "list": {
+        "1": "Intelligenter Intervall-Timer für die genaue Einhaltung der Empfehlungen Ihres Arztes.",
+        "2": "Katheter-Tracking: Sie wissen immer, wie viele noch übrig sind & wann Sie nachbestellen müssen.",
+        "3": "Unterstützung für die Überwachung des Flüssigkeitshaushalts.",
+        "4": "Praktisches Tagebuch zur Selbstkatheterisierung (Miktionstagebuch).",
+        "5": "Personalisierte Erinnerungen.",
+        "6": "Kompatibel mit allen Harnkathetern zur Selbstkatheterisierung."
+      }
+    },
+    "bold_nelaton_app": "Nelaton-App",
+    "how_the_nelaton_app_works": "So funktioniert die Nelaton-App",
+    "hydration": {
+      "title": "Verfolgen und erhalten Sie eine optimale Hydration mit",
+      "list": {
+        "1": "Erfassen Sie einfach Ihre Flüssigkeitsaufnahme und Urinausscheidung.",
+        "2": "Überwachen Sie jederzeit Ihre Hydrationsbilanz.",
+        "3": "Verwalten Sie Zeitpunkt und Menge der Flüssigkeitsaufnahme, um ein optimales Hydrationsniveau zu erreichen."
+      }
+    },
+    "inventory_tracking": {
+      "title": {
+        "bold_catheter_inventory_tracking": "Katheter-Bestandsverwaltung –",
+        "description": " hilft Ihnen, immer die genaue Restmenge zu kennen und rechtzeitig nachzubestellen"
+      },
+      "list": {
+        "1": {
+          "inventory_management": "Bestandsverwaltung",
+          "automatic_deduction_of_catheters_after_each_use": "Automatischer Abzug der Katheter nach jeder Verwendung."
+        },
+        "2": {
+          "plan_ahead": "Vorausplanen",
+          "calculate_how_many_catheters": "Berechnen Sie, wie viele Katheter Sie für eine Reise oder einen Urlaub benötigen."
+        },
+        "3": {
+          "reminders": "Erinnerungen",
+          "notifications": "Vermeiden Sie es, Katheter zum falschen Zeitpunkt zu verlieren."
+        }
+      }
+    },
+    "bladder_catheterization": {
+      "title": {
+        "systematic_approach": "Ein systematischer Ansatz für die",
+        "bold_self_description": "Blasenkatheterisierung"
+      },
+      "list": {
+        "1": "Mit der Nelaton-App können Sie mehr als 10 wichtige Parameter für Ihre Blasengesundheit verfolgen.",
+        "2": {
+          "first_sentence": "Eine schnelle Reaktion auf Infektionssymptome",
+          "bold_text": "verringert das Risiko",
+          "third_sentence": "von Komplikationen der Harnwege erheblich."
+        },
+        "3": {
+          "first_sentence": "Die Kontrolle über die",
+          "bold_text": "Selbstkatheterisierung",
+          "third_sentence": "war noch nie so einfach."
+        },
+        "4": {
+          "first_sentence": "Die Einhaltung der Katheterisierungsintervalle verringert das Risiko von Harnwegsinfektionen",
+          "bold_text": "um 84,8 %"
+        }
+      }
+    },
+    "catheterizing_with_the_nelaton_app_is_convenient": {
+      "catheterizing_with_the": "Katheterisieren mit der",
+      "is_convenient": "ist bequem!"
+    },
+    "all_your_statistics_are_gathered_in_one_place": "Alle Ihre Statistiken sind an einem Ort gesammelt.",
+    "you_can_also_download_or_share_a_pdf_version": "Sie können auch eine PDF-Version herunterladen oder teilen.",
+    "what_our_users_say": {
+      "title": "Was unsere Nutzer sagen",
+      "list": {
+        "1": {
+          "name": "Antônio Silva",
+          "feedback": "Die App hat sich schnell auf meine Bedürfnisse eingestellt – im Grunde hat sie mir nur ein paar Fragen gestellt und den Rest erledigt. Ehrlich gesagt, sie ist super praktisch und macht das Leben wirklich einfacher."
+        },
+        "2": {
+          "name": "Camille",
+          "feedback": "Als mir gesagt wurde, dass ich mich regelmäßig katheterisieren muss, war ich verängstigt. Aber ich bin so froh, dass ich diese App gefunden habe – sie hat mir geholfen, mich zu beruhigen und das Gefühl zu geben, alles unter Kontrolle zu haben."
+        },
+        "3": {
+          "name": "Viktor",
+          "feedback": "Im Krankenhaus wurde mir gesagt, ich solle ein Miktionstagebuch führen und bekam sogar einen Stapel Papierformulare. Das in der App zu machen, ist so viel einfacher und bequemer."
+        }
+      }
+    },
+    "questions": {
+      "title": "Häufige Fragen zur intermittierenden Selbstkatheterisierung (ISK) und unserer App",
+      "list": {
+        "1": {
+          "title": "Wie funktioniert der Timer auf dem Hauptbildschirm?",
+          "answer": "Der Timer zählt die Zeit bis zur nächsten Katheterisierung herunter. Sie müssen vor Ablauf des Timers katheterisieren, um den von Ihrem Arzt festgelegten Zeitplan einzuhalten. Wenn Sie die geplante Katheterisierung verpassen, zeigt der Timer die seit der letzten Katheterisierung vergangene Zeit an. Nach jeder Katheterisierung gehen Sie in die App und drücken die Schaltfläche 'Fertig', um den Countdown für die nächste Katheterisierung zu starten."
+        },
+        "2": {
+          "title": "Wie oft muss ich katheterisieren?",
+          "answer": "Die Häufigkeit der Katheterisierung wird von Ihrem Arzt entsprechend Ihrem Zustand festgelegt. Es ist auch wichtig zu beachten, dass sich die Häufigkeit ändern kann. Wir helfen Ihnen, Ihre Urinationsgewohnheiten einfach zu verfolgen, damit Ihr Arzt das Intervall zwischen den Katheterisierungen bei Bedarf anpassen kann. Es wird empfohlen, die Selbstkatheterisierung regelmäßig über den Tag hinweg durchzuführen, abhängig von der Menge der aufgenommenen Flüssigkeit und den Empfehlungen Ihres Arztes. Sie müssen möglicherweise alle 4–6 Stunden katheterisieren, damit das Urinvolumen in der Blase 400 ml nicht überschreitet. Wenn Sie nicht häufig genug katheterisieren und Ihre Blase überfüllt ist, steigt das Risiko von Harnwegsinfektionen und Inkontinenz. Eine längere Überdehnung der Blase kann zu schweren Nierenschäden führen."
+        },
+        "3": {
+          "title": "Wie viel Wasser sollte ich trinken?",
+          "answer": "Erwachsene sollten mindestens 1,5 Liter Wasser pro Tag trinken. Dies ist nur eine Empfehlung, und Sie sollten Ihren Arzt konsultieren, um zu wissen, wie viel Wasser für Sie richtig ist. Denken Sie daran, Wasser ist das beste Getränk. Es wird empfohlen, koffeinhaltige Getränke zu vermeiden, da Koffein die Blase reizt. Ausreichend Wasser hilft, das Harnsystem zu spülen. Die Nelaton-App hilft Ihnen, Ihren Hydrationsstatus zu überwachen. Sie können Ihre Wasseraufnahme auf dem Hauptbildschirm mit der Schaltfläche '+Getrunken' erfassen, und auf dem Bildschirm 'Wasserbilanz' können Sie Ihre Flüssigkeitsaufnahme und Urinausscheidung überwachen."
+        },
+        "4": {
+          "title": "Wie kann ich Harnwegsinfektionen vorbeugen?",
+          "answer": "Achten Sie auf Hygiene, entleeren Sie Ihre Blase regelmäßig und vollständig und trinken Sie ausreichend Flüssigkeit. Wir empfehlen, mindestens einmal im Monat unsere Zufriedenheitsumfrage zur Katheterisierung auszufüllen und mit Ihrem Arzt zu teilen."
+        },
+        "5": {
+          "title": "Muss ich nachts katheterisieren?",
+          "answer": "In der Regel reicht es aus, vor dem Schlafengehen und direkt nach dem Aufwachen zu katheterisieren und dann tagsüber in Intervallen fortzufahren. Ihr Arzt wird Ihnen jedoch das Beste für Sie empfehlen. Die App hilft Ihnen, jeden Zeitplan und jedes Intervall der Katheterisierung einzuhalten. Sie können eine nächtliche Katheterisierung einrichten, das Intervall nachts einhalten oder sogar die nächtliche Katheterisierung deaktivieren, indem Sie den Schlafmodus aktivieren. Es hängt alles von den Anweisungen Ihres Arztes ab, und unsere App ist bereit, Sie bei jedem Zeitplan zu unterstützen."
+        },
+        "6": {
+          "title": "Wie verfolge ich den Katheterverbrauch?",
+          "answer": "Die App verfolgt den Katheterverbrauch automatisch. Sie müssen angeben, wie viele Katheter Sie haben und ob Sie während der Katheterisierung zusätzliche Hilfsmittel verwenden (z. B. antiseptische Tücher, Urinbeutel, Handschuhe usw.). Dies hilft Ihnen, den Überblick zu behalten, wie viele Katheter und notwendige Hilfsmittel Sie haben, und diese rechtzeitig nachzufüllen. Jedes Mal, wenn Sie die Schaltfläche 'Fertig' drücken, zieht die App die entsprechende Menge an Hilfsmitteln ab. Wenn Sie Katheter und andere Hilfsmittel kaufen, vergessen Sie nicht, die Menge in der App zu aktualisieren."
+        },
+        "7": {
+          "title": "Was muss ich bei Auslandsreisen beachten?",
+          "answer": "Nehmen Sie genügend Katheter mit und tragen Sie eine ärztliche Bescheinigung über deren Notwendigkeit bei sich. Diese Bescheinigung hilft Ihnen, Sicherheitskontrollen an Flughäfen oder anderen Orten mit erhöhten Sicherheitsmaßnahmen zu passieren. Im Tab 'Katheterverbrauch' können Sie berechnen, wie viele Katheter Sie je nach Ihrem durchschnittlichen Verbrauch mitnehmen müssen."
+        },
+        "8": {
+          "title": "Was soll ich tun, wenn eine Funktion in der App fehlt?",
+          "answer": "Schreiben Sie uns über das Formular auf dieser Seite. Beschreiben Sie die Situation, auf die Sie gestoßen sind, und welche Funktionalität Ihnen in der Nelaton-App fehlt. Wir werden Ihre Vorschläge in zukünftigen Updates berücksichtigen."
+        }
+      }
+    },
+    "join_our_community": "Treten Sie unserer Community bei",
+    "privacy_policy": "Datenschutzerklärung",
+    "terms_of_use": "Nutzungsbedingungen",
+    "ulibkin_all_rights_reserved": "Ulibkin OÜ – Alle Rechte vorbehalten"
+  },
+  "PrivacyPage": {
+    "privacy_policy": "Datenschutzrichtlinie",
+    "introduction": "Einführung",
+    "description": "Die Anwendung wird von {companyName} entwickelt, die für die Einhaltung dieser Datenschutzrichtlinie verantwortlich ist.",
+    "data_we_process": "Daten, die wir verarbeiten",
+    "data_stored_on_your_device": "Daten, die auf Ihrem Gerät gespeichert werden",
+    "2_1_description": "Persönliche und medizinische Daten, die Sie eingeben, um die Funktionen der Anwendung zu nutzen, z. B. Erinnerungen zu generieren und Berichte zu erstellen.",
+    "data_transmitted": "Übertragene Daten",
+    "2_2_description": "Wir übertragen minimale technische Daten an Dienste, die die Nutzung der Anwendung analysieren, Abonnements verwalten und die Funktionalität verbessern.",
+    "2_2_list": {
+      "1": {
+        "bold_text": "Gerätekennung",
+        "description": "Wird für Analysen zur App-Nutzung und Werbekampagnen verwendet."
+      },
+      "2": {
+        "bold_text": "IP-Adresse",
+        "description": "Wird verwendet, um die Region des Nutzers zu statistischen Zwecken zu bestimmen."
+      },
+      "3": {
+        "bold_text": "App-Interaktionsdaten",
+        "description": "Enthält Aktionen innerhalb der App zur Verbesserung der Nutzererfahrung (z. B. häufig genutzte Funktionen)."
+      },
+      "4": {
+        "bold_text": "Gerätetechnische Daten",
+        "description": "Enthält Betriebssystemversion, Gerätemodell und andere Parameter, die für die Leistungsanalyse der App erforderlich sind."
+      },
+      "5": {
+        "bold_text": "App-Version",
+        "description": "Hilft, die Kompatibilität der App mit Geräten nachzuverfolgen."
+      },
+      "6": {
+        "bold_text": "Systemsprache",
+        "description": "Wird verwendet, um Benutzerpräferenzen zu analysieren und die Benutzeroberfläche zu lokalisieren."
+      },
+      "description": "Diese Daten werden ausschließlich für die oben genannten Zwecke verwendet und enthalten keine persönlichen Informationen wie Name, E-Mail oder medizinische Daten, die in die Anwendung eingegeben wurden."
+    },
+    "where_your_data_is_stored": "Wo Ihre Daten gespeichert werden",
+    "3_description": "Alle von Ihnen eingegebenen Daten werden ausschließlich auf Ihrem Gerät gespeichert.",
+    "purpose_of_data_processing": "Zweck der Datenverarbeitung",
+    "4_description": "Wir verarbeiten Daten zu folgenden Zwecken",
+    "4_list": {
+      "1": "Erstellen von Erinnerungen.",
+      "2": "Erstellen von Berichten.",
+      "3": "Verwalten von Abonnements.",
+      "4": "Analyse der Interaktionen mit der Anwendung und Verbesserung ihrer Funktionalität."
+    },
+    "your_consent": "Ihre Zustimmung",
+    "5_description": {
+      "1": "Die Installation und Nutzung der Anwendung gilt als Zustimmung zu dieser Datenschutzrichtlinie.",
+      "2": "Wenn Sie mit dieser Datenschutzrichtlinie nicht einverstanden sind, deinstallieren Sie bitte die Anwendung und stellen Sie deren Nutzung ein."
+    },
+    "access_for_all_ages": "Zugang für alle Altersgruppen",
+    "6_description": "Die Anwendung ist für Nutzer aller Altersgruppen verfügbar.",
+    "limitation_of_liability": "Haftungsbeschränkung",
+    "7_description": "ist ein Tool, das Nutzern hilft, die Empfehlungen ihres Gesundheitsdienstleisters einzuhalten.",
+    "7_list": {
+      "1": {
+        "bold_text": "Ersetzt keine professionelle medizinische Beratung.",
+        "description": "Nutzer sollten sich ausschließlich auf die Empfehlungen ihres Gesundheitsdienstleisters verlassen."
+      },
+      "2": {
+        "bold_text": "Keine Haftung für die Nutzung der Anwendung.",
+        "description": "Durch die Installation und Nutzung der Anwendung akzeptieren die Nutzer alle damit verbundenen Risiken."
+      },
+      "you_acknowledge_that": "Sie erkennen an",
+      "the_application_is_not_a_medical_device": "Die Anwendung ist kein Medizinprodukt.",
+      "you_cannot_file_legal_claims": "Sie können keine rechtlichen Ansprüche gegen Ulibkin OÜ oder Dritte geltend machen, die an der Bereitstellung der Anwendung beteiligt sind."
+    },
+    "data_security": "Datensicherheit",
+    "8_description": "Wir schützen Ihre Daten mit modernen Technologien.",
+    "8_list": {
+      "1": {
+        "bold_text": "Datenverschlüsselung",
+        "description": "Während der Übertragung an Dienste, die die Funktionalität der Anwendung unterstützen."
+      },
+      "2": "Alle von Ihnen eingegebenen Daten sind nur für Sie verfügbar und werden auf Ihrem Gerät gespeichert."
+    },
+    "8_note": "Ihre Zahlungsdaten werden vom App Store und Google Play verarbeitet, wir haben keinen Zugriff darauf.",
+    "your_rights": "Ihre Rechte",
+    "9_description": "Da Ihre Daten ausschließlich auf Ihrem Gerät gespeichert werden und nicht an den Entwickler übertragen werden, haben Sie die volle Kontrolle darüber.",
+    "bold_deleting_data": "Daten löschen",
+    "deleting_data_description": "Sie können alle eingegebenen Daten über die Einstellungen der App löschen.",
+    "9_list": {
+      "1": "Nach dem Löschen können diese Daten nicht wiederhergestellt werden.",
+      "2": "Durch das Löschen Ihrer Daten wird die Anwendung in den Ursprungszustand zurückgesetzt, als wäre sie neu installiert.",
+      "3": "Wenn Sie Informationen behalten möchten, exportieren Sie bitte die benötigten Daten (z. B. als PDF-Bericht), bevor Sie sie löschen."
+    },
+    "bold_opting_out_of_analytics": "Opt-out von Analysediensten",
+    "opting_out_of_analytics_description": "Sie können die Nutzung von Analysediensten über Ihre Geräteeinstellungen deaktivieren.",
+    "bold_data_control": "Datenkontrolle",
+    "data_control_description": "Da Ihre Daten auf Ihrem Gerät verbleiben, haben nur Sie Zugriff darauf.",
+    "9_note": "Wenn Sie Fragen zu Ihren Rechten haben oder weitere Informationen wünschen, kontaktieren Sie uns unter: support@nelaton.app.",
+    "links_to_third_party_resources": "Links zu Drittanbieter-Ressourcen",
+    "10_description": "Die Anwendung kann Links zu Websites oder Diensten Dritter enthalten.",
+    "changes_to_this_policy": "Änderungen an dieser Richtlinie",
+    "11_description": "Wir können diese Datenschutzrichtlinie aktualisieren.",
+    "contact_us": "Kontaktieren Sie uns",
+    "12_description": "Wenn Sie Fragen oder Anfragen haben, kontaktieren Sie uns unter: support@nelaton.app."
+  },
+  "PolicyPage": {
+    "terms_title": "Nutzungsbedingungen",
+    "terms_last_updated": "Zuletzt aktualisiert: 29.12.2024",
+    "terms_intro": {
+      "first_sentence": "Bitte lesen Sie diese Nutzungsbedingungen (\"Bedingungen\") sorgfältig durch, bevor Sie die von Ulibkin OÜ (\"uns\", \"wir\", \"unser\") betriebene Nelaton-Anwendung (\"Anwendung\") verwenden.",
+      "link": "Datenschutzrichtlinie",
+      "second_sentence": "Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, dürfen Sie nicht auf die Anwendung zugreifen oder sie verwenden."
+    },
+    "acceptance_title": "Annahme der Bedingungen",
+    "acceptance_text": "Durch die Installation, den Zugriff auf oder die Nutzung der Anwendung bestätigen Sie, dass Sie mindestens 13 Jahre alt sind und erklären sich damit einverstanden, diese Bedingungen sowie alle geltenden Gesetze und Vorschriften einzuhalten. Kinder unter 18 Jahren dürfen die Anwendung nur mit Zustimmung und unter Aufsicht ihrer Eltern oder Erziehungsberechtigten nutzen. Eltern oder Erziehungsberechtigte sind dafür verantwortlich, dass die Anwendung gemäß diesen Bedingungen genutzt wird.",
+    "usage_title": "Nutzung der Anwendung",
+    "usage_text": "Die Anwendung erfordert nicht die Erstellung von Benutzerkonten. Nutzer installieren die Anwendung, erwerben gegebenenfalls Abonnements und speichern alle persönlichen Daten lokal auf ihren Geräten. Nutzer sind für die Sicherheit ihrer Geräte und der darin gespeicherten Daten verantwortlich. Wenn Sie einen unbefugten Zugriff auf Ihr Gerät oder Ihre Daten vermuten, werden Sie aufgefordert, geeignete Maßnahmen zu ergreifen, um Ihre Informationen zu schützen.",
+    "data_usage_title": "Datennutzung",
+    "data_usage_text": "Durch die Nutzung der Anwendung stimmen Sie der Verarbeitung Ihrer Daten gemäß unserer Datenschutzrichtlinie zu. Die Anwendung gibt keine personenbezogenen Daten an Dritte weiter, außer an notwendige Analyse- und Abonnementverwaltungsdienste, einschließlich AppsFlyer, RevenueCat, Amplitude und Google Analytics. Alle Benutzerdaten werden lokal auf dem Gerät des Benutzers gespeichert, es sei denn, sie werden für die Funktionalität benötigt.",
+    "prohibited_title": "Verbotene Nutzungen",
+    "prohibited_list": [
+      "Stören Sie den Betrieb der Anwendung.",
+      "Verwenden Sie die Anwendung für rechtswidrige Zwecke.",
+      "Modifizieren, kopieren oder reverse-engineeren Sie die Anwendung.",
+      "Versuchen Sie, unbefugten Zugriff auf einen Teil der Anwendung oder verwandte Systeme zu erlangen.",
+      "Verwenden Sie die Anwendung, um anderen zu schaden oder die Datensicherheit zu gefährden.",
+      "Verstoßen Sie gegen geltende lokale Gesetze bei der Nutzung der Anwendung."
+    ],
+    "no_warranty_title": "Keine Garantie",
+    "no_warranty_text": "Die Anwendung wird \"wie sie ist\" ohne jegliche ausdrückliche oder stillschweigende Garantie bereitgestellt. Wir garantieren nicht, dass die Anwendung fehlerfrei oder unterbrechungsfrei ist.",
+    "medical_title": "Medizinischer Haftungsausschluss",
+    "medical_text": "Die Anwendung ist ein Hilfsmittel, das Nutzern dabei hilft, medizinische Empfehlungen zu befolgen. Sie stellt keine medizinische Beratung dar und ersetzt keine professionelle ärztliche Konsultation. Nutzer müssen sich auf die Anweisungen ihres Arztes verlassen. Durch die Nutzung der Anwendung erkennen Sie an und stimmen zu, dass Ulibkin OÜ nicht für medizinische Ergebnisse, Komplikationen oder Probleme haftet, die sich aus der Nutzung der Anwendung ergeben. Alle medizinischen Entscheidungen sollten in Absprache mit einem zugelassenen Arzt getroffen werden. Sie sind allein verantwortlich für Ihre Nutzung der Anwendung und alle daraus resultierenden Konsequenzen.",
+    "liability_title": "Haftungsbeschränkung",
+    "liability_text": "Im gesetzlich zulässigen Umfang haftet Ulibkin OÜ nicht für Schäden, die sich aus Ihrer Nutzung oder Unfähigkeit zur Nutzung der Anwendung ergeben. Sie erklären sich damit einverstanden, Ulibkin OÜ von jeglichen Ansprüchen oder Haftungen freizustellen, die sich aus Ihrer Nutzung der Anwendung ergeben.",
+    "data_deletion_title": "Löschen von Benutzerdaten",
+    "data_deletion_text": "Benutzer können ihre Daten jederzeit über die Einstellungen in der Anwendung löschen. Das Löschen von Daten kann zum Verlust des Zugriffs auf bestimmte Funktionen führen. Benutzer übernehmen die volle Verantwortung für alle Folgen der Datenlöschung.",
+    "ip_title": "Geistiges Eigentum",
+    "ip_text": "Alle Inhalte innerhalb der Anwendung sind Eigentum von Ulibkin OÜ oder deren Lizenzgebern. Sie dürfen die Anwendung ohne ausdrückliche Genehmigung nicht vervielfältigen, verbreiten oder abgeleitete Werke erstellen.",
+    "changes_title": "Änderungen der Bedingungen",
+    "changes_text": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit nach eigenem Ermessen zu aktualisieren oder zu ändern. Alle Aktualisierungen werden auf dieser Seite mit dem Datum \"Zuletzt aktualisiert\" veröffentlicht. Es liegt in Ihrer Verantwortung, diese Bedingungen regelmäßig auf Änderungen zu überprüfen. Die fortgesetzte Nutzung der Anwendung nach Änderungen gilt als Annahme der geänderten Bedingungen. Benutzer werden auch bei ihrem nächsten Zugriff auf die Anwendung über wesentliche Änderungen dieser Bedingungen informiert.",
+    "law_title": "Anwendbares Recht",
+    "law_text": "Diese Bedingungen unterliegen dem Recht Estlands. Alle Streitigkeiten, die sich aus diesen Bedingungen ergeben, werden vor den Gerichten Estlands entschieden.",
+    "contact": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter support@nelaton.app.",
+    "slogan": "Ihr Selbstkatheterisierungsassistent: Verfolgen, verwalten und protokollieren Sie mit Leichtigkeit"
+  }
+}

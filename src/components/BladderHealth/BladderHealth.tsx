@@ -4,33 +4,35 @@ import Image from "next/image";
 import StoreButtons from "../StoreButtons/StoreButtons";
 import iPhoneScreenShot1 from '@/images/screenshots/iPhoneScreenShot1.webp';
 import CheckedIcon from "@/IconsComponent/CheckedIcon";
+import { useTranslations } from "next-intl";
 
 interface BladderHealthProps {
     featuresBlock: RefObject<HTMLDivElement | null>;
 }
 
 export default function BladderHealth({featuresBlock}:BladderHealthProps) {
+    const t = useTranslations('HomePage');
 
     const benefitsArray: string[] = [
-        'Smart interval timer for precise adherence to your doctor’s recommendations.',
-        'Catheter tracking: always know how many are left & when to restock.',
-        'Support for fluid balance monitoring.',
-        'Convenient self-catheterization journal (urination diary).',
-        'Personalized reminders.',
-        'Compatible with all urinary catheters for self-catheterization.'
+        'bladder_health.list.1',
+        'bladder_health.list.2',
+        'bladder_health.list.3',
+        'bladder_health.list.4',
+        'bladder_health.list.5',
+        'bladder_health.list.6'
     ];
 
   return (
     <section ref={featuresBlock} className="pt-[39px] lg:pt-[132px]">
         <div className="centred-view flex-col">
             <h2 className="font-semibold lg:text-5xl text-[32px] leading-[40px] text-black text-center mx-auto lg:mb-8 mb-6 tracking-tighter">
-                Your <span className="text-blue">Bladder Health</span>
+                {t("header.your", {ending: 'е'})} <span className="text-blue">{t("bladder_health.title_bold")}</span>
             </h2>
             <div className="bg-greenBg rounded-2xl lg:py-12 lg:px-10 py-8 px-[21px] flex flex-row flex-wrap-reverse justify-center lg:gap-[52px] gap-6">
                 <div className="flex flex-col flex-1 w-[80%]">
                     <div className="rounded-lg bg-white py-10 px-8 mb-[30px]">
                         <h2 className="text-black font-medium lg:text-4xl text-[28px] leading-9 mb-4 tracking-tighter">
-                            Self-catheterization made easy & timely:
+                            {t("bladder_health.description")}:
                         </h2>
                         <ul className="text-black font-normal text-base flex flex-col gap-3">
                             {benefitsArray.map((item, index) => 
@@ -38,13 +40,13 @@ export default function BladderHealth({featuresBlock}:BladderHealthProps) {
                                     <div className="flex">
                                         <CheckedIcon fill={'#292D32'} size={21}/>
                                     </div>
-                                    {item}
+                                    {t(item)}
                                 </li>
                             )}
                         </ul>
                     </div>
                     <div className="pl-9">
-                        <p className="text-black font-medium text-2xl mb-4">Get started now</p>
+                        <p className="text-black font-medium text-2xl mb-4">{t("store_buttons.get_started_now")}</p>
                         <StoreButtons/>
                     </div>
                 </div>

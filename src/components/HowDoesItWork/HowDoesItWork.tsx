@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { RefObject } from "react";
 
 interface HowDoesItWorkProps {
@@ -5,10 +6,11 @@ interface HowDoesItWorkProps {
 }
 
 export default function HowDoesItWork({ ref }: HowDoesItWorkProps) {
+  const t = useTranslations('HomePage');
   return (
     <section ref={ref} className="lg:my-[32px] my-12">
       <h2 className="text-black font-semibold lg:text-[64px] lg:leading-[72px] text-[32px] leading-[40px] text-center lg:mb-8 mb-6 tracking-tighter">
-        How the Nelaton App Works
+        {t("how_the_nelaton_app_works")}
       </h2>
       <div className="centred-view">
         <div className="relative w-full pb-[56.25%] h-0">

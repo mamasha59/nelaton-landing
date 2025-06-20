@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
-import "./globals.css";
-import Footer from "@/components/Footer/Footer";
+import "../globals.css";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from "next/script";
 import {generateSchema} from '@/utils/generateSchema';
+import {NextIntlClientProvider, hasLocale} from 'next-intl';
+import {notFound} from 'next/navigation';
+import {routing} from '@/i18n/routing';
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '600', '700'],
@@ -16,11 +18,16 @@ export const metadata: Metadata = {
   description: "Nelaton App: Your Smart Assistant for Self-Catheterization. Track catheterization intervals, manage supplies, and log with ease. Get started today!",
 };
 
-export default async function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
+export default async function RootLayout({children, params}: Readonly<{children: React.ReactNode, params: Promise<{locale: string}>}>) {
   const schema = await generateSchema();
 
+  const {locale} = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <Script
         id="gtm-script"
         strategy="afterInteractive"
@@ -43,8 +50,7 @@ export default async function RootLayout({children}: Readonly<{children: React.R
         }}
       />
       <body className={`${dmSans.className} antialiased`}>
-        {children}
-        <Footer/>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
       <GoogleAnalytics gaId="G-B6Z9MJ4EBF"/>
     </html>

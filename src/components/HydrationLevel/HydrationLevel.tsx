@@ -2,12 +2,15 @@ import Image from "next/image";
 import HappyPeople from '@/images/picturePeople/happyPeople.webp';
 import iPhoneScreenshots3 from '@/images/screenshots/iPhoneScreenshots3.webp';
 import CheckedIcon from "@/IconsComponent/CheckedIcon";
+import { useTranslations } from "next-intl";
 
 export default function HydrationLevel() {
+    const t = useTranslations('HomePage');
+
     const benefits = [
-        'Easily log your fluid intake and urine output.',
-        'Monitor your hydration balance at any time.',
-        'Manage the timing and volume of fluid intake to achieve optimal hydration levels.'
+        "hydration.list.1",
+        'hydration.list.2',
+        'hydration.list.3'
     ];
 
   return (
@@ -16,8 +19,8 @@ export default function HydrationLevel() {
 
         <div className="centred-view flex-col relative z-10">
             <div className="lg:my-[66px] my-6">
-                <h2 className="text-black font-semibold lg:text-5xl text-[32px] leading-[40px] w-full text-center lg:mb-9 mb-6">
-                    Track and Maintain Optimal Hydration <br/> with <span className="text-blue italic">Nelaton app</span>
+                <h2 className="text-black font-semibold lg:text-5xl text-[32px] leading-[40px] w-[80%] mx-auto text-center lg:mb-9 mb-6">
+                    {t("hydration.title")} <span className="text-blue italic">{t("bold_nelaton_app")}</span>
                 </h2>
                 <div className="flex flex-row flex-wrap w-full justify-center gap-7 items-center">
                     <div className="flex lg:order-1 order-2">
@@ -40,7 +43,7 @@ export default function HydrationLevel() {
                                         <div className="flex">
                                             <CheckedIcon fill={'#292D32'} size={21}/>
                                         </div>
-                                        {item}
+                                        {t(item)}
                                     </li>
                                 )}
                             </ul>
