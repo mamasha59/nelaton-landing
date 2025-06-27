@@ -86,7 +86,7 @@ const languages = [
       title: '한국어',
       selected: false,
       icon: 'https://catamphetamine.gitlab.io/country-flag-icons/3x2/KR.svg',
-      isAvailable: false,
+      isAvailable: true,
     },
     {
       id: 'nl',
