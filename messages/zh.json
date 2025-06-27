@@ -1,0 +1,307 @@
+{
+  "HomePage": {
+    "nav": {
+    "features": "功能",
+    "FAQ": "常见问题",
+    "contacts": "联系方式",
+    "select_preferred_language": "选择首选语言",
+    "not_available_yet": "尚不可用"
+    },
+    "header": {
+        "your": "您的",
+        "bold_smart_assistant": "智能助手",
+        "slogan": "用于自我导尿！",
+        "built_on_real_patient_needs": "基于真实患者需求打造",
+        "european_product": {
+            "bold_2025": "2025",
+            "european_product": "欧洲产品"
+        }
+    },
+    "store_buttons": {
+        "get_started_now": "立即开始"
+    },
+    "bladder_health": {
+        "title_bold": "膀胱健康",
+        "description": "让自我导尿变得简单和及时",
+        "list": {
+            "1": "智能间隔计时器，精准遵循医生建议。",
+            "2": "导尿管追踪：随时了解剩余数量及补货时间。",
+            "3": "支持液体平衡监测。",
+            "4": "便捷的自我导尿日志（排尿日记）。",
+            "5": "个性化提醒。",
+            "6": "兼容所有自我导尿用导尿管。"
+        }
+    },
+    "bold_nelaton_app": "Nelaton 应用",
+    "how_the_nelaton_app_works": "Nelaton 应用如何工作",
+    "hydration": {
+        "title": "通过以下方式跟踪并保持最佳水分",
+        "list": {
+            "1": "轻松记录您的液体摄入量和尿液排出量。",
+            "2": "随时监测您的水分平衡。",
+            "3": "管理液体摄入的时间和量，以实现最佳水分水平。"
+        }
+    },
+    "inventory_tracking": {
+        "title": {
+            "bold_catheter_inventory_tracking": "导尿管库存追踪 -",
+            "description": "帮助您随时了解剩余数量并及时计划补货"
+        },
+        "list": {
+            "1": {
+                "inventory_management": "库存管理",
+                "automatic_deduction_of_catheters_after_each_use": "每次使用后自动扣减导尿管数量。"
+            },
+            "2": {
+                "plan_ahead": "提前规划",
+                "calculate_how_many_catheters": "计算旅行或度假所需的导尿管数量。"
+            },
+            "3": {
+                "reminders": "提醒",
+                "notifications": "避免在不合适的时候导尿管用尽。"
+            }
+        }
+    },
+    "bladder_catheterization":{
+        "title": {
+            "systematic_approach": "系统化方法实现",
+            "bold_self_description": "膀胱导尿"
+        },
+        "list": {
+            "1": "通过 Nelaton 应用，您可以追踪超过 10 个膀胱健康关键参数",
+            "2": {
+                "first_sentence": "及时应对感染症状显著",
+                "bold_text": "降低风险",
+                "third_sentence": "减少泌尿道并发症。"
+            },
+            "3": {
+                "first_sentence": "掌控",
+                "bold_text": "自我导尿",
+                "third_sentence": "从未如此简单。"
+            },
+            "4": {
+                "first_sentence": "遵循导尿间隔可降低泌尿道感染风险",
+                "bold_text": "高达 84.8%"
+            }
+        }
+    },
+    "catheterizing_with_the_nelaton_app_is_convenient": {
+        "catheterizing_with_the": "使用",
+        "is_convenient": "进行导尿非常方便！"
+    },
+    "all_your_statistics_are_gathered_in_one_place": "所有统计数据集中在一个地方。",
+    "you_can_also_download_or_share_a_pdf_version": "您还可以下载或分享 PDF 版本。",
+    "what_our_users_say": {
+        "title": "用户评价",
+        "list": {
+            "1": {
+                "name": "Antônio Silva",
+                "feedback": "应用很快根据我的需求进行了设置——基本上只问了几个问题，剩下的都自动完成了。说实话，非常方便，真的让生活变得更轻松。"
+            },
+            "2" : {
+                "name": "Camille",
+                "feedback": "当我被告知需要定期导尿时，我很害怕。但我很高兴找到了这个应用——它帮我冷静下来，让我觉得一切都在掌控之中。"
+            },
+            "3": {
+                "name": "Viktor",
+                "feedback": "在医院时，他们让我记录排尿日记，还给了我一堆纸质表格。在应用里做这件事要容易得多，也方便得多。"
+            }
+        }
+    },
+    "questions": {
+        "title": "关于间歇性自我导尿（ISC）及我们应用的常见问题",
+        "list": {
+            "1": {
+                "title": "主屏幕上的计时器如何工作？",
+                "answer": "计时器会倒计时到下一次导尿。您需要在计时器结束前进行导尿，以遵循医生设定的时间表。如果您错过了计划的导尿时间，计时器会显示自上次导尿以来经过的时间。每次导尿后，请在应用中点击“完成”按钮，开始下一次导尿的倒计时。"
+            },
+            "2": {
+                "title": "我需要多久导尿一次？",
+                "answer": "导尿的频率由您的医生根据您的情况决定，而且可能会有所变化。我们帮助您轻松追踪排尿习惯，便于医生根据需要调整导尿间隔。建议您根据饮水量和医生建议，全天规律进行自我导尿。通常每4-6小时导尿一次，以确保膀胱内尿量不超过400毫升。如果导尿不够频繁导致膀胱过度充盈，泌尿道感染和漏尿的风险会增加。长期膀胱过度扩张还可能严重损害肾脏。"
+            },
+            "3": {
+                "title": "我应该喝多少水？",
+                "answer": "成人每天应至少饮用1.5升水。这只是建议，具体饮水量请咨询您的医生。请记住，水是最好的饮品。建议避免含咖啡因的饮料，因为咖啡因会刺激膀胱。充足饮水有助于冲洗泌尿系统。Nelaton 应用可以帮助您追踪水分摄入。您可以在主屏幕通过“+喝水”按钮记录饮水量，在“水分平衡”页面监测液体摄入和尿液排出。"
+            },
+            "4": {
+                "title": "如何预防泌尿道感染？",
+                "answer": "保持卫生，定期且彻底排空膀胱，并摄入足够的液体。我们建议您每月至少填写一次导尿满意度调查，并与医生分享。"
+            },
+            "5": {
+                "title": "晚上需要导尿吗？",
+                "answer": "通常情况下，睡前和起床后各导尿一次，然后在白天按间隔继续导尿即可。但具体安排请遵医嘱。应用可以帮助您遵循任何导尿时间表和间隔。您可以设置夜间导尿，夜间按间隔进行，或通过启用睡眠模式关闭夜间导尿。一切以医生建议为准，我们的应用随时支持您的需求。"
+            },
+            "6": {
+                "title": "如何追踪导尿管的使用情况？",
+                "answer": "应用会自动追踪导尿管的使用情况。您需要在应用中填写您拥有的导尿管数量，以及导尿时是否使用了其他耗材（如无菌湿巾、尿袋、手套等）。这样可以帮助您及时掌握导尿管和必需耗材的库存并及时补充。每次点击“完成”按钮时，应用会自动扣减相应耗材数量。购买导尿管和其他耗材后，别忘了在应用中更新数量。"
+            },
+            "7": {
+                "title": "出国旅行时该怎么办？",
+                "answer": "请随身携带足够的导尿管，并携带一份证明其必要性的医疗证明。该证明有助于您顺利通过机场或其他安检。您可以在“导尿管使用”标签页，根据平均用量计算旅行所需导尿管数量。"
+            },
+            "8": {
+                "title": "如果应用缺少某个功能怎么办？",
+                "answer": "请通过本页面的表单联系我们。描述您遇到的情况，以及您认为 Nelaton 应用中缺少的功能。我们会在后续更新中考虑您的建议。"
+            }
+        }
+    },
+    "join_our_community": "加入我们的社区",
+    "privacy_policy": "隐私政策",
+    "terms_of_use": "使用条款",
+    "ulibkin_all_rights_reserved": "Ulibkin OÜ - 保留所有权利"
+
+  },
+    "PrivacyPage": {
+        "privacy_policy": "Privacy Policy",
+        "introduction": "Introduction",
+        "description": "The application is developed by {companyName}, which is responsible for complying with this Privacy Policy. We respect your privacy and are committed to ensuring transparency in data processing. This Policy explains what data we process, how it is protected, and for what purposes it is used. If you have any questions, please contact us at: {email}. By installing and using the application, you confirm that you have read and agree to this Privacy Policy. If you do not agree, please delete the application and discontinue its use.",
+        "data_we_process": "Data We Process",
+        "data_stored_on_your_device": "Data Stored on Your Device",
+        "2_1_description": "Personal and medical data that you enter to use the application’s features, such as generating reminders and creating reports.",
+        "data_transmitted": "Data Transmitted",
+        "2_2_description": "We transmit minimal technical data to services that help analyze application usage, manage subscriptions, and improve functionality. This data includes:",
+        "2_2_list": {
+            "1": {
+                "bold_text": "Device Identifier",
+                "description": "Used for analytics related to app usage and advertising campaigns."
+            },
+            "2": {
+                "bold_text": "IP Address",
+                "description": "Used to determine the user’s region for statistical purposes."
+            },
+            "3": {
+                "bold_text": "App Interaction Data",
+                "description": "Includes actions taken within the app to help us improve the user experience (e.g., frequently used features)."
+            },
+            "4": {
+                "bold_text": "Device Technical Data",
+                "description": "Includes operating system version, device model, and other parameters necessary for app performance analysis."
+            },
+            "5": {
+                "bold_text": "App Version",
+                "description": "Helps track the compatibility of the app with devices."
+            },
+            "6": {
+                "bold_text": "System Language",
+                "description": "Used to analyze user preferences and localize the interface."
+            },
+            "description": "This data is used solely for the purposes stated above and does not include personal information such as name, email, or medical data entered into the application."
+        },
+        "where_your_data_is_stored": "Where Your Data Is Stored",
+        "3_description": "All data you enter is stored only on your device. We do not store it on servers or share it with third parties, except for technical data used for support and analytics.",
+        "purpose_of_data_processing": "Purpose of Data Processing",
+        "4_description": "We process data for the following purposes",
+        "4_list": {
+            "1": "Generating reminders.",
+            "2": "Creating reports.",
+            "3": "Managing subscriptions.",
+            "4": "Analyzing interactions with the application and improving its functionality."
+        },
+        "your_consent": "Your Consent",
+        "5_description": {
+            "1": "Installing and using the application automatically indicates your agreement with this Privacy Policy.",
+            "2": "If you do not agree with this Privacy Policy, please delete the application and discontinue its use."
+        },
+        "access_for_all_ages": "Access for All Ages",
+        "6_description": "The application is available for users of all ages. If the user is a minor, parents or guardians are responsible for overseeing their use of the application. We do not collect data on the user’s age.",
+        "limitation_of_liability": "Limitation of Liability",
+        "7_description": "is a tool designed to assist users in adhering to their healthcare provider's recommendations. The application",
+        "7_list": {
+            "1": {
+                "bold_text": "Does not replace professional medical advice.",
+                "description": "Users should rely solely on the recommendations of their healthcare provider."
+            },
+            "2": {
+                "bold_text": "Is not liable for the application’s use.",
+                "description": "By installing and using the application, users accept all risks associated with its use."
+            },
+            "you_acknowledge_that": "You acknowledge that",
+            "the_application_is_not_a_medical_device": "The application is not a medical device.",
+            "you_cannot_file_legal_claims": "You cannot file legal claims against Ulibkin OÜ or third parties involved in the operation of the application in any jurisdiction."
+        },
+        "data_security": "Data Security",
+        "8_description": "We protect your data using modern technologies",
+        "8_list": {
+            "1": {
+                "bold_text": "Data encryption",
+                "description": "during transmission to services that support the application’s functionality."
+            },
+            "2": "All data you enter is available only to you and is stored on your device."
+        },
+        "8_note": "Your payment data is processed by App Store and Google Play, and we do not have access to it.",
+        "your_rights": "Your Rights",
+        "9_description": "Since your data is stored only on your device and not transferred to the developer, you have full control over it. Your rights include",
+        "bold_deleting_data": "Deleting Data",
+        "deleting_data_description": "You can delete all entered data through the app’s settings.",
+        "9_list": {
+            "1": "Once deleted, this data cannot be recovered.",
+            "2": "Deleting your data will reset the application to its original state, as if it were newly installed.",
+            "3": "If you wish to retain any information, please export the necessary data (e.g., as PDF reports) before deleting it."
+        },
+        "bold_opting_out_of_analytics": " Opting Out of Analytics",
+        "opting_out_of_analytics_description": "You can disable the use of analytics services through your device settings.",
+        "bold_data_control": "Data Control",
+        "data_control_description": "Since your data remains on your device, only you have access to it.",
+        "9_note": "If you have questions about your rights or would like more information, contact us at: support@nelaton.app.",
+        "links_to_third_party_resources": "Links to Third-Party Resources",
+        "10_description": "The application may contain links to websites or services of third parties. We do not control their content or data processing practices. Please review their privacy policies before using them.",
+        "changes_to_this_policy": "Changes to This Policy",
+        "11_description": "We may update this Privacy Policy. The current version will always be available via the link on the app’s page in the App Store or Google Play. If changes significantly affect your rights, we will notify you through app stores or other means.",
+        "contact_us": "Contact Us",
+        "12_description": "If you have any questions or requests, contact us at: support@nelaton.app."
+    },
+    "PolicyPage": {
+        "terms_title": "Terms of Service",
+        "terms_last_updated": "Last updated: 29.12.2024",
+
+        "terms_intro": {
+            "first_sentence": "Please read these Terms of Service (\"Terms\") carefully before using the Nelaton Application (\"Application\") operated by Ulibkin OÜ (\"us,\" \"we,\" \"our\"). These Terms contain important information regarding the limitations of our liability and the rules for using the Application. By accessing or using the Application, you agree to be bound by these Terms and our",
+            "link": "Privacy Policy",
+            "second_sentence": "If you do not agree with any part of these Terms, you are not permitted to access or use the Application."
+        },  
+
+        "acceptance_title": "Acceptance of Terms",
+        "acceptance_text": "By installing, accessing, or using the Application, you confirm that you are at least 13 years of age and agree to comply with these Terms and all applicable laws and regulations. Children under the age of 18 may use the Application only with the consent and under the supervision of their parents or legal guardians. Parents or legal guardians are responsible for ensuring that the Application is used in accordance with these Terms.",
+
+        "usage_title": "Application Usage",
+        "usage_text": "The Application does not require the creation of user accounts. Users install the Application, purchase subscriptions if applicable, and store all personal data locally on their devices. Users are responsible for ensuring the security of their devices and any data stored within the Application. If you suspect unauthorized access to your device or data, you are encouraged to take appropriate measures to secure your information.",
+
+        "data_usage_title": "Data Usage",
+        "data_usage_text": "By using the Application, you consent to the processing of your data in accordance with our Privacy Policy. The Application does not share personal data with third parties except for necessary analytics and subscription management partners, including AppsFlyer, RevenueCat, Amplitude, and Google Analytics. All user data is stored locally on the user's device unless required for functionality.",
+
+        "prohibited_title": "Prohibited Uses",
+        "prohibited_list": [
+            "Interfere with the operation of the Application.",
+            "Use the Application for unlawful purposes.",
+            "Modify, copy, or reverse-engineer the Application.",
+            "Attempt unauthorized access to any part of the Application or related systems.",
+            "Use the Application to harm others or compromise data security.",
+            "Violate any applicable local laws while using the Application."
+        ],
+
+        "no_warranty_title": "No Warranty",
+        "no_warranty_text": "The Application is provided \"as is\" without any warranties, express or implied. We do not guarantee that the Application will be error-free or uninterrupted.",
+
+        "medical_title": "Medical Disclaimer",
+        "medical_text": "The Application is a tool to assist users in following medical recommendations. It does not provide medical advice or replace professional healthcare consultation. Users must rely on their physician's guidance. By using the Application, you acknowledge and agree that Ulibkin OÜ is not responsible for any medical outcomes, complications, or issues arising from the use of the Application. All medical decisions should be made in consultation with a licensed healthcare professional. You are solely responsible for your use of the Application and any consequences arising from such use.",
+
+        "liability_title": "Limitation of Liability",
+        "liability_text": "To the fullest extent permitted by law, Ulibkin OÜ shall not be liable for any damages arising from your use of or inability to use the Application. You agree to indemnify and hold harmless Ulibkin OÜ from any claims or liabilities resulting from your use of the Application.",
+
+        "data_deletion_title": "User Data Deletion",
+        "data_deletion_text": "Users may delete their data at any time using the settings within the Application. Deleting data may result in loss of access to certain features. Users accept full responsibility for any consequences of data deletion.",
+
+        "ip_title": "Intellectual Property",
+        "ip_text": "All content within the Application is owned by Ulibkin OÜ or its licensors. You may not reproduce, distribute, or create derivative works based on the Application without express permission.",
+
+        "changes_title": "Changes to Terms",
+        "changes_text": "We reserve the right to update or modify these Terms at any time at our sole discretion. Any updates will be posted on this page with the \"Last updated\" date. It is your responsibility to review these Terms periodically for changes. Continued use of the Application after any modifications signifies your acceptance of the revised Terms. Users will also be notified of significant changes to these Terms upon their next access to the Application.",
+
+        "law_title": "Governing Law",
+        "law_text": "These Terms are governed by the laws of Estonia. Any disputes arising from these Terms will be resolved in the courts of Estonia.",
+
+        "contact": "If you have questions regarding these Terms, please contact us at {email}.",
+
+        "slogan": "Your Self-Catheterization Assistant: Track, Manage, and Log with Ease"
+    }
+}

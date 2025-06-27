@@ -1,0 +1,306 @@
+{
+  "HomePage": {
+    "nav": {
+        "features": "Funkcje",
+        "FAQ": "FAQ",
+        "contacts": "Kontakty",
+        "select_preferred_language": "Wybierz preferowany język",
+        "not_available_yet": "Niedostępne"
+    },
+    "header": {
+        "your": "Twój",
+        "bold_smart_assistant": "Inteligentny asystent",
+        "slogan": "do samodzielnego cewnikowania!",
+        "built_on_real_patient_needs": "Oparty na rzeczywistych potrzebach pacjentów",
+        "european_product": {
+            "bold_2025": "2025",
+            "european_product": "Produkt europejski"
+        }
+    },
+    "store_buttons": {
+        "get_started_now": "Zacznij teraz"
+    },
+    "bladder_health": {
+        "title_bold": "Zdrowie pęcherza",
+        "description": "Łatwe i terminowe samodzielne cewnikowanie",
+        "list": {
+            "1": "Inteligentny timer interwałowy zapewniający precyzyjne przestrzeganie zaleceń lekarza",
+            "2": "Śledzenie cewników: zawsze wiesz, ile ich pozostało i kiedy należy uzupełnić zapasy",
+            "3": "Wsparcie w monitorowaniu równowagi płynów",
+            "4": "Wygodny dziennik samokateteryzacji (dziennik oddawania moczu)",
+            "5": "Spersonalizowane przypomnienia",
+            "6": "Kompatybilność ze wszystkimi cewnikami moczowymi do samodzielnego cewnikowania"
+        }
+    },
+    "bold_nelaton_app": "Aplikacja Nelaton",
+    "how_the_nelaton_app_works": "Jak działa aplikacja Nelaton",
+    "hydration": {
+        "title": "Śledź i utrzymuj optymalne nawodnienie dzięki",
+        "list": {
+            "1": "Łatwo rejestruj spożycie płynów i ilość oddawanego moczu.",
+            "2": "Monitoruj bilans nawodnienia w dowolnym momencie.",
+            "3": "Zarządzaj czasem i ilością spożywanego płynu, aby osiągnąć optymalny poziom nawodnienia."
+        }
+    },
+    "inventory_tracking": {
+        "title": {
+            "bold_catheter_inventory_tracking": "Śledzenie zapasów cewników –",
+            "description": " pomaga zawsze znać dokładną ilość pozostałych cewników i planować ich terminowe uzupełnianie"
+        },
+        "list": {
+            "1": {
+                "inventory_management": "Zarządzanie zapasami",
+                "automatic_deduction_of_catheters_after_each_use": "Automatyczne odejmowanie cewników po każdym użyciu."
+            },
+            "2": {
+                "plan_ahead": "Planuj z wyprzedzeniem",
+                "calculate_how_many_catheters": "Oblicz, ile cewników będzie potrzebnych podczas podróży lub wakacji."
+            },
+            "3": {
+                "reminders": "Przypomnienia",
+                "notifications": "Unikaj sytuacji, w której zabraknie cewników w nieodpowiednim momencie."
+            }
+        }
+    },
+    "bladder_catheterization":{
+        "title": {
+            "systematic_approach": "Systematyczne podejście do",
+            "bold_self_description": "cewnikowania pęcherza"
+        },
+        "list": {
+            "1": "Dzięki aplikacji Nelaton możesz śledzić ponad 10 kluczowych parametrów dotyczących zdrowia pęcherza",
+            "2": {
+                "first_sentence": "Szybka reakcja na objawy infekcji znacznie",
+                "bold_text": "zmniejsza ryzyko",
+                "third_sentence": "powikłań ze strony układu moczowego"
+            },
+            "3": {
+                "first_sentence": "Przejęcie kontroli nad",
+                "bold_text": "samokateteryzacją",
+                "third_sentence": "nigdy nie było łatwiejsze"
+            },
+            "4": {
+                "first_sentence": "Przestrzeganie odstępów między cewnikowaniami zmniejsza ryzyko infekcji dróg moczowych",
+                "bold_text": "o 84,8%"
+            }
+        }
+    },
+    "catheterizing_with_the_nelaton_app_is_convenient": {
+        "catheterizing_with_the": "Cewnikowanie za pomocą",
+        "is_convenient": "jest wygodne!"
+    },
+    "all_your_statistics_are_gathered_in_one_place": "Wszystkie statystyki są gromadzone w jednym miejscu.",
+    "you_can_also_download_or_share_a_pdf_version": "Można również pobrać lub udostępnić wersję PDF.",
+    "what_our_users_say": {
+        "title": "Co mówią nasi użytkownicy",
+        "list": {
+            "1": {
+                "name": "Antônio Silva",
+                "feedback": "Aplikacja szybko dostosowała się do moich potrzeb — w zasadzie zadała mi tylko kilka pytań, a resztą zajęła się sama. Szczerze mówiąc, jest to bardzo wygodne i naprawdę ułatwia życie."
+            },
+            "2" : {
+                "name": "Camille",
+                "feedback": "Kiedy powiedziano mi, że będę musiała regularnie stosować cewnik, byłam przerażona. Ale bardzo się cieszę, że znalazłam tę aplikację — pomogła mi się uspokoić i poczuć, że mam wszystko pod kontrolą."
+            },
+            "3": {
+                "name": "Viktor",
+                "feedback": "W szpitalu kazali mi prowadzić dziennik oddawania moczu i dali mi nawet stos papierowych formularzy. Robienie tego w aplikacji jest o wiele łatwiejsze i wygodniejsze"
+            }
+        }
+    },
+    "questions": {
+        "title": "Często zadawane pytania dotyczące przerywanego samokateteryzacji (ISC) i naszej aplikacji",
+        "list": {
+            "1": {
+                "title": "Jak działa licznik czasu na ekranie głównym?",
+                "answer": "Licznik odlicza czas do następnej kateteryzacji. Aby przestrzegać harmonogramu ustalonego przez lekarza, należy wykonać cewnikowanie przed upływem czasu wskazanego przez licznik. Jeśli pominiesz zaplanowane cewnikowanie, licznik pokaże czas, który upłynął od ostatniego zabiegu. Po każdym cewnikowaniu należy wejść do aplikacji i nacisnąć przycisk „Gotowe”, aby rozpocząć odliczanie do następnego cewnikowania"
+            },
+            "2": {
+                "title": "Jak często muszę wykonywać cewnikowanie?",
+                "answer": "Częstotliwość cewnikowania ustala lekarz na podstawie stanu zdrowia pacjenta. Należy również pamiętać, że częstotliwość ta może ulec zmianie. Pomagamy w łatwym śledzeniu nawyków związanych z oddawaniem moczu, co pomaga lekarzowi dostosować odstępy między cewnikowaniami w razie potrzeby. Zaleca się regularne wykonywanie cewnikowania samodzielnego w ciągu dnia, w zależności od ilości spożywanych płynów i zaleceń lekarza. Konieczne może być cewnikowanie co 4–6 godzin, aby zapewnić, że objętość moczu w pęcherzu nie przekroczy 400 ml. Jeśli cewnikowanie nie jest wykonywane wystarczająco często, a pęcherz jest przepełniony, wzrasta ryzyko infekcji dróg moczowych i nietrzymania moczu. Długotrwałe rozciąganie pęcherza może spowodować poważne uszkodzenie nerek."
+            },
+            "3": {
+                "title": "Ile wody należy pić?",
+                "answer": "Dorośli powinni pić co najmniej 1,5 litra wody dziennie. Jest to tylko zalecenie i należy skonsultować się z lekarzem, aby dowiedzieć się, ile wody jest odpowiednie dla danej osoby. Pamiętaj, że woda jest najlepszym napojem. Zaleca się unikanie napojów zawierających kofeinę, ponieważ kofeina podrażnia pęcherz. Picie wystarczającej ilości wody pomaga przepłukać układ moczowy. Aplikacja Nelaton pomaga śledzić poziom nawodnienia organizmu. Możesz rejestrować spożycie wody na ekranie głównym za pomocą przycisku „+Wypiłem”, a ekran „Bilans wodny” pozwala monitorować spożycie płynów i wydalanie moczu"
+            },
+            "4": {
+                "title": "Jak mogę zapobiegać infekcjom dróg moczowych?",
+                "answer": "Zachowaj higienę, regularnie i całkowicie opróżniaj pęcherz oraz pij wystarczającą ilość płynów. Zalecamy wypełnienie naszej ankiety dotyczącej satysfakcji z cewnikowania co najmniej raz w miesiącu i przekazanie jej lekarzowi."
+            },
+            "5": {
+                "title": "Czy muszę cewnikować się w nocy?",
+                "answer": "Zazwyczaj wystarczy cewnikować się przed snem i zaraz po przebudzeniu, a następnie kontynuować w określonych odstępach czasu w ciągu dnia. Jednak lekarz doradzi Ci, co jest dla Ciebie najlepsze. Aplikacja pomaga przestrzegać dowolnego harmonogramu i częstotliwości cewnikowania. Możesz ustawić cewnikowanie nocne, przestrzegać częstotliwości w nocy, a nawet wyłączyć cewnikowanie nocne, włączając tryb uśpienia. Wszystko zależy od zaleceń lekarza, a nasza aplikacja jest gotowa pomóc Ci przestrzegać dowolnego harmonogramu"
+            },
+            "6": {
+                "title": "Jak śledzić zużycie cewników?",
+                "answer": "Aplikacja automatycznie śledzi zużycie cewników. Musisz określić, ile masz cewników i czy podczas cewnikowania używasz dodatkowych materiałów (takich jak chusteczki antyseptyczne, worki na mocz, rękawiczki itp.). Pomoże Ci to śledzić, ile masz cewników i niezbędnych materiałów, oraz uzupełniać je na czas. Za każdym razem, gdy naciśniesz przycisk „Gotowe”, aplikacja odliczy odpowiednią ilość materiałów. Kupując cewniki i inne materiały, nie zapomnij zaktualizować ich ilości w aplikacji"
+            },
+            "7": {
+                "title": "Co należy zrobić podczas podróży zagranicznej?",
+                "answer": "Zabierz ze sobą wystarczającą ilość cewników i zaopatrz się w zaświadczenie lekarskie potwierdzające ich konieczność. Zaświadczenie to pomoże Ci przejść kontrolę bezpieczeństwa na lotniskach lub podczas innych wydarzeń, podczas których obowiązują wzmożone środki bezpieczeństwa. W zakładce „Zużycie cewników” możesz obliczyć, ile cewników musisz zabrać ze sobą na podstawie średniego zużycia"
+            },
+            "8": {
+                "title": "Co należy zrobić, jeśli w aplikacji brakuje jakiejś funkcji?",
+                "answer": "Napisz do nas, korzystając z formularza na tej stronie. Opisz sytuację, z którą się spotkałeś, i funkcję, której Twoim zdaniem brakuje w aplikacji Nelaton. Twoje sugestie zostaną uwzględnione w przyszłych aktualizacjach."
+            }
+        }
+    },
+    "join_our_community": "Dołącz do naszej społeczności",
+    "privacy_policy": "Polityka prywatności",
+    "terms_of_use": "Warunki użytkowania",
+    "ulibkin_all_rights_reserved": "Ulibkin OÜ – Wszelkie prawa zastrzeżone"
+  },
+    "PrivacyPage": {
+        "privacy_policy": "Privacy Policy",
+        "introduction": "Introduction",
+        "description": "The application is developed by {companyName}, which is responsible for complying with this Privacy Policy. We respect your privacy and are committed to ensuring transparency in data processing. This Policy explains what data we process, how it is protected, and for what purposes it is used. If you have any questions, please contact us at: {email}. By installing and using the application, you confirm that you have read and agree to this Privacy Policy. If you do not agree, please delete the application and discontinue its use.",
+        "data_we_process": "Data We Process",
+        "data_stored_on_your_device": "Data Stored on Your Device",
+        "2_1_description": "Personal and medical data that you enter to use the application’s features, such as generating reminders and creating reports.",
+        "data_transmitted": "Data Transmitted",
+        "2_2_description": "We transmit minimal technical data to services that help analyze application usage, manage subscriptions, and improve functionality. This data includes:",
+        "2_2_list": {
+            "1": {
+                "bold_text": "Device Identifier",
+                "description": "Used for analytics related to app usage and advertising campaigns."
+            },
+            "2": {
+                "bold_text": "IP Address",
+                "description": "Used to determine the user’s region for statistical purposes."
+            },
+            "3": {
+                "bold_text": "App Interaction Data",
+                "description": "Includes actions taken within the app to help us improve the user experience (e.g., frequently used features)."
+            },
+            "4": {
+                "bold_text": "Device Technical Data",
+                "description": "Includes operating system version, device model, and other parameters necessary for app performance analysis."
+            },
+            "5": {
+                "bold_text": "App Version",
+                "description": "Helps track the compatibility of the app with devices."
+            },
+            "6": {
+                "bold_text": "System Language",
+                "description": "Used to analyze user preferences and localize the interface."
+            },
+            "description": "This data is used solely for the purposes stated above and does not include personal information such as name, email, or medical data entered into the application."
+        },
+        "where_your_data_is_stored": "Where Your Data Is Stored",
+        "3_description": "All data you enter is stored only on your device. We do not store it on servers or share it with third parties, except for technical data used for support and analytics.",
+        "purpose_of_data_processing": "Purpose of Data Processing",
+        "4_description": "We process data for the following purposes",
+        "4_list": {
+            "1": "Generating reminders.",
+            "2": "Creating reports.",
+            "3": "Managing subscriptions.",
+            "4": "Analyzing interactions with the application and improving its functionality."
+        },
+        "your_consent": "Your Consent",
+        "5_description": {
+            "1": "Installing and using the application automatically indicates your agreement with this Privacy Policy.",
+            "2": "If you do not agree with this Privacy Policy, please delete the application and discontinue its use."
+        },
+        "access_for_all_ages": "Access for All Ages",
+        "6_description": "The application is available for users of all ages. If the user is a minor, parents or guardians are responsible for overseeing their use of the application. We do not collect data on the user’s age.",
+        "limitation_of_liability": "Limitation of Liability",
+        "7_description": "is a tool designed to assist users in adhering to their healthcare provider's recommendations. The application",
+        "7_list": {
+            "1": {
+                "bold_text": "Does not replace professional medical advice.",
+                "description": "Users should rely solely on the recommendations of their healthcare provider."
+            },
+            "2": {
+                "bold_text": "Is not liable for the application’s use.",
+                "description": "By installing and using the application, users accept all risks associated with its use."
+            },
+            "you_acknowledge_that": "You acknowledge that",
+            "the_application_is_not_a_medical_device": "The application is not a medical device.",
+            "you_cannot_file_legal_claims": "You cannot file legal claims against Ulibkin OÜ or third parties involved in the operation of the application in any jurisdiction."
+        },
+        "data_security": "Data Security",
+        "8_description": "We protect your data using modern technologies",
+        "8_list": {
+            "1": {
+                "bold_text": "Data encryption",
+                "description": "during transmission to services that support the application’s functionality."
+            },
+            "2": "All data you enter is available only to you and is stored on your device."
+        },
+        "8_note": "Your payment data is processed by App Store and Google Play, and we do not have access to it.",
+        "your_rights": "Your Rights",
+        "9_description": "Since your data is stored only on your device and not transferred to the developer, you have full control over it. Your rights include",
+        "bold_deleting_data": "Deleting Data",
+        "deleting_data_description": "You can delete all entered data through the app’s settings.",
+        "9_list": {
+            "1": "Once deleted, this data cannot be recovered.",
+            "2": "Deleting your data will reset the application to its original state, as if it were newly installed.",
+            "3": "If you wish to retain any information, please export the necessary data (e.g., as PDF reports) before deleting it."
+        },
+        "bold_opting_out_of_analytics": " Opting Out of Analytics",
+        "opting_out_of_analytics_description": "You can disable the use of analytics services through your device settings.",
+        "bold_data_control": "Data Control",
+        "data_control_description": "Since your data remains on your device, only you have access to it.",
+        "9_note": "If you have questions about your rights or would like more information, contact us at: support@nelaton.app.",
+        "links_to_third_party_resources": "Links to Third-Party Resources",
+        "10_description": "The application may contain links to websites or services of third parties. We do not control their content or data processing practices. Please review their privacy policies before using them.",
+        "changes_to_this_policy": "Changes to This Policy",
+        "11_description": "We may update this Privacy Policy. The current version will always be available via the link on the app’s page in the App Store or Google Play. If changes significantly affect your rights, we will notify you through app stores or other means.",
+        "contact_us": "Contact Us",
+        "12_description": "If you have any questions or requests, contact us at: support@nelaton.app."
+    },
+    "PolicyPage": {
+        "terms_title": "Terms of Service",
+        "terms_last_updated": "Last updated: 29.12.2024",
+
+        "terms_intro": {
+            "first_sentence": "Please read these Terms of Service (\"Terms\") carefully before using the Nelaton Application (\"Application\") operated by Ulibkin OÜ (\"us,\" \"we,\" \"our\"). These Terms contain important information regarding the limitations of our liability and the rules for using the Application. By accessing or using the Application, you agree to be bound by these Terms and our",
+            "link": "Privacy Policy",
+            "second_sentence": "If you do not agree with any part of these Terms, you are not permitted to access or use the Application."
+        },  
+
+        "acceptance_title": "Acceptance of Terms",
+        "acceptance_text": "By installing, accessing, or using the Application, you confirm that you are at least 13 years of age and agree to comply with these Terms and all applicable laws and regulations. Children under the age of 18 may use the Application only with the consent and under the supervision of their parents or legal guardians. Parents or legal guardians are responsible for ensuring that the Application is used in accordance with these Terms.",
+
+        "usage_title": "Application Usage",
+        "usage_text": "The Application does not require the creation of user accounts. Users install the Application, purchase subscriptions if applicable, and store all personal data locally on their devices. Users are responsible for ensuring the security of their devices and any data stored within the Application. If you suspect unauthorized access to your device or data, you are encouraged to take appropriate measures to secure your information.",
+
+        "data_usage_title": "Data Usage",
+        "data_usage_text": "By using the Application, you consent to the processing of your data in accordance with our Privacy Policy. The Application does not share personal data with third parties except for necessary analytics and subscription management partners, including AppsFlyer, RevenueCat, Amplitude, and Google Analytics. All user data is stored locally on the user's device unless required for functionality.",
+
+        "prohibited_title": "Prohibited Uses",
+        "prohibited_list": [
+            "Interfere with the operation of the Application.",
+            "Use the Application for unlawful purposes.",
+            "Modify, copy, or reverse-engineer the Application.",
+            "Attempt unauthorized access to any part of the Application or related systems.",
+            "Use the Application to harm others or compromise data security.",
+            "Violate any applicable local laws while using the Application."
+        ],
+
+        "no_warranty_title": "No Warranty",
+        "no_warranty_text": "The Application is provided \"as is\" without any warranties, express or implied. We do not guarantee that the Application will be error-free or uninterrupted.",
+
+        "medical_title": "Medical Disclaimer",
+        "medical_text": "The Application is a tool to assist users in following medical recommendations. It does not provide medical advice or replace professional healthcare consultation. Users must rely on their physician's guidance. By using the Application, you acknowledge and agree that Ulibkin OÜ is not responsible for any medical outcomes, complications, or issues arising from the use of the Application. All medical decisions should be made in consultation with a licensed healthcare professional. You are solely responsible for your use of the Application and any consequences arising from such use.",
+
+        "liability_title": "Limitation of Liability",
+        "liability_text": "To the fullest extent permitted by law, Ulibkin OÜ shall not be liable for any damages arising from your use of or inability to use the Application. You agree to indemnify and hold harmless Ulibkin OÜ from any claims or liabilities resulting from your use of the Application.",
+
+        "data_deletion_title": "User Data Deletion",
+        "data_deletion_text": "Users may delete their data at any time using the settings within the Application. Deleting data may result in loss of access to certain features. Users accept full responsibility for any consequences of data deletion.",
+
+        "ip_title": "Intellectual Property",
+        "ip_text": "All content within the Application is owned by Ulibkin OÜ or its licensors. You may not reproduce, distribute, or create derivative works based on the Application without express permission.",
+
+        "changes_title": "Changes to Terms",
+        "changes_text": "We reserve the right to update or modify these Terms at any time at our sole discretion. Any updates will be posted on this page with the \"Last updated\" date. It is your responsibility to review these Terms periodically for changes. Continued use of the Application after any modifications signifies your acceptance of the revised Terms. Users will also be notified of significant changes to these Terms upon their next access to the Application.",
+
+        "law_title": "Governing Law",
+        "law_text": "These Terms are governed by the laws of Estonia. Any disputes arising from these Terms will be resolved in the courts of Estonia.",
+
+        "contact": "If you have questions regarding these Terms, please contact us at {email}.",
+
+        "slogan": "Your Self-Catheterization Assistant: Track, Manage, and Log with Ease"
+    }
+}
