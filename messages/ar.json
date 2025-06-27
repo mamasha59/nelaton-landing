@@ -1,0 +1,307 @@
+{
+  "HomePage": {
+    "nav": {
+    "features": "الميزات",
+    "FAQ": "الأسئلة الشائعة",
+    "contacts": "جهات الاتصال",
+    "select_preferred_language": "اختر اللغة المفضلة",
+    "not_available_yet": "غير متوفر بعد"
+    },
+    "header": {
+        "your": "الخاص بك",
+        "bold_smart_assistant": "المساعد الذكي",
+        "slogan": "للقسطرة الذاتية!",
+        "built_on_real_patient_needs": "مصمم وفقًا لاحتياجات المرضى الحقيقية",
+        "european_product": {
+            "bold_2025": "2025",
+            "european_product": "منتج أوروبي"
+        }
+    },
+    "store_buttons": {
+        "get_started_now": "ابدأ الآن"
+    },
+    "bladder_health": {
+        "title_bold": "صحة المثانة",
+        "description": "القسطرة الذاتية أصبحت سهلة وفي الوقت المناسب",
+        "list": {
+            "1": "مؤقت فترات ذكي للالتزام الدقيق بتوصيات طبيبك.",
+            "2": "تتبع القسطرة: اعرف دائمًا الكمية المتبقية ووقت إعادة الشراء.",
+            "3": "دعم مراقبة توازن السوائل.",
+            "4": "يوميات قسطرة ذاتية مريحة (مفكرة التبول).",
+            "5": "تذكيرات مخصصة.",
+            "6": "متوافق مع جميع القساطر البولية للقسطرة الذاتية."
+        }
+    },
+    "bold_nelaton_app": "تطبيق نيلاتون",
+    "how_the_nelaton_app_works": "كيف يعمل تطبيق نيلاتون",
+    "hydration": {
+        "title": "تتبع وحافظ على الترطيب الأمثل مع",
+        "list": {
+            "1": "سجل بسهولة كمية السوائل التي تشربها وكمية البول.",
+            "2": "راقب توازن الترطيب في أي وقت.",
+            "3": "إدارة توقيت وكمية تناول السوائل لتحقيق مستويات الترطيب المثالية."
+        }
+    },
+    "inventory_tracking": {
+        "title": {
+            "bold_catheter_inventory_tracking": "تتبع مخزون القساطر -",
+            "description": "يساعدك دائمًا على معرفة الكمية المتبقية والتخطيط لإعادة الشراء في الوقت المناسب"
+        },
+        "list": {
+            "1": {
+                "inventory_management": "إدارة المخزون",
+                "automatic_deduction_of_catheters_after_each_use": "الخصم التلقائي للقساطر بعد كل استخدام."
+            },
+            "2": {
+                "plan_ahead": "خطط مسبقًا",
+                "calculate_how_many_catheters": "احسب عدد القساطر التي ستحتاجها لرحلة أو عطلة."
+            },
+            "3": {
+                "reminders": "تذكيرات",
+                "notifications": "تجنب نفاد القساطر في الوقت غير المناسب."
+            }
+        }
+    },
+    "bladder_catheterization": {
+        "title": {
+            "systematic_approach": "نهج منهجي لـ",
+            "bold_self_description": "قسطرة المثانة"
+        },
+        "list": {
+            "1": "مع تطبيق نيلاتون، يمكنك تتبع أكثر من 10 معايير رئيسية لصحة المثانة",
+            "2": {
+                "first_sentence": "الاستجابة السريعة لأعراض العدوى بشكل كبير",
+                "bold_text": "تقلل من المخاطر",
+                "third_sentence": "لمضاعفات المسالك البولية."
+            },
+            "3": {
+                "first_sentence": "السيطرة على",
+                "bold_text": "القسطرة الذاتية",
+                "third_sentence": "لم تكن أسهل من قبل."
+            },
+            "4": {
+                "first_sentence": "الالتزام بفترات القسطرة يقلل من خطر التهابات المسالك البولية",
+                "bold_text": "بنسبة 84.8%"
+            }
+        }
+    },
+    "catheterizing_with_the_nelaton_app_is_convenient": {
+        "catheterizing_with_the": "استخدام تطبيق نيلاتون للقسطرة",
+        "is_convenient": "مريح!"
+    },
+    "all_your_statistics_are_gathered_in_one_place": "جميع إحصاءاتك مجمعة في مكان واحد.",
+    "you_can_also_download_or_share_a_pdf_version": "يمكنك أيضًا تنزيل أو مشاركة نسخة PDF.",
+    "what_our_users_say": {
+        "title": "ماذا يقول مستخدمونا",
+        "list": {
+            "1": {
+                "name": "Antônio Silva",
+                "feedback": "قام التطبيق بضبط نفسه بسرعة ليناسب احتياجاتي — في الأساس، سألني بعض الأسئلة وتكفل بالباقي. بصراحة، إنه مريح للغاية ويسهل الحياة حقًا."
+            },
+            "2": {
+                "name": "Camille",
+                "feedback": "عندما قيل لي أنه يجب أن أستمر في القسطرة بانتظام، شعرت بالخوف. لكنني سعيدة جدًا لأنني وجدت هذا التطبيق — لقد ساعدني على الهدوء والشعور بأن كل شيء تحت السيطرة."
+            },
+            "3": {
+                "name": "Viktor",
+                "feedback": "في المستشفى، طلبوا مني الاحتفاظ بمذكرات التبول وأعطوني مجموعة من النماذج الورقية. القيام بذلك في التطبيق أسهل بكثير وأكثر راحة."
+            }
+        }
+    },
+    "questions": {
+    "title": "الأسئلة الشائعة حول القسطرة الذاتية المتقطعة (ISC) وتطبيقنا",
+    "list": {
+        "1": {
+            "title": "كيف يعمل المؤقت على الشاشة الرئيسية؟",
+            "answer": "المؤقت يقوم بالعد التنازلي حتى موعد القسطرة التالية. يجب عليك إجراء القسطرة قبل انتهاء المؤقت للالتزام بالجدول الذي حدده طبيبك. إذا فاتك موعد القسطرة المجدول، سيعرض المؤقت الوقت الذي مضى منذ آخر قسطرة. بعد كل قسطرة، ادخل إلى التطبيق واضغط على زر 'تم' لبدء العد التنازلي للقسطرة التالية."
+        },
+        "2": {
+            "title": "كم مرة يجب أن أقوم بالقسطرة؟",
+            "answer": "عدد مرات القسطرة يحدده طبيبك بناءً على حالتك. من المهم أيضًا ملاحظة أن التكرار قد يتغير. نحن نساعدك على تتبع عادات التبول بسهولة، مما يساعد طبيبك على تعديل الفاصل الزمني بين القسطرات حسب الحاجة. يوصى بإجراء القسطرة الذاتية بانتظام طوال اليوم، وذلك حسب كمية السوائل التي تتناولها وتوصيات طبيبك. قد تحتاج إلى القسطرة كل 4-6 ساعات لضمان عدم تجاوز حجم البول في المثانة 400 مل. إذا لم تقم بالقسطرة بشكل متكرر كافٍ وامتلأت المثانة بشكل زائد، يزداد خطر التهابات المسالك البولية والتسرب. تمدد المثانة لفترة طويلة يمكن أن يسبب ضررًا خطيرًا للكلى."
+        },
+        "3": {
+            "title": "كم يجب أن أشرب من الماء؟",
+            "answer": "يجب على البالغين شرب ما لا يقل عن 1.5 لتر من الماء يوميًا. هذه مجرد توصية، ويجب عليك استشارة طبيبك لمعرفة الكمية المناسبة لك. تذكر أن الماء هو أفضل مشروب. يُنصح بتجنب المشروبات التي تحتوي على الكافيين، لأن الكافيين يهيج المثانة. شرب كمية كافية من الماء يساعد على تنظيف الجهاز البولي. تطبيق نيلاتون يساعدك على تتبع مستويات الترطيب لديك. يمكنك تسجيل كمية الماء التي تشربها على الشاشة الرئيسية باستخدام زر '+شربت'، وتتيح لك شاشة 'توازن الماء' مراقبة كمية السوائل الداخلة والخارجة."
+        },
+        "4": {
+            "title": "كيف يمكنني الوقاية من التهابات المسالك البولية؟",
+            "answer": "حافظ على النظافة، وقم بإفراغ المثانة بانتظام وبشكل كامل، واشرب كمية كافية من السوائل. نوصي بتعبئة استبيان رضا القسطرة الخاص بنا مرة واحدة على الأقل في الشهر ومشاركته مع طبيبك."
+        },
+        "5": {
+            "title": "هل أحتاج إلى القسطرة ليلاً؟",
+            "answer": "عادةً، يكفي إجراء القسطرة قبل النوم ومباشرة بعد الاستيقاظ، ثم الاستمرار على فترات منتظمة طوال اليوم. ومع ذلك، سيقدم لك طبيبك النصيحة الأنسب لحالتك. التطبيق يساعدك على اتباع أي جدول أو فاصل زمني للقسطرة. يمكنك إعداد قسطرة ليلية، أو اتباع الفاصل الزمني أثناء الليل، أو حتى تعطيل القسطرة الليلية عن طريق تفعيل وضع النوم. كل ذلك يعتمد على نصيحة طبيبك، وتطبيقنا جاهز لمساعدتك في اتباع أي جدول."
+        },
+        "6": {
+            "title": "كيف أتابع استخدام القساطر؟",
+            "answer": "التطبيق يتتبع استخدام القساطر تلقائيًا. عليك تحديد عدد القساطر التي لديك وما إذا كنت تستخدم مستلزمات إضافية أثناء القسطرة (مثل المناديل المعقمة، أكياس البول، القفازات، إلخ). سيساعدك ذلك على تتبع عدد القساطر والمستلزمات الضرورية لديك وتجديدها في الوقت المناسب. في كل مرة تضغط فيها على زر 'تم'، سيخصم التطبيق الكمية المناسبة من المستلزمات. عند شراء قساطر أو مستلزمات أخرى، لا تنسَ تحديث الكمية في التطبيق."
+        },
+        "7": {
+            "title": "ماذا أفعل عند السفر إلى الخارج؟",
+            "answer": "خذ معك عددًا كافيًا من القساطر واحمل شهادة طبية تثبت حاجتك إليها. ستساعدك هذه الشهادة على اجتياز الفحوصات الأمنية في المطارات أو في الفعاليات ذات الإجراءات الأمنية المشددة. في علامة التبويب 'استخدام القسطرة'، يمكنك حساب عدد القساطر التي تحتاج إلى أخذها معك بناءً على متوسط استهلاكك."
+        },
+        "8": {
+            "title": "ماذا أفعل إذا كان هناك ميزة مفقودة في التطبيق؟",
+            "answer": "اكتب لنا باستخدام النموذج الموجود في هذه الصفحة. صف الموقف الذي واجهته والميزة التي تشعر أنها مفقودة في تطبيق نيلاتون. سنأخذ اقتراحاتك بعين الاعتبار في التحديثات المستقبلية."
+        }
+        }
+    },
+    "join_our_community": "انضم إلى مجتمعنا",
+    "privacy_policy": "سياسة الخصوصية",
+    "terms_of_use": "شروط الاستخدام",
+    "ulibkin_all_rights_reserved": "Ulibkin OÜ - جميع الحقوق محفوظة"
+
+  },
+    "PrivacyPage": {
+        "privacy_policy": "Privacy Policy",
+        "introduction": "Introduction",
+        "description": "The application is developed by {companyName}, which is responsible for complying with this Privacy Policy. We respect your privacy and are committed to ensuring transparency in data processing. This Policy explains what data we process, how it is protected, and for what purposes it is used. If you have any questions, please contact us at: {email}. By installing and using the application, you confirm that you have read and agree to this Privacy Policy. If you do not agree, please delete the application and discontinue its use.",
+        "data_we_process": "Data We Process",
+        "data_stored_on_your_device": "Data Stored on Your Device",
+        "2_1_description": "Personal and medical data that you enter to use the application’s features, such as generating reminders and creating reports.",
+        "data_transmitted": "Data Transmitted",
+        "2_2_description": "We transmit minimal technical data to services that help analyze application usage, manage subscriptions, and improve functionality. This data includes:",
+        "2_2_list": {
+            "1": {
+                "bold_text": "Device Identifier",
+                "description": "Used for analytics related to app usage and advertising campaigns."
+            },
+            "2": {
+                "bold_text": "IP Address",
+                "description": "Used to determine the user’s region for statistical purposes."
+            },
+            "3": {
+                "bold_text": "App Interaction Data",
+                "description": "Includes actions taken within the app to help us improve the user experience (e.g., frequently used features)."
+            },
+            "4": {
+                "bold_text": "Device Technical Data",
+                "description": "Includes operating system version, device model, and other parameters necessary for app performance analysis."
+            },
+            "5": {
+                "bold_text": "App Version",
+                "description": "Helps track the compatibility of the app with devices."
+            },
+            "6": {
+                "bold_text": "System Language",
+                "description": "Used to analyze user preferences and localize the interface."
+            },
+            "description": "This data is used solely for the purposes stated above and does not include personal information such as name, email, or medical data entered into the application."
+        },
+        "where_your_data_is_stored": "Where Your Data Is Stored",
+        "3_description": "All data you enter is stored only on your device. We do not store it on servers or share it with third parties, except for technical data used for support and analytics.",
+        "purpose_of_data_processing": "Purpose of Data Processing",
+        "4_description": "We process data for the following purposes",
+        "4_list": {
+            "1": "Generating reminders.",
+            "2": "Creating reports.",
+            "3": "Managing subscriptions.",
+            "4": "Analyzing interactions with the application and improving its functionality."
+        },
+        "your_consent": "Your Consent",
+        "5_description": {
+            "1": "Installing and using the application automatically indicates your agreement with this Privacy Policy.",
+            "2": "If you do not agree with this Privacy Policy, please delete the application and discontinue its use."
+        },
+        "access_for_all_ages": "Access for All Ages",
+        "6_description": "The application is available for users of all ages. If the user is a minor, parents or guardians are responsible for overseeing their use of the application. We do not collect data on the user’s age.",
+        "limitation_of_liability": "Limitation of Liability",
+        "7_description": "is a tool designed to assist users in adhering to their healthcare provider's recommendations. The application",
+        "7_list": {
+            "1": {
+                "bold_text": "Does not replace professional medical advice.",
+                "description": "Users should rely solely on the recommendations of their healthcare provider."
+            },
+            "2": {
+                "bold_text": "Is not liable for the application’s use.",
+                "description": "By installing and using the application, users accept all risks associated with its use."
+            },
+            "you_acknowledge_that": "You acknowledge that",
+            "the_application_is_not_a_medical_device": "The application is not a medical device.",
+            "you_cannot_file_legal_claims": "You cannot file legal claims against Ulibkin OÜ or third parties involved in the operation of the application in any jurisdiction."
+        },
+        "data_security": "Data Security",
+        "8_description": "We protect your data using modern technologies",
+        "8_list": {
+            "1": {
+                "bold_text": "Data encryption",
+                "description": "during transmission to services that support the application’s functionality."
+            },
+            "2": "All data you enter is available only to you and is stored on your device."
+        },
+        "8_note": "Your payment data is processed by App Store and Google Play, and we do not have access to it.",
+        "your_rights": "Your Rights",
+        "9_description": "Since your data is stored only on your device and not transferred to the developer, you have full control over it. Your rights include",
+        "bold_deleting_data": "Deleting Data",
+        "deleting_data_description": "You can delete all entered data through the app’s settings.",
+        "9_list": {
+            "1": "Once deleted, this data cannot be recovered.",
+            "2": "Deleting your data will reset the application to its original state, as if it were newly installed.",
+            "3": "If you wish to retain any information, please export the necessary data (e.g., as PDF reports) before deleting it."
+        },
+        "bold_opting_out_of_analytics": " Opting Out of Analytics",
+        "opting_out_of_analytics_description": "You can disable the use of analytics services through your device settings.",
+        "bold_data_control": "Data Control",
+        "data_control_description": "Since your data remains on your device, only you have access to it.",
+        "9_note": "If you have questions about your rights or would like more information, contact us at: support@nelaton.app.",
+        "links_to_third_party_resources": "Links to Third-Party Resources",
+        "10_description": "The application may contain links to websites or services of third parties. We do not control their content or data processing practices. Please review their privacy policies before using them.",
+        "changes_to_this_policy": "Changes to This Policy",
+        "11_description": "We may update this Privacy Policy. The current version will always be available via the link on the app’s page in the App Store or Google Play. If changes significantly affect your rights, we will notify you through app stores or other means.",
+        "contact_us": "Contact Us",
+        "12_description": "If you have any questions or requests, contact us at: support@nelaton.app."
+    },
+    "PolicyPage": {
+        "terms_title": "Terms of Service",
+        "terms_last_updated": "Last updated: 29.12.2024",
+
+        "terms_intro": {
+            "first_sentence": "Please read these Terms of Service (\"Terms\") carefully before using the Nelaton Application (\"Application\") operated by Ulibkin OÜ (\"us,\" \"we,\" \"our\"). These Terms contain important information regarding the limitations of our liability and the rules for using the Application. By accessing or using the Application, you agree to be bound by these Terms and our",
+            "link": "Privacy Policy",
+            "second_sentence": "If you do not agree with any part of these Terms, you are not permitted to access or use the Application."
+        },  
+
+        "acceptance_title": "Acceptance of Terms",
+        "acceptance_text": "By installing, accessing, or using the Application, you confirm that you are at least 13 years of age and agree to comply with these Terms and all applicable laws and regulations. Children under the age of 18 may use the Application only with the consent and under the supervision of their parents or legal guardians. Parents or legal guardians are responsible for ensuring that the Application is used in accordance with these Terms.",
+
+        "usage_title": "Application Usage",
+        "usage_text": "The Application does not require the creation of user accounts. Users install the Application, purchase subscriptions if applicable, and store all personal data locally on their devices. Users are responsible for ensuring the security of their devices and any data stored within the Application. If you suspect unauthorized access to your device or data, you are encouraged to take appropriate measures to secure your information.",
+
+        "data_usage_title": "Data Usage",
+        "data_usage_text": "By using the Application, you consent to the processing of your data in accordance with our Privacy Policy. The Application does not share personal data with third parties except for necessary analytics and subscription management partners, including AppsFlyer, RevenueCat, Amplitude, and Google Analytics. All user data is stored locally on the user's device unless required for functionality.",
+
+        "prohibited_title": "Prohibited Uses",
+        "prohibited_list": [
+            "Interfere with the operation of the Application.",
+            "Use the Application for unlawful purposes.",
+            "Modify, copy, or reverse-engineer the Application.",
+            "Attempt unauthorized access to any part of the Application or related systems.",
+            "Use the Application to harm others or compromise data security.",
+            "Violate any applicable local laws while using the Application."
+        ],
+
+        "no_warranty_title": "No Warranty",
+        "no_warranty_text": "The Application is provided \"as is\" without any warranties, express or implied. We do not guarantee that the Application will be error-free or uninterrupted.",
+
+        "medical_title": "Medical Disclaimer",
+        "medical_text": "The Application is a tool to assist users in following medical recommendations. It does not provide medical advice or replace professional healthcare consultation. Users must rely on their physician's guidance. By using the Application, you acknowledge and agree that Ulibkin OÜ is not responsible for any medical outcomes, complications, or issues arising from the use of the Application. All medical decisions should be made in consultation with a licensed healthcare professional. You are solely responsible for your use of the Application and any consequences arising from such use.",
+
+        "liability_title": "Limitation of Liability",
+        "liability_text": "To the fullest extent permitted by law, Ulibkin OÜ shall not be liable for any damages arising from your use of or inability to use the Application. You agree to indemnify and hold harmless Ulibkin OÜ from any claims or liabilities resulting from your use of the Application.",
+
+        "data_deletion_title": "User Data Deletion",
+        "data_deletion_text": "Users may delete their data at any time using the settings within the Application. Deleting data may result in loss of access to certain features. Users accept full responsibility for any consequences of data deletion.",
+
+        "ip_title": "Intellectual Property",
+        "ip_text": "All content within the Application is owned by Ulibkin OÜ or its licensors. You may not reproduce, distribute, or create derivative works based on the Application without express permission.",
+
+        "changes_title": "Changes to Terms",
+        "changes_text": "We reserve the right to update or modify these Terms at any time at our sole discretion. Any updates will be posted on this page with the \"Last updated\" date. It is your responsibility to review these Terms periodically for changes. Continued use of the Application after any modifications signifies your acceptance of the revised Terms. Users will also be notified of significant changes to these Terms upon their next access to the Application.",
+
+        "law_title": "Governing Law",
+        "law_text": "These Terms are governed by the laws of Estonia. Any disputes arising from these Terms will be resolved in the courts of Estonia.",
+
+        "contact": "If you have questions regarding these Terms, please contact us at {email}.",
+
+        "slogan": "Your Self-Catheterization Assistant: Track, Manage, and Log with Ease"
+    }
+}

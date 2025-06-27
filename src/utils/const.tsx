@@ -44,14 +44,14 @@ const languages = [
       title: 'العربية',
       selected: false,
       icon: 'https://catamphetamine.gitlab.io/country-flag-icons/3x2/AE.svg',
-      isAvailable: false,
+      isAvailable: true,
     },
     {
       id: 'da',
       title: 'Dansk',
       selected: false,
       icon: 'https://catamphetamine.gitlab.io/country-flag-icons/3x2/DK.svg',
-      isAvailable: false,
+      isAvailable: true,
     },
     {
       id: 'es',
@@ -65,14 +65,14 @@ const languages = [
       title: 'Suomalainen',
       selected: false,
       icon: 'https://catamphetamine.gitlab.io/country-flag-icons/3x2/FI.svg',
-      isAvailable: false,
+      isAvailable: true,
     },
     {
       id: 'id',
       title: 'Bahasa Indonesia',
       selected: false,
       icon: 'https://catamphetamine.gitlab.io/country-flag-icons/3x2/ID.svg',
-      isAvailable: false,
+      isAvailable: true,
     },
     {
       id: 'ja',
@@ -93,7 +93,7 @@ const languages = [
       title: 'Nederlands',
       selected: false,
       icon: 'https://catamphetamine.gitlab.io/country-flag-icons/3x2/NL.svg',
-      isAvailable: false,
+      isAvailable: true,
     },
     {
       id: 'pl',
