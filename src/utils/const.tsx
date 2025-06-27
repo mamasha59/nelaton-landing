@@ -135,7 +135,7 @@ const languages = [
       title: 'Türkçe',
       selected: false,
       icon: 'https://catamphetamine.gitlab.io/country-flag-icons/3x2/TR.svg',
-      isAvailable: false,
+      isAvailable: true,
     },
 ]
 const ids = languages.map(lang => lang.id);
