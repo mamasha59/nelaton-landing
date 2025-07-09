@@ -140,12 +140,6 @@ const languages = [
 ]
 const ids = languages.map(lang => lang.id);
 
-const generateLanguageOptions = () =>
-  languages.map((language) => ({
-    href: `https://nelaton.app/${language.id}`,
-    hreflang: language.id,
-}));
-
 export {
   SUPPORT_EMAIL,
   APP_STORE_LINK,
