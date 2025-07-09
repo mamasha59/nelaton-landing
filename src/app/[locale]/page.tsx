@@ -58,7 +58,7 @@ export default function Page() {
         <link
           key={lang.id}
           rel="alternate"
-          hrefLang={lang.id}
+          hreflang={lang.id}
            href={lang.id === 'en'
             ? 'https://nelaton.app/'
             : `https://nelaton.app/${lang.id}`
@@ -67,7 +67,7 @@ export default function Page() {
       ))}
       <link
         rel="alternate"
-        hrefLang="x-default"
+        hreflang="x-default"
         href="https://nelaton.app/"
       />
     </Head>
