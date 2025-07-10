@@ -12,8 +12,6 @@ import FeedBack from "@/components/FeedBack/FeedBack";
 import Question from "@/components/Question/Question";
 import GetStarted from "@/components/GetStarted/GetStarted";
 import Footer from "@/components/Footer/Footer";
-import Head from "next/head";
-import { languages } from "@/utils/const";
 
 export default function Page() {
 
@@ -53,24 +51,6 @@ export default function Page() {
   
   return (
     <>
-    <Head>
-      {languages.map(lang => (
-        <link
-          key={lang.id}
-          rel="alternate"
-          hreflang={lang.id}
-           href={lang.id === 'en'
-            ? 'https://nelaton.app/'
-            : `https://nelaton.app/${lang.id}`
-          }
-        />
-      ))}
-      <link
-        rel="alternate"
-        hreflang="x-default"
-        href="https://nelaton.app/"
-      />
-    </Head>
     <Header isInView={isInView} refFeaturesBlock={featuresBlock} faqBlockRef={faqBlock}/>
     <main>
       <BladderHealth featuresBlock={featuresBlock}/>

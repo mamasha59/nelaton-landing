@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "../globals.css";
 import { GoogleAnalytics } from '@next/third-parties/google';
@@ -7,16 +6,37 @@ import {generateSchema} from '@/utils/generateSchema';
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
+import { languages } from "@/utils/const";
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '600', '700'],
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Use Nelaton Easily – Smart App for Self-Catheterization (ISC)",
-  description: "Nelaton App: Your Smart Assistant for Self-Catheterization. Track catheterization intervals, manage supplies, and log with ease. Get started today!",
-};
+export async function generateMetadata() {
+  const baseUrl = 'https://nelaton.app';
+  const currentPath = '/'; // Для главной страницы, для других страниц подставьте путь
+
+  // Формируем объект языков для alternates.languages
+  const languagesObj = Object.fromEntries(
+    languages.map(lang => [
+      lang.id,
+      lang.id === 'en'
+        ? `${baseUrl}${currentPath}`
+        : `${baseUrl}/${lang.id}${currentPath}`
+    ])
+  );
+
+  return {
+    title: "Use Nelaton Easily – Smart App for Self-Catheterization (ISC)",
+    description: "Nelaton App: Your Smart Assistant for Self-Catheterization. Track catheterization intervals, manage supplies, and log with ease. Get started today!",
+    alternates: {
+      canonical: `${baseUrl}${currentPath}`,
+      languages: languagesObj,
+      'x-default': `${baseUrl}${currentPath}`
+    }
+  };
+}
 
 export default async function RootLayout({children, params}: Readonly<{children: React.ReactNode, params: Promise<{locale: string}>}>) {
   const schema = await generateSchema();
