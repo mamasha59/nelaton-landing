@@ -1,4 +1,3 @@
-
 export default {
   siteUrl: 'https://nelaton.app/',
   generateRobotsTxt: true,
@@ -79,5 +78,16 @@ export default {
         "href": "https://nelaton.app/tr",
         "hreflang": "tr"
     }
-]
+  ],
+  async additionalPaths(config) {
+    const locales = [
+      'en','de','fr','it','ru','ar','da','es','fi','id','ja','ko','nl','pl','pt','ro','sv','zh','tr'
+    ];
+    const basePages = ['', 'privacypolicy', 'termsofuse'];
+    return locales.flatMap(locale =>
+      basePages.map(page => ({
+        loc: `/${locale}${page ? '/' + page : ''}`
+      }))
+    );
+  }
 };
