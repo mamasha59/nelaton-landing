@@ -2,9 +2,9 @@
 import Image from "next/image";
 import { RefObject, useState } from "react";
 
+import HeaderBackground from '../../../public/images/backgroundHeader.webp';
 import HeaderFooter from "./HeaderFooter/HeaderFooter";
 import HeaderNav from "./HeaderNav/HeaderNav";
-import HeaderBackground from '../../../public/images/backgroundHeader.webp';
 
 interface HeaderProps {
   isInView: boolean;
@@ -15,7 +15,7 @@ interface HeaderProps {
 export default function Header({isInView, refFeaturesBlock, faqBlockRef}:HeaderProps) {
 
     const [openMenu, setOpenMenu] = useState<boolean>(false);
-
+    //test
     const handleScrollToFeatures = () => { 
       if(openMenu) setOpenMenu(!openMenu);
       refFeaturesBlock.current && refFeaturesBlock.current.scrollIntoView({ behavior: 'smooth' });
