@@ -1,12 +1,12 @@
-import { DM_Sans } from "next/font/google";
-import "../globals.css";
-import { GoogleAnalytics } from '@next/third-parties/google';
-import Script from "next/script";
-import {generateSchema} from '@/utils/generateSchema';
-import {NextIntlClientProvider, hasLocale} from 'next-intl';
-import {notFound} from 'next/navigation';
-import {routing} from '@/i18n/routing';
+import { routing } from '@/i18n/routing';
 import { languages } from "@/utils/const";
+import { generateSchema } from '@/utils/generateSchema';
+import { GoogleAnalytics } from '@next/third-parties/google';
+import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import { DM_Sans } from "next/font/google";
+import { notFound } from 'next/navigation';
+import Script from "next/script";
+import "../globals.css";
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '600', '700'],
@@ -48,6 +48,7 @@ export default async function RootLayout({children, params}: Readonly<{children:
 
   return (
     <html lang={locale}>
+       {/* Google Tag Manager */}
       <Script
         id="gtm-script"
         strategy="afterInteractive"
@@ -61,7 +62,9 @@ export default async function RootLayout({children, params}: Readonly<{children:
           `,
         }}
       />
+       {/* CookieYes */}
       <Script id="cookieyes" strategy="afterInteractive" src="https://cdn-cookieyes.com/client_data/72ee03861749bd377718059e/script.js"/>
+      {/* Schema.org FAQ */}
       <Script
         id="faq-schema"
         type="application/ld+json"
@@ -69,9 +72,41 @@ export default async function RootLayout({children, params}: Readonly<{children:
           __html: JSON.stringify(schema),
         }}
       />
+           {/* Yandex.Metrika */}
+      <Script id="yandex-metrika" strategy="afterInteractive">
+        {`
+          (function(m,e,t,r,i,k,a){
+              m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+              m[i].l=1*new Date();
+              for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) { return; }
+              }
+              k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,
+              a.parentNode.insertBefore(k,a)
+          })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+          ym(104150319, 'init', {
+              webvisor:true,
+              clickmap:true,
+              trackLinks:true,
+              accurateTrackBounce:true,
+              ecommerce:"dataLayer"
+          });
+        `}
+      </Script>
       <body className={`${dmSans.className} antialiased`}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <noscript>
+          <div>
+            <img
+              src="https://mc.yandex.ru/watch/104150319"
+              style={{ position: "absolute", left: "-9999px" }}
+              alt=""
+            />
+          </div>
+        </noscript>
       </body>
+      {/* Google Analytics */}
       <GoogleAnalytics gaId="G-B6Z9MJ4EBF"/>
     </html>
   );
