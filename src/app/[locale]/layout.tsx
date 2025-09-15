@@ -1,3 +1,4 @@
+import AnalyticsRouterEvents from '@/components/AnalyticsRouterEvents/AnalyticsRouterEvents';
 import { routing } from '@/i18n/routing';
 import { languages } from "@/utils/const";
 import { generateSchema } from '@/utils/generateSchema';
@@ -32,8 +33,10 @@ export async function generateMetadata() {
     description: "Nelaton App: Your Smart Assistant for Self-Catheterization. Track catheterization intervals, manage supplies, and log with ease. Get started today!",
     alternates: {
       canonical: `${baseUrl}${currentPath}`,
-      languages: languagesObj,
-      'x-default': `${baseUrl}${currentPath}`
+      languages: {
+        ...languagesObj,
+        'x-default': `${baseUrl}${currentPath}`,
+      },
     }
   };
 }
@@ -66,7 +69,11 @@ export default async function RootLayout({children, params}: Readonly<{children:
         }}
       />
        {/* CookieYes */}
-      <Script id="cookieyes" strategy="afterInteractive" src="https://cdn-cookieyes.com/client_data/72ee03861749bd377718059e/script.js"/>
+      <Script
+        id="cookieyes"
+        strategy="afterInteractive"
+        src="https://cdn-cookieyes.com/client_data/72ee03861749bd377718059e/script.js"
+      />
       {/* Schema.org FAQ */}
       <Script
         id="faq-schema"
@@ -115,7 +122,20 @@ export default async function RootLayout({children, params}: Readonly<{children:
       </Script>
       </head>
       <body className={`${dmSans.className} antialiased`}>
+         {/* GTM noscript (желательно для корректности и дебага) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-T49SQQ9L"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        {/* Трек маршрутов (см. компонент ниже) */}
+        <AnalyticsRouterEvents />
+
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+
          {/* noscript для Яндекс.Метрики */}
         <noscript>
           <div>
@@ -127,11 +147,11 @@ export default async function RootLayout({children, params}: Readonly<{children:
           </div>
         </noscript>
           {/* noscript для Meta Pixel */}
-         <noscript>
+        <noscript>
           <img
             height="1"
             width="1"
-            style={{ display: "none" }}
+            style={{ display: 'none' }}
             src="https://www.facebook.com/tr?id=1105723724570272&ev=PageView&noscript=1"
             alt=""
           />
