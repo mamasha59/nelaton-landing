@@ -7,7 +7,15 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { DM_Sans } from "next/font/google";
 import { notFound } from 'next/navigation';
 import Script from "next/script";
+import { ReactNode } from 'react';
 import "../globals.css";
+
+type RootLayoutProps = {
+  children: ReactNode;
+  params: {
+    locale: string;
+  };
+};
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '600', '700'],
@@ -41,7 +49,7 @@ export async function generateMetadata() {
   };
 }
 
-export default async function RootLayout({children, params}: Readonly<{children: React.ReactNode, params: Promise<{locale: string}>}>) {
+export default async function RootLayout({children, params}: RootLayoutProps) {
   const schema = await generateSchema();
 
   const {locale} = await params;
