@@ -48,6 +48,9 @@ export default async function RootLayout({children, params}: Readonly<{children:
 
   return (
     <html lang={locale}>
+      <head>
+      {/* Google Analytics */}
+      <GoogleAnalytics gaId="G-B6Z9MJ4EBF"/>
        {/* Google Tag Manager */}
       <Script
         id="gtm-script"
@@ -94,8 +97,26 @@ export default async function RootLayout({children, params}: Readonly<{children:
           });
         `}
       </Script>
+      {/* Meta Pixel (Facebook Pixel) */}
+        <Script id="fb-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1105723724570272');
+            fbq('track', 'PageView');
+          `}
+      </Script>
+      </head>
       <body className={`${dmSans.className} antialiased`}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+         {/* noscript для Яндекс.Метрики */}
         <noscript>
           <div>
             <img
@@ -105,9 +126,17 @@ export default async function RootLayout({children, params}: Readonly<{children:
             />
           </div>
         </noscript>
+          {/* noscript для Meta Pixel */}
+         <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1105723724570272&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
       </body>
-      {/* Google Analytics */}
-      <GoogleAnalytics gaId="G-B6Z9MJ4EBF"/>
     </html>
   );
 }
