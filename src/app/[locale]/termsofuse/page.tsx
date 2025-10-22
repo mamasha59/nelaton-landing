@@ -1,12 +1,8 @@
 "use client"
 import Footer from "@/components/Footer/Footer";
 import HeaderNav from "@/components/Header/HeaderNav/HeaderNav";
-import { useTranslations } from "next-intl";
 
 export default function Page() {
-    const t = useTranslations('PolicyPage');
-    const prohibitedList = t.raw('prohibited_list');
-
   return (
     <>
         <div className="bg-termOfUse-background bg-cover bg-no-repeat bg-[50%] bg-fixed relative">
