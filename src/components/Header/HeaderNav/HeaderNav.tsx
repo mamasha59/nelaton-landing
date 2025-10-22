@@ -1,7 +1,7 @@
 "use client"
-import MobileNav from "./MobileNav/MobileNav";
 import { useEffect, useState } from "react";
 import DesktopNav from "./DesktopNav/DesktopNav";
+import MobileNav from "./MobileNav/MobileNav";
 import ModalSetLanguage from "./ModalSetLanguage/ModalSetLanguage";
 
 interface HeaderNavProps {

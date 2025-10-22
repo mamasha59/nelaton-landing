@@ -151,11 +151,11 @@
     "ulibkin_all_rights_reserved": "Ulibkin OÜ - All rights reserved"
   },
     "PrivacyPage": {
-        "privacy_policy": "Privacy Policy",
-        "introduction": "Introduction",
-        "description": "The application is developed by {companyName}, which is responsible for complying with this Privacy Policy. We respect your privacy and are committed to ensuring transparency in data processing. This Policy explains what data we process, how it is protected, and for what purposes it is used. If you have any questions, please contact us at: {email}. By installing and using the application, you confirm that you have read and agree to this Privacy Policy. If you do not agree, please delete the application and discontinue its use.",
-        "data_we_process": "Data We Process",
-        "data_stored_on_your_device": "Data Stored on Your Device",
+        "privacy_policy": "Privacy Policy — Nelaton",
+        "introduction": "At a glance (TL;DR)",
+        "description": "Your data, including health records, is stored in the cloud in the EU (Supabase) with encryption in transit and at rest. Using the App requires your explicit consent to process health data and your consent to technical analytics (Amplitude/Google Analytics). Without these consents, the App cannot be used. We use internal AI algorithms to generate personalised reports. Health records are not shared with analytics providers and are not used to train third‑party AI models. You control your data: you can export, withdraw consents, and delete your account and all data in settings. Backups are purged within 30 days. Sign‑in is via e‑mail (account required). The App is not intended for persons under 16.",
+        "data_we_process": "Controller and contact",
+        "data_stored_on_your_device": "Controller: Ulibkin OÜ (Estonia) Contact for data matters: support@nelaton.app",
         "2_1_description": "Personal and medical data that you enter to use the application’s features, such as generating reminders and creating reports.",
         "data_transmitted": "Data Transmitted",
         "2_2_description": "We transmit minimal technical data to services that help analyze application usage, manage subscriptions, and improve functionality. This data includes:",
