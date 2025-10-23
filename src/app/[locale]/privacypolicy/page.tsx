@@ -1,13 +1,18 @@
-"use client"
+// "use client"
 import Footer from "@/components/Footer/Footer";
 import HeaderNav from "@/components/Header/HeaderNav/HeaderNav";
+
+export const metadata = {
+  title: "Privacy Policy — Nelaton",
+  description: "Privacy Policy for Nelaton mobile app."
+};
 
 export default function Page() {
   return (
     <>
     <div className="bg-privacy-background bg-cover bg-no-repeat bg-[50%] bg-fixed relative">
         <HeaderNav /> 
-        <main className="w-full z-20 min-h-screen bg-[#000000bc] text-white px-6 centred-view-terms">
+        <main className="w-full my-12 rounded-t-lg mx-auto min-h-screen bg-[#000000bc] text-white max-w-[1040px] px-5">
             <article className="max-w-4xl mx-auto prose prose-invert py-16 lg:prose-lg">
                 {/* Header */}
                 <header className="mb-8">
