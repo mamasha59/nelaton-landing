@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/en",
+      "destination": "https://nelaton.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(de|fr|it|ru|ar|da|es|fi|id|ja|ko|nl|pl|pt|ro|sv|zh|tr)",
+      "destination": "https://nelaton.com/:lang/",
+      "permanent": true
+    }
+  ]
+}
