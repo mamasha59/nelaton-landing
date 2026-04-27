@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://nelaton.com/",
+      "permanent": true
+    },
+    {
       "source": "/en",
       "destination": "https://nelaton.com/",
       "permanent": true
