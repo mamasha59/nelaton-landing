@@ -12,9 +12,9 @@ import "../globals.css";
 
 type RootLayoutProps = {
   children: ReactNode;
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 };
 
 const dmSans = DM_Sans({
